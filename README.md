@@ -11,7 +11,7 @@ B-rep, and no STL importer, so a converted part cannot be a native `.ckpart`. Ou
 - `<cat>/<name>.manifest.json` - name, category, source URL + commit, licence, generator, bbox, ok/failed, colours (rgb), solids, timing
 
 The kernel reads it with `importStep` (heal/sew on). Colours: `.ckpart` has nowhere to hold them, and the kernel
-import drops STEP colours, so they live in the STEP file and the manifest `colors` list. Closing the gap needs a
+import does not surface STEP colours (not verified per face), so they live in the STEP file and the manifest `colors` list. Closing the gap needs a
 kernel `importedBody` feature (STEP payload + colour map); until then `ck_import.mjs` is the bridge.
 
 ## Setup
