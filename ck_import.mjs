@@ -23,7 +23,7 @@ for (const f of files) {
     const v = await Q.validate(s.kernel, { tag: 'main' });
     const mp = await Q.massProps(s.kernel, { tag: 'main' });
     r.validate = v.ok; r.volume = mp.volume; r.ok = imp.errors.length === 0 && v.ok && mp.volume > 0;
-    if (sheet && imp.body) tiles.push(renderTriangles(meshFromBody(imp.body), 'iso', T, T));
+    if (sheet && imp.body) tiles.push(renderTriangles(meshFromBody(imp.body), 'iso', T, T, new Map()));
     await s.close();
   } catch (e) { r.ok = false; r.error = String(e.message ?? e).slice(0, 200); }
   r.ms = Date.now() - t0;
@@ -35,3 +35,4 @@ if (sheet && tiles.length) {
     for (let y = 0; y < T; y++) rgb.set(t.rgb.subarray(y * T * 3, (y + 1) * T * 3), ((oy + y) * W + ox) * 3); });
   writeFileSync(sheet, encodePng(W, H, rgb));
 }
+process.exit(0);

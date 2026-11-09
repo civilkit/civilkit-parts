@@ -36,10 +36,28 @@ def enumerate_parts(lib):
                 break
     return out
 
-PRE = 'include <lib.scad>\nmodule color(c, alpha = 1) {%s}\n'
-def run_scad(lib, body, args, out, timeout=TIMEOUT):
+PRE = '$ck_mode = %d;\n$ck_sel = %s;\ninclude <lib.scad>\n'
+CKMOD = ('function ckeq(a, b) = is_list(a) && is_list(b) ? (len(a) == len(b) && norm(a - b) < 1e-4) : a == b;\n'
+         'module ckcolor(c, alpha = 1) { if ($ck_mode == 1) { echo("CK", c, alpha); children(); } '
+         'else if ($ck_mode == 2) { if (ckeq(c, $ck_sel[0]) && alpha == $ck_sel[1]) children(); } else children(); }\n')
+def prepare_lib(lib, work):
+    """Scratch copy of the library with color( -> ckcolor( (OpenSCAD cannot override builtin color, and 2021.01
+    drops colour on export). Never leaves the scratch dir."""
+    import hashlib
+    dst = Path(work) / ("libcopy-" + hashlib.md5(CKMOD.encode()).hexdigest()[:6])
+    if not dst.exists():
+        import shutil
+        tmp = Path(work) / (dst.name + ".tmp"); shutil.rmtree(tmp, ignore_errors=True)
+        shutil.copytree(lib, tmp, ignore=shutil.ignore_patterns(".git", "docs", "tests", "gallery"))
+        for f in tmp.rglob("*.scad"):
+            t = f.read_text(errors="ignore"); n = re.sub(r"\bcolor\s*\(", "ckcolor(", t)
+            if n != t: f.write_text(CKMOD + n)
+        tmp.rename(dst)
+    return dst
+
+def run_scad(lib, mode, sel, args, out, timeout=TIMEOUT):
     with tempfile.NamedTemporaryFile("w", suffix=".scad", delete=False) as f:
-        f.write(PRE % body + args); p = f.name
+        f.write(PRE % (mode, sel) + args); p = f.name
     try:
         r = subprocess.run([OPENSCAD, "-o", str(out), p], capture_output=True, text=True, timeout=timeout,
                            env={**os.environ, "OPENSCADPATH": str(lib)})
@@ -48,7 +66,8 @@ def run_scad(lib, body, args, out, timeout=TIMEOUT):
         os.unlink(p)
 
 def convert_one(job):
-    lib, outdir, cat, const, commit = job
+    lib0, outdir, cat, const, commit = job
+    lib = prepare_lib(lib0, Path(outdir) / ".work")
     name = f"{cat}__{const}"
     d = Path(outdir) / cat; d.mkdir(parents=True, exist_ok=True)
     man = {"name": name, "category": cat, "source": {"url": SRC_URL, "commit": commit, "file": f"vitamins/{cat}.scad", "call": f"{cat}({const})"},
@@ -58,7 +77,7 @@ def convert_one(job):
     call = f"{cat}({const});\n"
     try:
         # pass 1: palette via echo (CSG export, no CGAL)
-        err = run_scad(lib, 'echo("CK", c, alpha); children();', call, os.devnull + ".csg" if False else Path(tempfile.gettempdir()) / f"{name}.csg")
+        err = run_scad(lib, 1, "[]", call, os.devnull + ".csg" if False else Path(tempfile.gettempdir()) / f"{name}.csg")
         pal = []
         for m in re.finditer(r'ECHO: "CK", (.*), (\S+)$', err, re.M):
             k = (m.group(1), m.group(2))
@@ -69,8 +88,7 @@ def convert_one(job):
         for gi, g in enumerate(groups):
             off = Path(tempfile.gettempdir()) / f"{name}_{gi}.off"
             off.unlink(missing_ok=True)
-            body = "children();" if g is None else f"if (c == {g[0]} && alpha == {g[1]}) children();"
-            run_scad(lib, body, call, off)
+            run_scad(lib, 0 if g is None else 2, "[]" if g is None else f"[{g[0]}, {g[1]}]", call, off)
             if not off.exists():
                 continue
             verts, faces = C.read_off(off)
@@ -114,6 +132,7 @@ def main():
     if a.list:
         print("\n".join(f"{c} {k}" for c, k in parts)); print(len(parts), "parts", file=sys.stderr); return
     Path(a.out).mkdir(parents=True, exist_ok=True)
+    prepare_lib(lib, Path(a.out) / ".work")
     t0 = time.time(); res = []
     with ProcessPoolExecutor(a.jobs) as ex:
         for m in ex.map(convert_one, [(str(lib), a.out, c, k, commit) for c, k in parts]):

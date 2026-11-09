@@ -25,8 +25,9 @@ kernel `importedBody` feature (STEP payload + colour map); until then `ck_import
 
 Enumeration: `vitamins/<c>.scad` with `module <c>(type, ...)` (no other required args) paired with the rows
 `NAME = ["...` in `vitamins/<c>s.scad`. Modules needing extra arguments (screws, ...) are skipped.
-Per part: (1) a CSG pass with `color()` overridden to echo the palette; (2) one OFF render per colour (the override
-filters geometry by colour, because OpenSCAD 2021.01 drops colour on export); (3) triangles -> OCC sewing -> solid,
+Per part: (1) a CSG pass with `color()` overridden to echo the palette; (2) one OFF render per colour (a scratch copy of the
+library has `color(` rewritten to a filtering `ckcolor(`, because OpenSCAD 2021.01 drops colour on export and
+cannot override the builtin); (3) triangles -> OCC sewing -> solid,
 coplanar faces unified; (4) coloured STEP. Curved surfaces stay faceted (mesh source). Failures are logged and skipped.
 
 ## CadQuery
@@ -43,3 +44,9 @@ In code: `Session.open(emptyPart)`, then `importStep(kernel, stepText, {tag:'mai
 Generated parts keep the licence of their source (NopSCADlib: GPL-3.0-or-later; recorded in each manifest). They are
 **never bundled in the app** and never committed here; only the converters and our own CadQuery scripts are. Ship
 them as a separate downloadable library with the licence text and attribution.
+
+## Measured (sample: 5 categories, 77 NopSCADlib parts + 3 CadQuery)
+- 68/77 converted (88%); all 71 STEP files import into the kernel with validate ok and volume > 0.
+- Failures: 8 pulleys (sewn solid invalid, tangent/self-touching teeth meshes), 1 nut (empty render).
+- Wall time about 4-5 s/part at `--jobs 6`; kernel import 0.1-0.7 s/part.
+- Full run: `.venv/bin/python convert_openscad.py /scratch/NopSCADlib out --jobs 8` (337 enumerated parts, est. 25-40 min).
