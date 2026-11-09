@@ -1,0 +1,5 @@
+.venv/
+out/
+*.step
+__pycache__/
+src/
