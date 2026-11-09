@@ -3,3 +3,6 @@ out/
 *.step
 __pycache__/
 src/
+out_ckpart/
+probe/*.ckpart
+probe/

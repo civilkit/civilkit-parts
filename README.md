@@ -50,3 +50,25 @@ them as a separate downloadable library with the licence text and attribution.
 - Failures: 8 pulleys (sewn solid invalid, tangent/self-touching teeth meshes), 1 nut (empty render).
 - Wall time about 4-5 s/part at `--jobs 6`; kernel import 0.1-0.7 s/part.
 - Full run: `.venv/bin/python convert_openscad.py /scratch/NopSCADlib out --jobs 8` (337 enumerated parts, est. 25-40 min).
+
+## OpenSCAD -> native .ckpart (feature tree)
+`openscad_to_ckpart.py` (+ `scadlang.py`, a parser/evaluator for a practical OpenSCAD subset) turns a script into a real
+feature tree instead of a mesh/STEP: `sketch` (circles, polygons, annuli as nested loops) -> `extrude` / `revolve` /
+`sphere` as `newBody`, `moveBody` (translate/rotate), `scale`, mirror (copy + `deleteBody`), `combine` (union/cut/intersect).
+
+    .venv/bin/python openscad_to_ckpart.py part.scad -o part.ckpart [--lib DIR]
+    .venv/bin/python openscad_to_ckpart.py --nop /scratch/NopSCADlib out_ckpart --category ball_bearing washer nut pulley led --check
+
+- Subset: variables, expressions, builtin math, user modules/functions (children(), `$` vars, default args), if/for/let,
+  list comprehensions, include/use; cube/sphere/cylinder (cones, center), circle/square/polygon, 2D hull of polygons,
+  translate/rotate/scale/mirror/multmatrix(translation), union/difference/intersection, linear_extrude, rotate_extrude, color.
+- Named parameters: numbers returned by accessor functions (`bb_bore(type) = type[1]`) and top-level script variables
+  become `variables` and are written as `=expr` in fields the kernel evaluates (extrude depth, sphere radius, moveBody
+  translate/rotate, revolve angle). Sketch coordinates are plain numbers (the kernel does not evaluate expressions there).
+- Fallback (manifest `fallback: <reason>`, part keeps its STEP): 3D hull, minkowski, polyhedron, text, import, surface,
+  offset, twist/scale extrude, skewed/non-axis mirror, low-$fn spheres/cones, scaled circles, crossing-axis rotate_extrude.
+- The transpiler asks the kernel (`ck_oracle.mjs`, needs `CK_KERNEL`) which named bodies are alive after each boolean:
+  `combine union` leaves disjoint tools as separate bodies and consumes merged ones, so references must follow that.
+- `ck_check.mjs` regens each .ckpart, validates, and compares volume to the STEP reference; `--check` also computes the
+  OpenSCAD mesh volume as ground truth (the STEP reference is unreliable for multi-colour parts, see manifests).
+- Licence: transpiled NopSCADlib parts keep GPL-3.0-or-later in the manifest and in the .ckpart (`license`); never commit them.
