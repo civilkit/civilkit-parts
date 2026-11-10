@@ -54,7 +54,7 @@ import does not surface STEP colours (not verified per face), so they live in th
 kernel `importedBody` feature (STEP payload + colour map); until then `ck_import.mjs` is the bridge.
 
 ## Setup
-    uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python cadquery numpy
+    uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python cadquery numpy shapely
     git clone --depth 1 https://github.com/nophead/NopSCADlib.git /scratch/NopSCADlib   # never commit it here
     brew install openscad    # 2021.01 works; colours need no nightly (see below)
 

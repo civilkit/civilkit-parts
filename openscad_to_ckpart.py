@@ -18,7 +18,7 @@ skewed transforms) raise Unsupported; the part then falls back to its STEP file 
 import argparse, json, math, os, re, subprocess, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-from scadlang import Interp, G, T, ex, union, Unsupported, isnum
+from scadlang import Interp, G, T, ex, union, Unsupported, isnum, UNDEF as UNDEF_
 
 POLY_FN_MAX = 8        # explicit $fn up to this makes a real polygon (hex nut); above, a true circle
 EPS = 1e-9
@@ -114,6 +114,8 @@ def shape2(node, M, notes):
         return shape2(node.kid, mm2(M, op2(node.op)), notes)
     if k in ("union", "diff", "inter"):
         return ({"union": "u", "diff": "d", "inter": "i"}[k], [shape2(c, M, notes) for c in node.kids])
+    if k == "off":
+        return offset2(shape2(node.kid, M, notes), node, M, notes)
     if k == "hull":
         pts = []
         def collect(s):
@@ -136,6 +138,45 @@ def shape2(node, M, notes):
         for c in node.kids: collect(shape2(c, M, notes))
         return ("poly", [hull2d(pts)])
     raise Unsupported(f"2D node {k}")
+
+def to_shapely(s):
+    """Shape2D tree -> shapely geometry (several loops of one 'poly' combine even-odd, as OpenSCAD does)"""
+    from shapely.geometry import Polygon, Point
+    if s[0] == "circle": return Point(s[1], s[2]).buffer(s[3], quad_segs=64)
+    if s[0] == "poly":
+        g = None
+        for l in s[1]:
+            if len(l) < 3: continue
+            p = Polygon(l).buffer(0)
+            g = p if g is None else g.symmetric_difference(p)
+        return g if g is not None else Polygon()
+    kids = [to_shapely(c) for c in s[1]]
+    if not kids: return Polygon()
+    g = kids[0]
+    for c in kids[1:]: g = g.union(c) if s[0] == "u" else g.difference(c) if s[0] == "d" else g.intersection(c)
+    return g
+
+def from_shapely(g):
+    from shapely.geometry import Polygon
+    polys = [g] if isinstance(g, Polygon) else [p for p in getattr(g, "geoms", []) if isinstance(p, Polygon)]
+    loops = [[list(p.exterior.coords)[:-1]] + [list(r.coords)[:-1] for r in p.interiors] for p in polys if not p.is_empty]
+    out = [("poly", ls) for ls in loops]
+    return out[0] if len(out) == 1 else ("u", out)
+
+def offset2(s, node, M, notes):
+    """2D offset(r | delta, chamfer): round joins as fine arcs (the arc detector turns them back into true arcs), mitre or bevel for delta"""
+    sc = math.sqrt(abs(M[0] * M[3] - M[1] * M[2]))
+    g = to_shapely(s)
+    if node.r is not UNDEF_:
+        r = float(node.r) * sc
+        fn = int(node.fn) if node.fn else 0
+        n = max(fn, 3) if fn >= 3 else max(5, min(30, math.ceil(2 * math.pi * abs(r) / 2)))
+        g = g.buffer(r, quad_segs=max(8, math.ceil(n / 4)))
+    else:
+        d = float(node.delta) * sc
+        g = g.buffer(d, join_style="bevel" if node.chamfer else "mitre", mitre_limit=1e6)
+    notes.append("offset() computed with shapely")
+    return from_shapely(g)
 
 def clip_convex(subj, clip):
     """Sutherland-Hodgman: convex subject polygon clipped by a convex polygon"""

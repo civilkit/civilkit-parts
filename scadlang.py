@@ -72,7 +72,7 @@ class G:
     def dim(self):
         if self.k in ("box", "sphere", "cyl", "lext", "rext"):
             return 3
-        if self.k in ("circle", "square", "poly"):
+        if self.k in ("circle", "square", "poly", "off"):
             return 2
         if self.k == "hull":
             return self.kids[0].dim if self.kids else 3
@@ -93,6 +93,89 @@ def union(nodes):
     if not out:
         return None
     return out[0] if len(out) == 1 else G("union", kids=out)
+
+
+def prism(n):
+    """a 3D node that is a straight prism along Z -> (z0, z1, 2D node), else None"""
+    f = float
+    if n.k == "box":
+        sx, sy, sz = (f(v) for v in n.size); z0 = -sz / 2 if n.center else 0.0
+        sq = G("square", size=[sx, sy], center=bool(n.center))
+        return (z0, z0 + sz, sq)
+    if n.k == "cyl":
+        if abs(f(n.r1) - f(n.r2)) > 1e-12: return None
+        h = f(n.h); z0 = -h / 2 if n.center else 0.0
+        return (z0, z0 + h, G("circle", r=n.r1, fn=n.fn))
+    if n.k == "xf":
+        p = prism(n.kid)
+        if p is None: return None
+        z0, z1, k2 = p; op = n.op
+        if op[0] == "t":
+            tx, ty, tz = (f(v) for v in op[1])
+            return (z0 + tz, z1 + tz, G("xf", op=("t", [tx, ty, 0.0]), kid=k2))
+        if op[0] == "r":
+            if abs(f(op[1][0])) > 1e-12 or abs(f(op[1][1])) > 1e-12: return None
+            return (z0, z1, G("xf", op=("r", [0.0, 0.0, f(op[1][2])]), kid=k2))
+        return None
+    if n.k == "union":
+        ps = [prism(c) for c in n.kids]
+        if any(p is None for p in ps): return None
+        if any(abs(p[0] - ps[0][0]) > 1e-9 or abs(p[1] - ps[0][1]) > 1e-9 for p in ps): return None
+        return (ps[0][0], ps[0][1], union([p[2] for p in ps]))
+    return None
+
+def rect_of(n):
+    """a 2D square, possibly translated -> (x0, x1, y0, y1)"""
+    f = float
+    if n.k == "square":
+        sx, sy = f(n.size[0]), f(n.size[1]); x0, y0 = (-sx / 2, -sy / 2) if n.center else (0.0, 0.0)
+        return (x0, x0 + sx, y0, y0 + sy)
+    if n.k == "xf" and n.op[0] == "t":
+        r = rect_of(n.kid)
+        return None if r is None else (r[0] + f(n.op[1][0]), r[1] + f(n.op[1][0]), r[2] + f(n.op[1][1]), r[3] + f(n.op[1][1]))
+    return None
+
+def hull_two_boxes(ps):
+    """hull of two boxes where one is wider (in X and Y) and the other taller (a chamfered pin, a bevelled block): the cross
+    section at any height is a rectangle whose sides are straight lines in Z, so the hull is the intersection of an extrude of
+    its XZ outline along Y and one of its YZ outline along X (exact, no polyhedron needed)"""
+    if len(ps) != 2: return None
+    rs = [rect_of(p[2]) for p in ps]
+    if any(r is None for r in rs): return None
+    (a, b), (A, B) = rs, ps
+    def contains(o, i): return o[0] <= i[0] + 1e-9 and o[1] >= i[1] - 1e-9 and o[2] <= i[2] + 1e-9 and o[3] >= i[3] - 1e-9
+    zr = lambda p: (p[0], p[1])
+    zin = lambda o, i: o[0] <= i[0] + 1e-9 and o[1] >= i[1] - 1e-9
+    if not ((contains(a, b) and zin(zr(B), zr(A))) or (contains(b, a) and zin(zr(A), zr(B)))): return None
+    def outline(lo, hi):
+        pts = []
+        for (u0, u1, z0, z1) in ((lo[0], hi[0], A[0], A[1]), (lo[1], hi[1], B[0], B[1])):
+            pts += [(u0, z0), (u1, z0), (u1, z1), (u0, z1)]
+        pts = sorted(set(pts))
+        cr = lambda o, p, q: (p[0] - o[0]) * (q[1] - o[1]) - (p[1] - o[1]) * (q[0] - o[0])
+        lo_, up_ = [], []
+        for p in pts:
+            while len(lo_) >= 2 and cr(lo_[-2], lo_[-1], p) <= 1e-12: lo_.pop()
+            lo_.append(p)
+        for p in reversed(pts):
+            while len(up_) >= 2 and cr(up_[-2], up_[-1], p) <= 1e-12: up_.pop()
+            up_.append(p)
+        return lo_[:-1] + up_[:-1]
+    x0, x1 = min(a[0], b[0]), max(a[1], b[1]); y0, y1 = min(a[2], b[2]), max(a[3], b[3])
+    px = outline((a[0], b[0]), (a[1], b[1])); py = outline((a[2], b[2]), (a[3], b[3]))
+    mk = lambda pts, h: G("lext", kid=G("poly", pts=[list(p) for p in pts], paths=[]), h=h, center=False, twist=0.0, scale=1.0, slices=UNDEF)
+    ex_ = G("xf", op=("t", [0.0, y1, 0.0]), kid=G("xf", op=("r", [90.0, 0.0, 0.0]), kid=mk(px, y1 - y0)))
+    ey_ = G("xf", op=("t", [x0, 0.0, 0.0]), kid=G("xf", op=("r", [90.0, 0.0, 90.0]), kid=mk(py, x1 - x0)))
+    return G("inter", kids=[ex_, ey_])
+
+def hull_prisms(kids):
+    """hull() of 3D prisms that share one Z range: an extrude of the 2D hull of their outlines"""
+    ps = [prism(k) for k in kids]
+    if not ps or any(p is None for p in ps): return None
+    z0, z1 = ps[0][0], ps[0][1]
+    if any(abs(p[0] - z0) > 1e-9 or abs(p[1] - z1) > 1e-9 for p in ps): return hull_two_boxes(ps)
+    ext = G("lext", kid=G("hull", kids=[p[2] for p in ps]), h=z1 - z0, center=False, twist=0.0, scale=1.0, slices=UNDEF)
+    return G("xf", op=("t", [0.0, 0.0, z0]), kid=ext) if abs(z0) > 1e-12 else ext
 
 
 # ------------------------------------------------------------------ lexer
@@ -897,9 +980,17 @@ class Interp:
         if name == "hull":
             ks = kidnodes()
             if not ks: return []
-            if ks[0].dim == 3: raise Unsupported("hull of 3D geometry")
+            if ks[0].dim == 3:
+                h3 = hull_prisms(ks)
+                if h3 is None: raise Unsupported("hull of 3D geometry (" + ", ".join(k.k + (":" + k.op[0] if k.k == "xf" else "") for k in ks) + ")")
+                return [h3]
             return [G("hull", kids=ks)]
-        if name in ("minkowski", "polyhedron", "text", "import", "surface", "offset", "projection", "resize", "import_stl", "linear_extrude_", "roof", "fill"):
+        if name == "offset":
+            ks = kidnodes(); k = union(ks)
+            if k is None: return []
+            if k.dim == 3: raise Unsupported("offset of 3D geometry")
+            return [G("off", kid=k, r=P(0, "r"), delta=P(99, "delta"), chamfer=self.truthy(P(99, "chamfer", False)), fn=fn)]
+        if name in ("minkowski", "polyhedron", "text", "import", "surface", "projection", "resize", "import_stl", "linear_extrude_", "roof", "fill"):
             raise Unsupported(name)
         if name in ("echo", "assert", "stl", "dxf", "svg", "vitamin", "explode_", "exploded_"):
             return []
