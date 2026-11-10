@@ -1,0 +1,52 @@
+{
+ "name": "nut__toggle_nut",
+ "category": "nut",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/nut.scad",
+  "call": "nut(toggle_nut)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "nut/toggle_nut.step",
+ "ckpart": "nut/toggle_nut.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 2,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.17,
+ "check": {
+  "file": "toggle_nut.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 38.62594044987145,
+  "box": {
+   "min": [
+    -4.6,
+    -3.9837169647216797,
+    0
+   ],
+   "max": [
+    4.6,
+    3.9837169647216797,
+    1.5
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "refVolume": 38.70571888949987,
+  "relErr": -0.002061153801488038,
+  "ms": 427,
+  "scadVolume": 38.70571888950003,
+  "relErrScad": -0.0020611538014920685
+ }
+}

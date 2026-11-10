@@ -1,0 +1,57 @@
+{
+ "name": "pulley__T5x10_pulley",
+ "category": "pulley",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/pulley.scad",
+  "call": "pulley(T5x10_pulley)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "pulley/T5x10_pulley.ckpart",
+ "features": 41,
+ "by_type": {
+  "sketch": 15,
+  "revolve": 3,
+  "moveBody": 6,
+  "combine": 5,
+  "extrude": 12
+ },
+ "variables": {
+  "pulley_flange_thickness": "1.7",
+  "pulley_hub_length": "7",
+  "pulley_screw_z": "10.7",
+  "pulley_width": "11.6"
+ },
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 7,
+ "bodies": 1,
+ "seconds": 2.76,
+ "check": {
+  "file": "T5x10_pulley.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 2635.7665765864604,
+  "box": {
+   "min": [
+    -9.636323013280753,
+    -9.646580147341318,
+    -2.4104164810781394e-16
+   ],
+   "max": [
+    9.65,
+    9.64658014734132,
+    22
+   ]
+  },
+  "faces": 51,
+  "validate": true,
+  "ok": true,
+  "ms": 819,
+  "scadVolume": 2632.759880248832,
+  "relErrScad": 0.0011420321162537166
+ }
+}

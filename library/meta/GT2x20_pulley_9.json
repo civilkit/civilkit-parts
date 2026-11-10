@@ -1,0 +1,61 @@
+{
+ "name": "pulley__GT2x20_pulley_9",
+ "category": "pulley",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/pulley.scad",
+  "call": "pulley(GT2x20_pulley_9)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "pulley/GT2x20_pulley_9.ckpart",
+ "features": 67,
+ "by_type": {
+  "sketch": 26,
+  "revolve": 3,
+  "moveBody": 8,
+  "combine": 6,
+  "extrude": 23,
+  "deleteBody": 1
+ },
+ "variables": {
+  "pulley_flange_thickness": "1",
+  "pulley_hub_length": "7",
+  "pulley_screw_z": "3.25",
+  "pulley_width": "11"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon"
+ ],
+ "colors": 1,
+ "oracle_calls": 9,
+ "bodies": 1,
+ "seconds": 2.27,
+ "check": {
+  "file": "GT2x20_pulley_9.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 2520.3059449485336,
+  "box": {
+   "min": [
+    -8,
+    -7.988267421722412,
+    -4.891402996457834e-16
+   ],
+   "max": [
+    8,
+    7.999961853027344,
+    20
+   ]
+  },
+  "faces": 805,
+  "validate": true,
+  "ok": true,
+  "ms": 3476,
+  "scadVolume": 2520.628796303667,
+  "relErrScad": -0.0001280836573822055
+ },
+ "arcs": false
+}

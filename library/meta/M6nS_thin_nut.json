@@ -1,0 +1,52 @@
+{
+ "name": "nut__M6nS_thin_nut",
+ "category": "nut",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/nut.scad",
+  "call": "nut(M6nS_thin_nut)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "nut/M6nS_thin_nut.step",
+ "ckpart": "nut/M6nS_thin_nut.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 2,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.06,
+ "check": {
+  "file": "M6nS_thin_nut.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 117.368228488614,
+  "box": {
+   "min": [
+    -5,
+    -4.330127239227295,
+    0
+   ],
+   "max": [
+    5,
+    4.330127239227295,
+    3.200000047683716
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "refVolume": 117.53366996646982,
+  "relErr": -0.0014076092229828216,
+  "ms": 385,
+  "scadVolume": 117.5336699664642,
+  "relErrScad": -0.0014076092229351298
+ }
+}

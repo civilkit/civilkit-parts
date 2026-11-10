@@ -1,0 +1,60 @@
+{
+ "name": "led__LED8mm",
+ "category": "led",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/led.scad",
+  "call": "led(LED8mm)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "led/LED8mm.step",
+ "ckpart": "led/LED8mm.ckpart",
+ "features": 20,
+ "by_type": {
+  "sketch": 5,
+  "revolve": 1,
+  "moveBody": 7,
+  "extrude": 4,
+  "combine": 3
+ },
+ "variables": {
+  "led_pitch": "2.54",
+  "led_rim_t": "1.95"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon"
+ ],
+ "colors": 2,
+ "oracle_calls": 4,
+ "bodies": 1,
+ "seconds": 0.51,
+ "check": {
+  "file": "LED8mm.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 515.585841271852,
+  "box": {
+   "min": [
+    -4.592154556347647,
+    -4.599907432903716,
+    -5
+   ],
+   "max": [
+    4.0078125,
+    4.599907432903716,
+    11
+   ]
+  },
+  "faces": 18,
+  "validate": true,
+  "ok": true,
+  "refVolume": 513.5129035264345,
+  "relErr": 0.004036778299400323,
+  "ms": 1196,
+  "scadVolume": 514.3129035264305,
+  "relErrScad": 0.0024750258776193752
+ }
+}

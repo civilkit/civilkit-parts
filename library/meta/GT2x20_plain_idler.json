@@ -1,0 +1,59 @@
+{
+ "name": "pulley__GT2x20_plain_idler",
+ "category": "pulley",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/pulley.scad",
+  "call": "pulley(GT2x20_plain_idler)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "pulley/GT2x20_plain_idler.step",
+ "ckpart": "pulley/GT2x20_plain_idler.ckpart",
+ "features": 11,
+ "by_type": {
+  "sketch": 3,
+  "revolve": 2,
+  "moveBody": 3,
+  "combine": 2,
+  "extrude": 1
+ },
+ "variables": {
+  "pulley_flange_thickness": "1",
+  "pulley_hub_length": "0",
+  "pulley_width": "6.5"
+ },
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 2,
+ "bodies": 1,
+ "seconds": 0.21,
+ "check": {
+  "file": "GT2x20_plain_idler.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 1137.256540599504,
+  "box": {
+   "min": [
+    -8.989490509033203,
+    -8.997372126721736,
+    -5.509301487863694e-16
+   ],
+   "max": [
+    9,
+    8.997372126721736,
+    8.5
+   ]
+  },
+  "faces": 8,
+  "validate": true,
+  "ok": true,
+  "refVolume": 1135.2349883277511,
+  "relErr": 0.0017807346430809752,
+  "ms": 890,
+  "scadVolume": 1135.234988327752,
+  "relErrScad": 0.0017807346430801726
+ }
+}

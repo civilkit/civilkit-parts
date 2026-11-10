@@ -1,0 +1,54 @@
+{
+ "name": "washer__M8_washer",
+ "category": "washer",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/washer.scad",
+  "call": "washer(M8_washer)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "washer/M8_washer.step",
+ "ckpart": "washer/M8_washer.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {
+  "washer_thickness": "1.6"
+ },
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.02,
+ "check": {
+  "file": "M8_washer.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 271.9476483681016,
+  "box": {
+   "min": [
+    -8.5,
+    -8.490372657775879,
+    0
+   ],
+   "max": [
+    8.5,
+    8.490372657775879,
+    1.55
+   ]
+  },
+  "faces": 4,
+  "validate": true,
+  "ok": true,
+  "refVolume": 271.4504578942046,
+  "relErr": 0.0018316066871060899,
+  "ms": 623,
+  "scadVolume": 271.4504578942049,
+  "relErrScad": 0.0018316066871050408
+ }
+}

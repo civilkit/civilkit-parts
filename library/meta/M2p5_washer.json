@@ -1,0 +1,54 @@
+{
+ "name": "washer__M2p5_washer",
+ "category": "washer",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/washer.scad",
+  "call": "washer(M2p5_washer)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "washer/M2p5_washer.step",
+ "ckpart": "washer/M2p5_washer.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {
+  "washer_thickness": "0.5"
+ },
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.02,
+ "check": {
+  "file": "M2p5_washer.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 9.91368831748429,
+  "box": {
+   "min": [
+    -2.950000047683716,
+    -2.9466586505898738,
+    0
+   ],
+   "max": [
+    2.950000047683716,
+    2.9466586505898738,
+    0.45
+   ]
+  },
+  "faces": 4,
+  "validate": true,
+  "ok": true,
+  "refVolume": 9.905581649303818,
+  "relErr": 0.0008183939588284758,
+  "ms": 629,
+  "scadVolume": 9.90558164930399,
+  "relErrScad": 0.0008183939588110666
+ }
+}

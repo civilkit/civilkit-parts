@@ -1,0 +1,52 @@
+{
+ "name": "nut__M4_weld_nut",
+ "category": "nut",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/nut.scad",
+  "call": "nut(M4_weld_nut)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "nut/M4_weld_nut.step",
+ "ckpart": "nut/M4_weld_nut.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 2,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.06,
+ "check": {
+  "file": "M4_weld_nut.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 35.77530335173713,
+  "box": {
+   "min": [
+    -2.6500000953674316,
+    -2.2949674129486084,
+    0
+   ],
+   "max": [
+    2.6500000953674316,
+    2.2949674129486084,
+    6.300000190734863
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "refVolume": 35.97505384284529,
+  "relErr": -0.00555247233209877,
+  "ms": 406,
+  "scadVolume": 35.97505384283996,
+  "relErrScad": -0.00555247233195146
+ }
+}

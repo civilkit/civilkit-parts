@@ -1,0 +1,52 @@
+{
+ "name": "nut__M4_hammer_nut",
+ "category": "nut",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/nut.scad",
+  "call": "nut(M4_hammer_nut)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "nut/M4_hammer_nut.step",
+ "ckpart": "nut/M4_hammer_nut.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 2,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.08,
+ "check": {
+  "file": "M4_hammer_nut.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 35.15302467508263,
+  "box": {
+   "min": [
+    -3,
+    -2.598076211,
+    0
+   ],
+   "max": [
+    3,
+    2.598076211,
+    3.25
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "refVolume": 35.256485568851964,
+  "relErr": -0.0029345209001983546,
+  "ms": 376,
+  "scadVolume": 35.256485568849996,
+  "relErrScad": -0.002934520900142693
+ }
+}

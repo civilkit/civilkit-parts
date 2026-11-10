@@ -204,10 +204,44 @@ def disjoint(a, b):
 
 
 # ------------------------------------------------------------------ kernel oracle (body liveness)
+def circ3(a, b, c):
+    """circumcentre/radius of three points, or None when collinear"""
+    ax, ay = a; bx, by = b; cx, cy = c
+    d = 2 * (ax * (by - cy) + bx * (cy - ay) + cx * (ay - by))
+    if abs(d) < 1e-12: return None
+    ux = ((ax*ax + ay*ay) * (by - cy) + (bx*bx + by*by) * (cy - ay) + (cx*cx + cy*cy) * (ay - by)) / d
+    uy = ((ax*ax + ay*ay) * (cx - bx) + (bx*bx + by*by) * (ax - cx) + (cx*cx + cy*cy) * (bx - ax)) / d
+    return (ux, uy), math.hypot(ax - ux, ay - uy)
+
+ARCS = True
+
+def arc_runs(ps, min_pts=6):
+    """open polyline vertex list -> segments ('l', i, j) | ('a', i, j, (cx,cy), r). A run of >= min_pts vertices on one circle
+    with equal chord lengths (a mesh-approximated arc) becomes one true arc."""
+    segs = []; i = 0; n = len(ps)
+    while i < n - 1:
+        if not ARCS: segs.append(("l", i, i + 1)); i += 1; continue
+        best = None
+        if i + 2 < n:
+            c = circ3(ps[i], ps[i + 1], ps[i + 2])
+            if c:
+                (cx, cy), r = c
+                ch = math.dist(ps[i], ps[i + 1]); j = i + 2
+                while j + 1 < n and abs(math.hypot(ps[j+1][0]-cx, ps[j+1][1]-cy) - r) <= 1e-6 * max(r, 1) \
+                        and abs(math.dist(ps[j], ps[j + 1]) - ch) <= 1e-4 * max(ch, 1e-9): j += 1
+                # a regular hexagon also lies on a circle: only a fine mesh (<= 12 deg per edge, >= 5 edges, < 340 deg in all) is an arc
+                step = 2 * math.asin(min(1.0, ch / (2 * r)))
+                if j - i + 1 >= min_pts and r < 1e6 and step <= math.radians(12) and (j - i) * step < math.radians(340): best = (j, (cx, cy), r)
+        if best:
+            segs.append(("a", i, best[0], best[1], best[2])); i = best[0]
+        else:
+            segs.append(("l", i, i + 1)); i += 1
+    return segs
+
 class Oracle:
     """Persistent node process: given the feature list so far, which named bodies are alive and which features errored."""
     def __init__(self):
-        env = dict(os.environ); env.setdefault("CK_KERNEL", "/Volumes/second_drive/Development/cadkit/rebuild")
+        env = dict(os.environ); (env.get("CK_KERNEL") or sys.exit("set CK_KERNEL to a kernel checkout"))
         self.p = subprocess.Popen(["node", str(Path(__file__).parent / "ck_oracle.mjs")], stdin=subprocess.PIPE, stdout=subprocess.PIPE, text=True, env=env)
         self.queries = 0
     def ask(self, features, variables):
@@ -232,7 +266,7 @@ def get_oracle():
 class Emit:
     def __init__(self, name, interp):
         self.name = name; self.I = interp; self.f = []; self.n = 0; self.nb = 0; self.used = set()
-        self.notes = []; self.counts = {}; self.oracle_calls = 0
+        self.notes = []; self.counts = {}; self.oracle_calls = 0; self.appearance = {}
 
     def fid(self):
         self.n += 1; return f"F{self.n}"
@@ -271,8 +305,23 @@ class Emit:
                 if len(ps) > 1 and math.hypot(ps[0][0] - ps[-1][0], ps[0][1] - ps[-1][1]) <= 1e-9: ps.pop()
                 if len(ps) < 3: continue
                 ids = [P(*p) for p in ps]
-                for i, a in enumerate(ids):
-                    en[0] += 1; ents.append({"id": f"e{en[0]}", "type": "line", "p1": a, "p2": ids[(i + 1) % len(ids)]})
+                cl = ps + [ps[0]]; idc = ids + [ids[0]]
+                for sg in arc_runs(cl):
+                    en[0] += 1
+                    if sg[0] == "l":
+                        ents.append({"id": f"e{en[0]}", "type": "line", "p1": idc[sg[1]], "p2": idc[sg[2]]})
+                    else:
+                        i0, j0 = sg[1], sg[2]
+                        # the kernel wants both ends equidistant from the centre to ~1e-9: snap the centre to 1e-6 and put the
+                        # end vertex on the circle through the start vertex (a shift of ~1e-7 mm)
+                        ccx, ccy = round(sg[3][0], 6) + 0.0, round(sg[3][1], 6) + 0.0
+                        rr = math.dist((ccx, ccy), cl[i0]); ex, ey = cl[j0][0] - ccx, cl[j0][1] - ccy; el = math.hypot(ex, ey) or 1.0
+                        for pp in pts:
+                            if pp["id"] == idc[j0]: pp["x"] = num(ccx + ex / el * rr); pp["y"] = num(ccy + ey / el * rr)
+                        cc = P(ccx, ccy)
+                        cr = (cl[i0+1][0]-cl[i0][0]) * (cl[i0+2][1]-cl[i0+1][1]) - (cl[i0+1][1]-cl[i0][1]) * (cl[i0+2][0]-cl[i0+1][0])
+                        a, b = (idc[i0], idc[j0]) if cr > 0 else (idc[j0], idc[i0])
+                        ents.append({"id": f"e{en[0]}", "type": "arc", "c": cc, "p1": a, "p2": b})
         if axis:
             a = P(0, 0); b = P(0, 1); en[0] += 1; ents.append({"id": "ax", "type": "line", "p1": a, "p2": b})
         return self.add({"type": "sketch", "plane": {"kind": "std", "id": "front"}, "points": pts, "entities": ents, "constraints": []}, "profile")
@@ -377,6 +426,16 @@ class Emit:
 
     # 3D tree -> group of body names (alive lumps)
     def emit(self, n):
+        n0 = len(self.f)
+        g = self._emit(n)
+        col = getattr(n, "col", None)
+        if col:
+            for d in self.f[n0:]:
+                if d.get("op") == "newBody" and d["type"] in ("extrude", "revolve", "sphere"):
+                    self.appearance.setdefault(d["id"], {"color": col})
+        return g
+
+    def _emit(self, n):
         k = n.k
         if k == "box":
             sx, sy, sz = n.size
@@ -491,8 +550,11 @@ def transpile(src, libpaths, name, track_main=True):
     em = Emit(name, I)
     g = em.emit(top)
     if not g: raise Unsupported("empty result")
+    grp = name.split("__")[-1]          # feature-tree folder (cosmetic `group`, left out of the regen hash)
+    for f in em.f: f["group"] = grp
     doc = {"format": "ck-part", "version": 1, "name": name, "features": em.f, "seq": em.n + 1, "rollback": None,
            "material": "steel", "counters": {}, "variables": kernel_expr_vars(em)}
+    if em.appearance: doc["appearance"] = em.appearance
     info = {"features": len(em.f), "by_type": em.counts, "variables": {v["name"]: v["expr"] for v in doc["variables"]},
             "warnings": sorted(set(I.warnings + em.notes))[:20], "colors": len(I.colors), "oracle_calls": em.oracle_calls, "bodies": len(g)}
     return doc, info
@@ -567,22 +629,40 @@ def main():
     print(f"transpiled {tr}/{len(results)}, fallback {len(results) - tr}")
     for m in results:
         if not m["transpiled"]: print("  ", m["name"], m["fallback"])
-    if a.check and files:
+    def run_check(ms):
         env = dict(os.environ)
-        env.setdefault("CK_KERNEL", "/Volumes/second_drive/Development/cadkit/rebuild")
-        r = subprocess.run(["node", str(Path(__file__).parent / "ck_check.mjs"), "--step-dir", str(Path(a.step_dir).resolve()), *[str(f.resolve()) for f in files]], capture_output=True, text=True, env=env)
+        (env.get("CK_KERNEL") or sys.exit("set CK_KERNEL to a kernel checkout"))
+        fl = [outdir / m["ckpart"] for m in ms]
+        r = subprocess.run(["node", str(Path(__file__).parent / "ck_check.mjs"), "--step-dir", str(Path(a.step_dir).resolve()), *[str(f.resolve()) for f in fl]], capture_output=True, text=True, env=env)
         chk = {}
         for line in r.stdout.splitlines():
             try: j = json.loads(line); chk[j["file"]] = j
             except Exception: pass
-        for m in results:
-            if m["transpiled"]:
-                j = chk.get(Path(m["ckpart"]).name)
-                m["check"] = j
-                if j and j.get("volume"):
-                    sv = scad_mesh_volume(lib, m["category"], m["name"].split("__", 1)[1])
-                    if sv: j["scadVolume"] = sv; j["relErrScad"] = (j["volume"] - sv) / sv
-                (outdir / m["category"] / f"{m['name'].split('__', 1)[1]}.manifest.json").write_text(json.dumps(m, indent=1))
+        for m in ms:
+            j = chk.get(Path(m["ckpart"]).name)
+            m["check"] = j
+            if j and j.get("volume"):
+                sv = scad_mesh_volume(lib, m["category"], m["name"].split("__", 1)[1])
+                if sv: j["scadVolume"] = sv; j["relErrScad"] = (j["volume"] - sv) / sv
+            (outdir / m["category"] / f"{m['name'].split('__', 1)[1]}.manifest.json").write_text(json.dumps(m, indent=1))
+    def good(m):
+        c = m.get("check")
+        return bool(c and c.get("ok") and abs(c.get("relErrScad") or 0) < 0.01)
+    if a.check and files:
+        run_check([m for m in results if m["transpiled"]])
+        # a part the kernel refuses, or whose volume is off, is converted again with true arcs off (straight-edge polylines)
+        global ARCS
+        retry = [m for m in results if m["transpiled"] and not good(m)]
+        ARCS = False
+        for m in retry:
+            cat, const = m["category"], m["name"].split("__", 1)[1]
+            try:
+                doc, info = transpile(nop_source(lib, cat, const), [lib], m["name"], track_main=False)
+            except Exception: continue
+            doc["license"] = LICENSE; doc["source"] = m["source"]
+            (outdir / cat / f"{const}.ckpart").write_text(json.dumps(doc)); m.update(info); m["arcs"] = False
+        if retry: run_check(retry)
+        ARCS = True
         okn = [m for m in results if m["transpiled"] and m.get("check") and m["check"].get("ok")]
         print(f"kernel ok {len(okn)}/{tr}")
         for key, lab in (("relErr", "STEP reference"), ("relErrScad", "OpenSCAD mesh")):

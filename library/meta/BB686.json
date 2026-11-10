@@ -1,0 +1,57 @@
+{
+ "name": "ball_bearing__BB686",
+ "category": "ball_bearing",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/ball_bearing.scad",
+  "call": "ball_bearing(BB686)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "ball_bearing/BB686.step",
+ "ckpart": "ball_bearing/BB686.ckpart",
+ "features": 9,
+ "by_type": {
+  "sketch": 3,
+  "revolve": 2,
+  "moveBody": 2,
+  "extrude": 1,
+  "combine": 1
+ },
+ "variables": {
+  "bb_width": "5"
+ },
+ "warnings": [],
+ "colors": 2,
+ "oracle_calls": 1,
+ "bodies": 3,
+ "seconds": 0.15,
+ "check": {
+  "file": "BB686.ckpart",
+  "errors": [],
+  "solids": 3,
+  "volume": 463.78004924937767,
+  "box": {
+   "min": [
+    -6.492409706115723,
+    -6.498102188110352,
+    -2.5000000000000004
+   ],
+   "max": [
+    6.5,
+    6.498102188110352,
+    2.5000000000000004
+   ]
+  },
+  "faces": 16,
+  "validate": true,
+  "ok": true,
+  "refVolume": 170.10631229165858,
+  "relErr": 1.7264129296636326,
+  "ms": 977,
+  "scadVolume": 463.27898010083453,
+  "relErrScad": 0.0010815710836569324
+ }
+}

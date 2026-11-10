@@ -1,0 +1,52 @@
+{
+ "name": "nut__M2p5_nut",
+ "category": "nut",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/nut.scad",
+  "call": "nut(M2p5_nut)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "nut/M2p5_nut.step",
+ "ckpart": "nut/M2p5_nut.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 2,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.11,
+ "check": {
+  "file": "M2p5_nut.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 37.27038131622509,
+  "box": {
+   "min": [
+    -2.9000000953674316,
+    -2.511473671,
+    0
+   ],
+   "max": [
+    2.9000000953674316,
+    2.511473671,
+    2.200000047683716
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "refVolume": 37.3394126611237,
+  "relErr": -0.0018487528318966945,
+  "ms": 299,
+  "scadVolume": 37.33941266112635,
+  "relErrScad": -0.0018487528319675425
+ }
+}

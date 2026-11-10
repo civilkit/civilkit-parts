@@ -1,0 +1,60 @@
+{
+ "name": "led__LED10mm",
+ "category": "led",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/led.scad",
+  "call": "led(LED10mm)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "led/LED10mm.step",
+ "ckpart": "led/LED10mm.ckpart",
+ "features": 20,
+ "by_type": {
+  "sketch": 5,
+  "revolve": 1,
+  "moveBody": 7,
+  "extrude": 4,
+  "combine": 3
+ },
+ "variables": {
+  "led_pitch": "2.54",
+  "led_rim_t": "2"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon"
+ ],
+ "colors": 2,
+ "oracle_calls": 4,
+ "bodies": 1,
+ "seconds": 0.76,
+ "check": {
+  "file": "LED10mm.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 960.9601073637731,
+  "box": {
+   "min": [
+    -5.490823929226727,
+    -5.499671217938212,
+    -5
+   ],
+   "max": [
+    5.0078125,
+    5.499671217938212,
+    13.5
+   ]
+  },
+  "faces": 18,
+  "validate": true,
+  "ok": true,
+  "refVolume": 957.7322504841213,
+  "relErr": 0.0033703123999636927,
+  "ms": 890,
+  "scadVolume": 958.5322504841199,
+  "relErrScad": 0.0025328901332500337
+ }
+}

@@ -6,3 +6,7 @@ src/
 out_ckpart/
 probe/*.ckpart
 probe/
+out_*/
+out_*.log
+out_color/
+.DS_Store

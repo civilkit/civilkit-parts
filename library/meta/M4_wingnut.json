@@ -1,0 +1,52 @@
+{
+ "name": "nut__M4_wingnut",
+ "category": "nut",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/nut.scad",
+  "call": "nut(M4_wingnut)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "nut/M4_wingnut.step",
+ "ckpart": "nut/M4_wingnut.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 2,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.06,
+ "check": {
+  "file": "M4_wingnut.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 196.44575501490309,
+  "box": {
+   "min": [
+    -5,
+    -4.330127239227295,
+    0
+   ],
+   "max": [
+    5,
+    4.330127239227295,
+    3.75
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "refVolume": 196.5649477717688,
+  "relErr": -0.0006063784933014072,
+  "ms": 372,
+  "scadVolume": 196.56494777175,
+  "relErrScad": -0.0006063784932058898
+ }
+}

@@ -1,9 +1,37 @@
-# ck-parts
+# civilkit-parts
 
-Standalone parts library builder for CivilKit. Converts OpenSCAD libraries (NopSCADlib) and CadQuery scripts
-into kernel-importable B-rep parts. Lives outside the kernel and the app repos.
+A library of parametric parts for CivilKit, plus the converters that make it. Bearings, nuts, washers, pulleys and LEDs (76 parts so
+far) are converted from OpenSCAD ([NopSCADlib](https://github.com/nophead/NopSCADlib)) into native `.ckpart` feature trees with colour.
+The converters are Apache-2.0; the parts keep their source licence (GPL-3.0-or-later for NopSCADlib), see `library/NOTICE.md`.
+The parts are never bundled in the CivilKit app.
 
-## Important: what the output is
+## Use the library
+`library/` is a CivilKit library folder: `library.json` (format `fwlib`), `parts/<category>/<id>.ckpart`, `thumbs/<id>.png` (a picture
+for every part), `meta/<id>.json` (source file, commit, licence, kernel check result). In the app: Catalog > Libraries > **+ Add
+library** > `github:civilkit/civilkit-parts` (the app reads `library/library.json` from the repository root path you give it, or point it
+at the raw `library.json` address). Drag a card onto the model, or Insert.
+
+Each part is a real feature history (sketches, revolves, extrudes, booleans) grouped in a feature-tree folder named after the part,
+with true arcs for domes and rounds and a colour per body (`appearance`). It is parametric where the OpenSCAD source is (for example
+`led_rim_t`, `led_pitch` are variables).
+
+Measured on the 76 parts: all pass the kernel check (valid solids), volumes within 0.95% of the OpenSCAD mesh (median 0.14%). One
+NopSCADlib part is not converted yet (`nut/M8_sliding_ball_t_nut`). Known gaps: LED leads render in the body colour in the thumbnail
+(they are unioned into the body); curved surfaces made by `hull()` of circles are approximated; parts needing extra arguments (screws)
+are not enumerated yet.
+
+## Rebuild the library
+    export CK_KERNEL=<a kernel checkout with packages/dist built>
+    git clone --depth 1 https://github.com/nophead/NopSCADlib.git /scratch/NopSCADlib      # never commit it here
+    .venv/bin/python openscad_to_ckpart.py --nop /scratch/NopSCADlib out --category ball_bearing led nut pulley washer --check
+    .venv/bin/python build_library.py out library
+    node <kit checkout>/tools/library_thumbs.mjs library --png        # pictures; drop --png when cwebp is installed
+
+`openscad_to_ckpart.py` (with `scadlang.py`, an evaluator for a practical OpenSCAD subset) turns the script into a feature tree, not a
+mesh. A part the kernel refuses, or whose volume is off by 1% or more, is converted again with straight edges instead of arcs.
+
+## STEP route (older, separate)
+### What the STEP route outputs
 A `.ckpart` is a **feature tree** (sketches, extrudes, ...). The kernel has no feature that embeds an imported
 B-rep, and no STL importer, so a converted part cannot be a native `.ckpart`. Output per part is:
 

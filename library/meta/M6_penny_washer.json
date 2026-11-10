@@ -1,0 +1,54 @@
+{
+ "name": "washer__M6_penny_washer",
+ "category": "washer",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/washer.scad",
+  "call": "washer(M6_penny_washer)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "washer/M6_penny_washer.step",
+ "ckpart": "washer/M6_penny_washer.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {
+  "washer_thickness": "1.5"
+ },
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.02,
+ "check": {
+  "file": "M6_penny_washer.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 727.4715145551512,
+  "box": {
+   "min": [
+    -12.985712051391602,
+    -12.996427536010742,
+    0
+   ],
+   "max": [
+    13,
+    12.996427536010742,
+    1.4500000476837158
+   ]
+  },
+  "faces": 4,
+  "validate": true,
+  "ok": true,
+  "refVolume": 726.141269488629,
+  "relErr": 0.001831937010630248,
+  "ms": 525,
+  "scadVolume": 726.1412694887013,
+  "relErrScad": 0.0018319370105304917
+ }
+}

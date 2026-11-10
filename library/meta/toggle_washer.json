@@ -1,0 +1,54 @@
+{
+ "name": "washer__toggle_washer",
+ "category": "washer",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/washer.scad",
+  "call": "washer(toggle_washer)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "washer/toggle_washer.step",
+ "ckpart": "washer/toggle_washer.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {
+  "washer_thickness": "0.6"
+ },
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.02,
+ "check": {
+  "file": "toggle_washer.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 45.59864657052904,
+  "box": {
+   "min": [
+    -5.993405348914269,
+    -5.998351110658895,
+    0
+   ],
+   "max": [
+    6,
+    5.998351110658895,
+    0.550000011920929
+   ]
+  },
+  "faces": 4,
+  "validate": true,
+  "ok": true,
+  "refVolume": 45.51522026233608,
+  "relErr": 0.001832932098584118,
+  "ms": 555,
+  "scadVolume": 45.51522026233587,
+  "relErrScad": 0.0018329320985886535
+ }
+}

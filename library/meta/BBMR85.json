@@ -1,0 +1,57 @@
+{
+ "name": "ball_bearing__BBMR85",
+ "category": "ball_bearing",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/ball_bearing.scad",
+  "call": "ball_bearing(BBMR85)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "ball_bearing/BBMR85.step",
+ "ckpart": "ball_bearing/BBMR85.ckpart",
+ "features": 9,
+ "by_type": {
+  "sketch": 3,
+  "revolve": 2,
+  "moveBody": 2,
+  "extrude": 1,
+  "combine": 1
+ },
+ "variables": {
+  "bb_width": "2.5"
+ },
+ "warnings": [],
+ "colors": 2,
+ "oracle_calls": 1,
+ "bodies": 3,
+ "seconds": 0.16,
+ "check": {
+  "file": "BBMR85.ckpart",
+  "errors": [],
+  "solids": 3,
+  "volume": 70.54948086022708,
+  "box": {
+   "min": [
+    -4,
+    -3.995469356732032,
+    -1.2500000000000002
+   ],
+   "max": [
+    4,
+    3.995469356732032,
+    1.2500000000000002
+   ]
+  },
+  "faces": 16,
+  "validate": true,
+  "ok": true,
+  "refVolume": 29.26025212100663,
+  "relErr": 1.4111029723348805,
+  "ms": 987,
+  "scadVolume": 70.46981672688356,
+  "relErrScad": 0.0011304716975817277
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "name": "pulley__GT2x16_toothed_idler_9",
+ "category": "pulley",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/pulley.scad",
+  "call": "pulley(GT2x16_toothed_idler_9)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "pulley/GT2x16_toothed_idler_9.step",
+ "ckpart": "pulley/GT2x16_toothed_idler_9.ckpart",
+ "features": 45,
+ "by_type": {
+  "sketch": 19,
+  "revolve": 2,
+  "moveBody": 3,
+  "combine": 4,
+  "extrude": 17
+ },
+ "variables": {
+  "pulley_flange_thickness": "1",
+  "pulley_hub_length": "0",
+  "pulley_width": "10"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon"
+ ],
+ "colors": 1,
+ "oracle_calls": 5,
+ "bodies": 1,
+ "seconds": 0.78,
+ "check": {
+  "file": "GT2x16_toothed_idler_9.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 859.5961967922639,
+  "box": {
+   "min": [
+    -7,
+    -7,
+    -4.28076240816929e-16
+   ],
+   "max": [
+    7,
+    6.99101555019737,
+    12
+   ]
+  },
+  "faces": 639,
+  "validate": true,
+  "ok": true,
+  "refVolume": 861.284028403784,
+  "relErr": -0.0019596690010009253,
+  "ms": 2436,
+  "scadVolume": 861.2840284037868,
+  "relErrScad": -0.0019596690010042187
+ },
+ "arcs": false
+}

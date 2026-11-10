@@ -40,6 +40,28 @@ class Undef:
 UNDEF = Undef()
 
 
+_NAMED = {"black": "#000000", "white": "#ffffff", "red": "#ff0000", "green": "#008000", "lime": "#00ff00", "blue": "#0000ff",
+          "yellow": "#ffff00", "orange": "#ffa500", "grey": "#808080", "gray": "#808080", "silver": "#c0c0c0", "gold": "#ffd700",
+          "brown": "#a52a2a", "purple": "#800080", "pink": "#ffc0cb", "cyan": "#00ffff", "magenta": "#ff00ff", "tan": "#d2b48c",
+          "darkgreen": "#006400", "darkgrey": "#a9a9a9", "darkgray": "#a9a9a9", "lightgrey": "#d3d3d3", "lightgray": "#d3d3d3",
+          "dimgrey": "#696969", "dimgray": "#696969", "darkred": "#8b0000", "darkblue": "#00008b", "navy": "#000080",
+          "teal": "#008080", "maroon": "#800000", "olive": "#808000", "beige": "#f5f5dc", "ivory": "#fffff0", "khaki": "#f0e68c",
+          "chocolate": "#d2691e", "sienna": "#a0522d", "peru": "#cd853f", "wheat": "#f5deb3", "salmon": "#fa8072", "coral": "#ff7f50",
+          "darkorange": "#ff8c00", "limegreen": "#32cd32", "royalblue": "#4169e1", "skyblue": "#87ceeb", "steelblue": "#4682b4",
+          "slategray": "#708090", "slategrey": "#708090", "lightblue": "#add8e6", "lightgreen": "#90ee90", "crimson": "#dc143c",
+          "firebrick": "#b22222", "goldenrod": "#daa520", "saddlebrown": "#8b4513", "dodgerblue": "#1e90ff", "deepskyblue": "#00bfff"}
+
+def color_hex(c):
+    """OpenSCAD color argument -> '#rrggbb' or None (alpha ignored)"""
+    if isinstance(c, str):
+        t = c.strip().lower()
+        if re.fullmatch(r"#[0-9a-f]{6}([0-9a-f]{2})?", t): return t[:7]
+        if re.fullmatch(r"#[0-9a-f]{3}", t): return "#" + "".join(ch * 2 for ch in t[1:])
+        return _NAMED.get(t)
+    if isinstance(c, (list, tuple)) and len(c) >= 3 and all(isinstance(x, (int, float)) for x in c[:3]):
+        return "#%02x%02x%02x" % tuple(max(0, min(255, round(float(x) * 255))) for x in c[:3])
+    return None
+
 class G:
     """Geometry IR node."""
     def __init__(self, k, **kw):
@@ -844,7 +866,18 @@ class Interp:
             return self.wrap(("mm", P(0, "m")), kidnodes())
         if name == "color":
             c = P(0, "c"); self.colors.append(c)
-            return kidnodes()
+            hx = color_hex(c)
+            ks = kidnodes()
+            if hx:
+                def tag(n):
+                    if getattr(n, "col", None): return
+                    n.col = hx
+                    for a in ("kid",):
+                        if isinstance(getattr(n, a, None), G): tag(getattr(n, a))
+                    for k in (getattr(n, "kids", None) or []):
+                        if isinstance(k, G): tag(k)
+                for k in ks: tag(k)
+            return ks
         if name in ("render", "union", "group") or name == "intersection_for":
             return self.group(kidnodes()) if name != "intersection_for" else kidnodes()
         if name == "difference":

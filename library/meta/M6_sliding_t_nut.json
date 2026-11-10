@@ -1,0 +1,52 @@
+{
+ "name": "nut__M6_sliding_t_nut",
+ "category": "nut",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/nut.scad",
+  "call": "nut(M6_sliding_t_nut)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "step_ref": "nut/M6_sliding_t_nut.step",
+ "ckpart": "nut/M6_sliding_t_nut.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 2,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.05,
+ "check": {
+  "file": "M6_sliding_t_nut.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 87.74624428476636,
+  "box": {
+   "min": [
+    -4,
+    -3.464101615,
+    0
+   ],
+   "max": [
+    4,
+    3.464101615,
+    6.6
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "refVolume": 88.08803430581132,
+  "relErr": -0.0038800959033593613,
+  "ms": 395,
+  "scadVolume": 88.08803430583248,
+  "relErrScad": -0.003880095903598643
+ }
+}

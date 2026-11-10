@@ -1,0 +1,1109 @@
+{
+ "format": "fwlib",
+ "version": 1,
+ "name": "CivilKit parts",
+ "description": "Electronic and mechanical vitamins (bearings, nuts, washers, pulleys, LEDs) as parametric feature trees, converted from OpenSCAD (NopSCADlib) with colour. Each part keeps its source licence.",
+ "homepage": "https://github.com/civilkit/civilkit-parts",
+ "licence": "GPL-3.0-or-later",
+ "parts": [
+  {
+   "id": "BB608",
+   "title": "BB608",
+   "category": "ball bearing",
+   "tags": [
+    "BB608",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BB608.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3080,
+   "sha256": "dd4859e7e2cc0be8785fa62933727fe4ae1c202cf2f2fbda12fbbf6e9605a2c9",
+   "thumb": "thumbs/BB608.png"
+  },
+  {
+   "id": "BB6200",
+   "title": "BB6200",
+   "category": "ball bearing",
+   "tags": [
+    "BB6200",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BB6200.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3061,
+   "sha256": "2d3a6afee137eb15705c48bce92a2863cc529907fbc2219c02fca5be470d6168",
+   "thumb": "thumbs/BB6200.png"
+  },
+  {
+   "id": "BB6201",
+   "title": "BB6201",
+   "category": "ball bearing",
+   "tags": [
+    "BB6201",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BB6201.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3062,
+   "sha256": "1f629a90a5d97cfd11025a325c56d169e994c413ac0c7816557daf21e78cec82",
+   "thumb": "thumbs/BB6201.png"
+  },
+  {
+   "id": "BB624",
+   "title": "BB624",
+   "category": "ball bearing",
+   "tags": [
+    "BB624",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BB624.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3012,
+   "sha256": "7b24ea2ad31d2e8d875a5ab25c30a8eaff61ce4de4faa386c2dd30b53324cd12",
+   "thumb": "thumbs/BB624.png"
+  },
+  {
+   "id": "BB6808",
+   "title": "BB6808",
+   "category": "ball bearing",
+   "tags": [
+    "BB6808",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BB6808.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3072,
+   "sha256": "9ccba3bd1d7fd352a92974ac882528a309a0844f77c18cb62972dbafde72fe42",
+   "thumb": "thumbs/BB6808.png"
+  },
+  {
+   "id": "BB686",
+   "title": "BB686",
+   "category": "ball bearing",
+   "tags": [
+    "BB686",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BB686.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3048,
+   "sha256": "8d5f3125e3b9dc510ae53cfdbf08454640441eddc8426230224489c57790d327",
+   "thumb": "thumbs/BB686.png"
+  },
+  {
+   "id": "BB696",
+   "title": "BB696",
+   "category": "ball bearing",
+   "tags": [
+    "BB696",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BB696.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3044,
+   "sha256": "e32a49819fbd1d5b83bfa982a4f612fd5764a80402535e14812142f5e43112bf",
+   "thumb": "thumbs/BB696.png"
+  },
+  {
+   "id": "BBF623",
+   "title": "BBF623",
+   "category": "ball bearing",
+   "tags": [
+    "BBF623",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BBF623.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 4145,
+   "sha256": "8a00aefa27563232ad02561a5393ff1c6bf641d40ef9732d428b69fc7be3af98",
+   "thumb": "thumbs/BBF623.png"
+  },
+  {
+   "id": "BBF625",
+   "title": "BBF625",
+   "category": "ball bearing",
+   "tags": [
+    "BBF625",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BBF625.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 4173,
+   "sha256": "13520ed83b5fc722f58104dfbab93a3e999b4066ccad47802fda4a91e7e3100f",
+   "thumb": "thumbs/BBF625.png"
+  },
+  {
+   "id": "BBF693",
+   "title": "BBF693",
+   "category": "ball bearing",
+   "tags": [
+    "BBF693",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BBF693.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 4177,
+   "sha256": "fdee4228997f85a927e2de6f4d0e2c27c535f14f16314167511aa4ecdc653b5d",
+   "thumb": "thumbs/BBF693.png"
+  },
+  {
+   "id": "BBF695",
+   "title": "BBF695",
+   "category": "ball bearing",
+   "tags": [
+    "BBF695",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BBF695.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 4175,
+   "sha256": "08a764a0e8816af9ef89a48790fbbba61705a368145feb2e87d25fe2c2a88dfa",
+   "thumb": "thumbs/BBF695.png"
+  },
+  {
+   "id": "BBMR63",
+   "title": "BBMR63",
+   "category": "ball bearing",
+   "tags": [
+    "BBMR63",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BBMR63.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3098,
+   "sha256": "a26df32c95c52af9aae4ae74d5df16d4fe3304dcc4ae18c676216acf159f49f8",
+   "thumb": "thumbs/BBMR63.png"
+  },
+  {
+   "id": "BBMR83",
+   "title": "BBMR83",
+   "category": "ball bearing",
+   "tags": [
+    "BBMR83",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BBMR83.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3088,
+   "sha256": "62dbca12cfa3e951cf7bccd75b82650960a666016951b770cac1d085ec316abf",
+   "thumb": "thumbs/BBMR83.png"
+  },
+  {
+   "id": "BBMR85",
+   "title": "BBMR85",
+   "category": "ball bearing",
+   "tags": [
+    "BBMR85",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BBMR85.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3098,
+   "sha256": "23b5f14a62d0ccd556c1043965a01d4daf2a1ada261b7693fba9c35d8aca2a6c",
+   "thumb": "thumbs/BBMR85.png"
+  },
+  {
+   "id": "BBMR93",
+   "title": "BBMR93",
+   "category": "ball bearing",
+   "tags": [
+    "BBMR93",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BBMR93.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3088,
+   "sha256": "8fc7bcb6660f7ad424139f5135ca72416bbbf61f4d4e2f2a21cd347aa00b9ae5",
+   "thumb": "thumbs/BBMR93.png"
+  },
+  {
+   "id": "BBMR95",
+   "title": "BBMR95",
+   "category": "ball bearing",
+   "tags": [
+    "BBMR95",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BBMR95.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3088,
+   "sha256": "133fcf04ff29bd28b58f94cc9d84cfacf08cfa6a11daeb921e91776860e2b52f",
+   "thumb": "thumbs/BBMR95.png"
+  },
+  {
+   "id": "BBSMR95",
+   "title": "BBSMR95",
+   "category": "ball bearing",
+   "tags": [
+    "BBSMR95",
+    "ball bearing"
+   ],
+   "file": "parts/ball_bearing/BBSMR95.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
+   "bytes": 3108,
+   "sha256": "b8c4d2765221b20376afe7cf0263b2e5e2a1c8c9ef3745d76bea1f2878c87d31",
+   "thumb": "thumbs/BBSMR95.png"
+  },
+  {
+   "id": "LED10mm",
+   "title": "LED10mm",
+   "category": "led",
+   "tags": [
+    "LED10mm",
+    "led"
+   ],
+   "file": "parts/led/LED10mm.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
+   "bytes": 5707,
+   "sha256": "e00b971cc9866f9d887ee77e794ca838e42eac20247a4d4b6e4b2de3a05eb084",
+   "thumb": "thumbs/LED10mm.png"
+  },
+  {
+   "id": "LED3mm",
+   "title": "LED3mm",
+   "category": "led",
+   "tags": [
+    "LED3mm",
+    "led"
+   ],
+   "file": "parts/led/LED3mm.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
+   "bytes": 5677,
+   "sha256": "64e114f23dd276cef69ea8180c82faabb92141c97ab26e8c3287d20bb35b04ee",
+   "thumb": "thumbs/LED3mm.png"
+  },
+  {
+   "id": "LED5mm",
+   "title": "LED5mm",
+   "category": "led",
+   "tags": [
+    "LED5mm",
+    "led"
+   ],
+   "file": "parts/led/LED5mm.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
+   "bytes": 5677,
+   "sha256": "894f74eeea91b8e0c211c6267a88291bf3242fa4c49e1c7dec710cc7e3cc662f",
+   "thumb": "thumbs/LED5mm.png"
+  },
+  {
+   "id": "LED5x2mm",
+   "title": "LED5x2mm",
+   "category": "led",
+   "tags": [
+    "LED5x2mm",
+    "led"
+   ],
+   "file": "parts/led/LED5x2mm.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
+   "bytes": 4292,
+   "sha256": "f6e82a08a4a68b2ca42b03d634de9130d973cee5dd8b92f215a568bedb406752",
+   "thumb": "thumbs/LED5x2mm.png"
+  },
+  {
+   "id": "LED8mm",
+   "title": "LED8mm",
+   "category": "led",
+   "tags": [
+    "LED8mm",
+    "led"
+   ],
+   "file": "parts/led/LED8mm.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
+   "bytes": 5683,
+   "sha256": "a42c8d8389500d5cefda576516ab84ff6a23e8000fd875e31d03fc464b36aa0b",
+   "thumb": "thumbs/LED8mm.png"
+  },
+  {
+   "id": "M2_nut",
+   "title": "M2 nut",
+   "category": "nut",
+   "tags": [
+    "M2",
+    "nut"
+   ],
+   "file": "parts/nut/M2_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1156,
+   "sha256": "c8841a698c138a1d8e8b560e34ad7bea2f5c85cdd4d23d1065cba701e63989dc",
+   "thumb": "thumbs/M2_nut.png"
+  },
+  {
+   "id": "M2p5_nut",
+   "title": "M2p5 nut",
+   "category": "nut",
+   "tags": [
+    "M2p5",
+    "nut"
+   ],
+   "file": "parts/nut/M2p5_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1157,
+   "sha256": "ede247fb16ea61c391ddfe0e7886b1706fdafc4a06a5ee03e6ec94923f5d0d4c",
+   "thumb": "thumbs/M2p5_nut.png"
+  },
+  {
+   "id": "M3_hammer_nut",
+   "title": "M3 hammer nut",
+   "category": "nut",
+   "tags": [
+    "M3",
+    "hammer",
+    "nut"
+   ],
+   "file": "parts/nut/M3_hammer_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1168,
+   "sha256": "3decaa39779b4e6c0aab66cf1e89b3e20bf0c4f58167c07ecb750ecb9a5086b6",
+   "thumb": "thumbs/M3_hammer_nut.png"
+  },
+  {
+   "id": "M3_nut",
+   "title": "M3 nut",
+   "category": "nut",
+   "tags": [
+    "M3",
+    "nut"
+   ],
+   "file": "parts/nut/M3_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1146,
+   "sha256": "e630abc160ad5ba387747fff7b263912486af14b7c0b4c38e33d0550ebe3f7de",
+   "thumb": "thumbs/M3_nut.png"
+  },
+  {
+   "id": "M3_sliding_t_nut",
+   "title": "M3 sliding t nut",
+   "category": "nut",
+   "tags": [
+    "M3",
+    "nut",
+    "sliding"
+   ],
+   "file": "parts/nut/M3_sliding_t_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1176,
+   "sha256": "c52529dcfd60f89104fb0c57f9f712ee317118c6afb70aad5fef8da0bdd013b5",
+   "thumb": "thumbs/M3_sliding_t_nut.png"
+  },
+  {
+   "id": "M3nS_thin_nut",
+   "title": "M3nS thin nut",
+   "category": "nut",
+   "tags": [
+    "M3nS",
+    "nut",
+    "thin"
+   ],
+   "file": "parts/nut/M3nS_thin_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1173,
+   "sha256": "eccfcfdb51571da30ec39577bf035cafb6cab7772ef545717be22c9bd7ae82db",
+   "thumb": "thumbs/M3nS_thin_nut.png"
+  },
+  {
+   "id": "M4_hammer_nut",
+   "title": "M4 hammer nut",
+   "category": "nut",
+   "tags": [
+    "M4",
+    "hammer",
+    "nut"
+   ],
+   "file": "parts/nut/M4_hammer_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1168,
+   "sha256": "d1357fdde82d9eb8ea619da1f0a3cb9cadbf1596c25f46a869638896e9cf16cc",
+   "thumb": "thumbs/M4_hammer_nut.png"
+  },
+  {
+   "id": "M4_nut",
+   "title": "M4 nut",
+   "category": "nut",
+   "tags": [
+    "M4",
+    "nut"
+   ],
+   "file": "parts/nut/M4_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1156,
+   "sha256": "3fd68e1febcbd149e7a08769b12a195bd645f055325c34531f4c0a608233b6c2",
+   "thumb": "thumbs/M4_nut.png"
+  },
+  {
+   "id": "M4_sliding_t_nut",
+   "title": "M4 sliding t nut",
+   "category": "nut",
+   "tags": [
+    "M4",
+    "nut",
+    "sliding"
+   ],
+   "file": "parts/nut/M4_sliding_t_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1176,
+   "sha256": "4979e63b44f9e9e98b03d5d8b1d4c8267d8fb869e8558885cc15087c5327bdaf",
+   "thumb": "thumbs/M4_sliding_t_nut.png"
+  },
+  {
+   "id": "M4_weld_nut",
+   "title": "M4 weld nut",
+   "category": "nut",
+   "tags": [
+    "M4",
+    "nut",
+    "weld"
+   ],
+   "file": "parts/nut/M4_weld_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1167,
+   "sha256": "70bffaf2f122e526987546f48d6e03ee9577812739b7ff0ead01ec7278f420a2",
+   "thumb": "thumbs/M4_weld_nut.png"
+  },
+  {
+   "id": "M4_wingnut",
+   "title": "M4 wingnut",
+   "category": "nut",
+   "tags": [
+    "M4",
+    "nut",
+    "wingnut"
+   ],
+   "file": "parts/nut/M4_wingnut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1159,
+   "sha256": "2b5d8fc49e162af158e12bb6334b5592471d862cb9969e2e9779942cf8f21e6c",
+   "thumb": "thumbs/M4_wingnut.png"
+  },
+  {
+   "id": "M4nS_thin_nut",
+   "title": "M4nS thin nut",
+   "category": "nut",
+   "tags": [
+    "M4nS",
+    "nut",
+    "thin"
+   ],
+   "file": "parts/nut/M4nS_thin_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1171,
+   "sha256": "3a2953d957a3763bc981323b5a12071227153831bf1ffca6d815fb0f55ed9bec",
+   "thumb": "thumbs/M4nS_thin_nut.png"
+  },
+  {
+   "id": "M5_nut",
+   "title": "M5 nut",
+   "category": "nut",
+   "tags": [
+    "M5",
+    "nut"
+   ],
+   "file": "parts/nut/M5_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1146,
+   "sha256": "db08dc625c74c1e3a9b04bbdfef87c6f7768fce166d496ad6be4184fadfca501",
+   "thumb": "thumbs/M5_nut.png"
+  },
+  {
+   "id": "M5_sliding_t_nut",
+   "title": "M5 sliding t nut",
+   "category": "nut",
+   "tags": [
+    "M5",
+    "nut",
+    "sliding"
+   ],
+   "file": "parts/nut/M5_sliding_t_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1176,
+   "sha256": "a9539b29f85c35896e8adbdfba06d1b305a000133b936bd63678b17e67a41070",
+   "thumb": "thumbs/M5_sliding_t_nut.png"
+  },
+  {
+   "id": "M5nS_thin_nut",
+   "title": "M5nS thin nut",
+   "category": "nut",
+   "tags": [
+    "M5nS",
+    "nut",
+    "thin"
+   ],
+   "file": "parts/nut/M5nS_thin_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1167,
+   "sha256": "5b6b2bf333556f1604282d79473852ab4a307a1fc0b185160be303cd6d9e4990",
+   "thumb": "thumbs/M5nS_thin_nut.png"
+  },
+  {
+   "id": "M6_half_nut",
+   "title": "M6 half nut",
+   "category": "nut",
+   "tags": [
+    "M6",
+    "half",
+    "nut"
+   ],
+   "file": "parts/nut/M6_half_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1171,
+   "sha256": "0d0c42a282944b6cd24d63c4b1cddad3e101810106b4d36ba437949e5ccfd96d",
+   "thumb": "thumbs/M6_half_nut.png"
+  },
+  {
+   "id": "M6_nut",
+   "title": "M6 nut",
+   "category": "nut",
+   "tags": [
+    "M6",
+    "nut"
+   ],
+   "file": "parts/nut/M6_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1156,
+   "sha256": "8b867413c8e1aabee8b2b067d07f4eacb0e4b678aa7cd7da829d24dbc21536e4",
+   "thumb": "thumbs/M6_nut.png"
+  },
+  {
+   "id": "M6_sliding_t_nut",
+   "title": "M6 sliding t nut",
+   "category": "nut",
+   "tags": [
+    "M6",
+    "nut",
+    "sliding"
+   ],
+   "file": "parts/nut/M6_sliding_t_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1176,
+   "sha256": "99e77be3aacc8d3e85fd54bd84f6cfffc4dc2b121f5b760d9ef9a1d8c6e24a9a",
+   "thumb": "thumbs/M6_sliding_t_nut.png"
+  },
+  {
+   "id": "M6_weld_nut",
+   "title": "M6 weld nut",
+   "category": "nut",
+   "tags": [
+    "M6",
+    "nut",
+    "weld"
+   ],
+   "file": "parts/nut/M6_weld_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1171,
+   "sha256": "d0ec4ab884894fa4019ff52648e01122c0875c4124bb26e2e5c81872fbaee865",
+   "thumb": "thumbs/M6_weld_nut.png"
+  },
+  {
+   "id": "M6nS_thin_nut",
+   "title": "M6nS thin nut",
+   "category": "nut",
+   "tags": [
+    "M6nS",
+    "nut",
+    "thin"
+   ],
+   "file": "parts/nut/M6nS_thin_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1167,
+   "sha256": "62a68684526f970f42c6ccb580363eaad7d569f3c3665e09a4ad58903f56677c",
+   "thumb": "thumbs/M6nS_thin_nut.png"
+  },
+  {
+   "id": "M8_nut",
+   "title": "M8 nut",
+   "category": "nut",
+   "tags": [
+    "M8",
+    "nut"
+   ],
+   "file": "parts/nut/M8_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1150,
+   "sha256": "75c8e9c622b1f9d8e881628db85e4514ea1ef1132659d6c440611b0e08c8b2ed",
+   "thumb": "thumbs/M8_nut.png"
+  },
+  {
+   "id": "M8nS_thin_nut",
+   "title": "M8nS thin nut",
+   "category": "nut",
+   "tags": [
+    "M8nS",
+    "nut",
+    "thin"
+   ],
+   "file": "parts/nut/M8nS_thin_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1171,
+   "sha256": "3588a423077d2b2e8a78e467020f4f608f44298eeea2ec2acf5e0434430b3bef",
+   "thumb": "thumbs/M8nS_thin_nut.png"
+  },
+  {
+   "id": "toggle_nut",
+   "title": "toggle nut",
+   "category": "nut",
+   "tags": [
+    "nut",
+    "toggle"
+   ],
+   "file": "parts/nut/toggle_nut.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
+   "bytes": 1159,
+   "sha256": "6e4d9f0175796e91559023162806cc35ebb7d622da47962d6d2decce7a79170d",
+   "thumb": "thumbs/toggle_nut.png"
+  },
+  {
+   "id": "GT2x12_pulley",
+   "title": "GT2x12 pulley",
+   "category": "pulley",
+   "tags": [
+    "GT2x12",
+    "pulley"
+   ],
+   "file": "parts/pulley/GT2x12_pulley.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 54270,
+   "sha256": "60666bd68838d897000a16b68f7be93918ac6ec3986e22b20df2561a708d36bc",
+   "thumb": "thumbs/GT2x12_pulley.png"
+  },
+  {
+   "id": "GT2x16_plain_idler",
+   "title": "GT2x16 plain idler",
+   "category": "pulley",
+   "tags": [
+    "GT2x16",
+    "idler",
+    "plain",
+    "pulley"
+   ],
+   "file": "parts/pulley/GT2x16_plain_idler.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 3231,
+   "sha256": "a1730c329a20d0f55280228db62be3514d45bbdd6cbbcea06b71357ef1335eab",
+   "thumb": "thumbs/GT2x16_plain_idler.png"
+  },
+  {
+   "id": "GT2x16_pulley",
+   "title": "GT2x16 pulley",
+   "category": "pulley",
+   "tags": [
+    "GT2x16",
+    "pulley"
+   ],
+   "file": "parts/pulley/GT2x16_pulley.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 71410,
+   "sha256": "2513bbe5b040e457e89b102fd556cca67a69433b8b6e2cc179561e82b8b80f43",
+   "thumb": "thumbs/GT2x16_pulley.png"
+  },
+  {
+   "id": "GT2x16_pulley_9",
+   "title": "GT2x16 pulley 9",
+   "category": "pulley",
+   "tags": [
+    "GT2x16",
+    "pulley"
+   ],
+   "file": "parts/pulley/GT2x16_pulley_9.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 71560,
+   "sha256": "02b1836462399ada710607883f08058ae56778c8a5f375ff4b2fa085d4958bfa",
+   "thumb": "thumbs/GT2x16_pulley_9.png"
+  },
+  {
+   "id": "GT2x16_toothed_idler",
+   "title": "GT2x16 toothed idler",
+   "category": "pulley",
+   "tags": [
+    "GT2x16",
+    "idler",
+    "pulley",
+    "toothed"
+   ],
+   "file": "parts/pulley/GT2x16_toothed_idler.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 68917,
+   "sha256": "d6849330474028737bc60930d60af4e16139d950f337ff67ffa12e6d7124e9a0",
+   "thumb": "thumbs/GT2x16_toothed_idler.png"
+  },
+  {
+   "id": "GT2x16_toothed_idler_9",
+   "title": "GT2x16 toothed idler 9",
+   "category": "pulley",
+   "tags": [
+    "GT2x16",
+    "idler",
+    "pulley",
+    "toothed"
+   ],
+   "file": "parts/pulley/GT2x16_toothed_idler_9.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 69012,
+   "sha256": "d97fc012beac45cd4bd5a3fe2c2182225792e855a4ecacd2c3cf4959e6277319",
+   "thumb": "thumbs/GT2x16_toothed_idler_9.png"
+  },
+  {
+   "id": "GT2x16x7_plain_idler",
+   "title": "GT2x16x7 plain idler",
+   "category": "pulley",
+   "tags": [
+    "GT2x16x7",
+    "idler",
+    "plain",
+    "pulley"
+   ],
+   "file": "parts/pulley/GT2x16x7_plain_idler.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 3253,
+   "sha256": "c8d8983a6fe49827001bdbc5c2e35328a2806aaa33d62594a3d59493f7e1cf50",
+   "thumb": "thumbs/GT2x16x7_plain_idler.png"
+  },
+  {
+   "id": "GT2x20_plain_idler",
+   "title": "GT2x20 plain idler",
+   "category": "pulley",
+   "tags": [
+    "GT2x20",
+    "idler",
+    "plain",
+    "pulley"
+   ],
+   "file": "parts/pulley/GT2x20_plain_idler.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 3229,
+   "sha256": "212259c3e17163bdaf3a92f3e366c734a1c43742e653a086e4d90c329cca8e34",
+   "thumb": "thumbs/GT2x20_plain_idler.png"
+  },
+  {
+   "id": "GT2x20_pulley_9",
+   "title": "GT2x20 pulley 9",
+   "category": "pulley",
+   "tags": [
+    "GT2x20",
+    "pulley"
+   ],
+   "file": "parts/pulley/GT2x20_pulley_9.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 88537,
+   "sha256": "cbcc9859c0939bd9e8a84b99949cf77863e30df0b167a9f01d7e9afb4b6c94bd",
+   "thumb": "thumbs/GT2x20_pulley_9.png"
+  },
+  {
+   "id": "GT2x20_toothed_idler",
+   "title": "GT2x20 toothed idler",
+   "category": "pulley",
+   "tags": [
+    "GT2x20",
+    "idler",
+    "pulley",
+    "toothed"
+   ],
+   "file": "parts/pulley/GT2x20_toothed_idler.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 85960,
+   "sha256": "273792eff505ad6015e9b8a410703a3d52cf08d896f6d046072e2c75f90c52a4",
+   "thumb": "thumbs/GT2x20_toothed_idler.png"
+  },
+  {
+   "id": "GT2x20_toothed_idler_9",
+   "title": "GT2x20 toothed idler 9",
+   "category": "pulley",
+   "tags": [
+    "GT2x20",
+    "idler",
+    "pulley",
+    "toothed"
+   ],
+   "file": "parts/pulley/GT2x20_toothed_idler_9.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 86071,
+   "sha256": "0576de45d1d985efce0e80edf3acd60becdeb5dfa5502df165563993de0cc7a6",
+   "thumb": "thumbs/GT2x20_toothed_idler_9.png"
+  },
+  {
+   "id": "GT2x20ob_pulley",
+   "title": "GT2x20ob pulley",
+   "category": "pulley",
+   "tags": [
+    "GT2x20ob",
+    "pulley"
+   ],
+   "file": "parts/pulley/GT2x20ob_pulley.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 88540,
+   "sha256": "2f13aff61477864bea29f0d7aa58cb3c989717481c27d4e5774b2526cb33dcfc",
+   "thumb": "thumbs/GT2x20ob_pulley.png"
+  },
+  {
+   "id": "GT2x20um_pulley",
+   "title": "GT2x20um pulley",
+   "category": "pulley",
+   "tags": [
+    "GT2x20um",
+    "pulley"
+   ],
+   "file": "parts/pulley/GT2x20um_pulley.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 88540,
+   "sha256": "c04388dafb2ecbffde59cab9799f4958df1bc77c60ec4cc0c9a206bce9bb1261",
+   "thumb": "thumbs/GT2x20um_pulley.png"
+  },
+  {
+   "id": "GT2x80_pulley",
+   "title": "GT2x80 pulley",
+   "category": "pulley",
+   "tags": [
+    "GT2x80",
+    "pulley"
+   ],
+   "file": "parts/pulley/GT2x80_pulley.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 341601,
+   "sha256": "0e251a53e674780cc0b199eb00520961422b4eece7f0179ba56d623571ccc512",
+   "thumb": "thumbs/GT2x80_pulley.png"
+  },
+  {
+   "id": "T2p5x16_pulley",
+   "title": "T2p5x16 pulley",
+   "category": "pulley",
+   "tags": [
+    "T2p5x16",
+    "pulley"
+   ],
+   "file": "parts/pulley/T2p5x16_pulley.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 20382,
+   "sha256": "e3644ad614547ef141e3da0d682d0b9edb83268f41ba3797384d95255cbe95b5",
+   "thumb": "thumbs/T2p5x16_pulley.png"
+  },
+  {
+   "id": "T5x10_pulley",
+   "title": "T5x10 pulley",
+   "category": "pulley",
+   "tags": [
+    "T5x10",
+    "pulley"
+   ],
+   "file": "parts/pulley/T5x10_pulley.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
+   "bytes": 14537,
+   "sha256": "0eecabe59fd8e00352fe9fc9ac8f597e59c351720a0d48c072e404c754c81c59",
+   "thumb": "thumbs/T5x10_pulley.png"
+  },
+  {
+   "id": "M2_washer",
+   "title": "M2 washer",
+   "category": "washer",
+   "tags": [
+    "M2",
+    "washer"
+   ],
+   "file": "parts/washer/M2_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 817,
+   "sha256": "25f653cc0e5aef8b01ff78a942883507c8127530673754a163096bfc1e088303",
+   "thumb": "thumbs/M2_washer.png"
+  },
+  {
+   "id": "M2p5_washer",
+   "title": "M2p5 washer",
+   "category": "washer",
+   "tags": [
+    "M2p5",
+    "washer"
+   ],
+   "file": "parts/washer/M2p5_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 823,
+   "sha256": "cf2a43d881b63f415502ae9d117f49cecca5e5a227c90b2ca1d42bf97f3ecb3f",
+   "thumb": "thumbs/M2p5_washer.png"
+  },
+  {
+   "id": "M3_penny_washer",
+   "title": "M3 penny washer",
+   "category": "washer",
+   "tags": [
+    "M3",
+    "penny",
+    "washer"
+   ],
+   "file": "parts/washer/M3_penny_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 835,
+   "sha256": "7b3d6eef4003787794c63efb7787eeada2e781ac23e34bd8b6a079623fd11c41",
+   "thumb": "thumbs/M3_penny_washer.png"
+  },
+  {
+   "id": "M3_rubber_washer",
+   "title": "M3 rubber washer",
+   "category": "washer",
+   "tags": [
+    "M3",
+    "rubber",
+    "washer"
+   ],
+   "file": "parts/washer/M3_rubber_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 838,
+   "sha256": "d4fe03346d087dda4d8877f2dcdac38fb39269d6b5aafa4a7c331490775dd651",
+   "thumb": "thumbs/M3_rubber_washer.png"
+  },
+  {
+   "id": "M3_washer",
+   "title": "M3 washer",
+   "category": "washer",
+   "tags": [
+    "M3",
+    "washer"
+   ],
+   "file": "parts/washer/M3_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 817,
+   "sha256": "e3793a6bcc76c4a9d723f686cd0b72dfadd0079ab41608ec314d6e6f8e86e604",
+   "thumb": "thumbs/M3_washer.png"
+  },
+  {
+   "id": "M3p5_washer",
+   "title": "M3p5 washer",
+   "category": "washer",
+   "tags": [
+    "M3p5",
+    "washer"
+   ],
+   "file": "parts/washer/M3p5_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 822,
+   "sha256": "46d2a7087e2376b70a22309078169d7ed6b594822807cf30dd249af1d398e2b2",
+   "thumb": "thumbs/M3p5_washer.png"
+  },
+  {
+   "id": "M4_penny_washer",
+   "title": "M4 penny washer",
+   "category": "washer",
+   "tags": [
+    "M4",
+    "penny",
+    "washer"
+   ],
+   "file": "parts/washer/M4_penny_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 835,
+   "sha256": "06a48c876335f9533c8d62bce934db2545d6f26454332e3108c06d95b8b3bba5",
+   "thumb": "thumbs/M4_penny_washer.png"
+  },
+  {
+   "id": "M4_washer",
+   "title": "M4 washer",
+   "category": "washer",
+   "tags": [
+    "M4",
+    "washer"
+   ],
+   "file": "parts/washer/M4_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 817,
+   "sha256": "528f0e70325aa13bbff0a42a8cb97074e102abadb749037d1173effa15b8db4d",
+   "thumb": "thumbs/M4_washer.png"
+  },
+  {
+   "id": "M5_penny_washer",
+   "title": "M5 penny washer",
+   "category": "washer",
+   "tags": [
+    "M5",
+    "penny",
+    "washer"
+   ],
+   "file": "parts/washer/M5_penny_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 836,
+   "sha256": "5f74bb1badc1a5d2482d9cccf648aba01edbccf3e678cc9c32c8241ea700e46f",
+   "thumb": "thumbs/M5_penny_washer.png"
+  },
+  {
+   "id": "M5_washer",
+   "title": "M5 washer",
+   "category": "washer",
+   "tags": [
+    "M5",
+    "washer"
+   ],
+   "file": "parts/washer/M5_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 815,
+   "sha256": "87f4ca964166868a2fcbabf075130d3dafeed27deb150bfa33c8ece603f3fa37",
+   "thumb": "thumbs/M5_washer.png"
+  },
+  {
+   "id": "M6_penny_washer",
+   "title": "M6 penny washer",
+   "category": "washer",
+   "tags": [
+    "M6",
+    "penny",
+    "washer"
+   ],
+   "file": "parts/washer/M6_penny_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 836,
+   "sha256": "1ccc83b55f37371446db16f0df5ed7cf1ddf1de3e1dbd51fb306bc95ef706306",
+   "thumb": "thumbs/M6_penny_washer.png"
+  },
+  {
+   "id": "M6_washer",
+   "title": "M6 washer",
+   "category": "washer",
+   "tags": [
+    "M6",
+    "washer"
+   ],
+   "file": "parts/washer/M6_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 818,
+   "sha256": "54b3945753977cd0b9da5f58606d9c8b5544eed70cad2c10ac4d8ae1ab349784",
+   "thumb": "thumbs/M6_washer.png"
+  },
+  {
+   "id": "M8_penny_washer",
+   "title": "M8 penny washer",
+   "category": "washer",
+   "tags": [
+    "M8",
+    "penny",
+    "washer"
+   ],
+   "file": "parts/washer/M8_penny_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 836,
+   "sha256": "98f908949f0c6fc5706e2aa20decdabb4cb582d413927f1391f754ac56751b96",
+   "thumb": "thumbs/M8_penny_washer.png"
+  },
+  {
+   "id": "M8_washer",
+   "title": "M8 washer",
+   "category": "washer",
+   "tags": [
+    "M8",
+    "washer"
+   ],
+   "file": "parts/washer/M8_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 817,
+   "sha256": "b5c7e1ae27f4290e3854a52a6f2369300b9006ffccc1674ab8b4eff1512f7255",
+   "thumb": "thumbs/M8_washer.png"
+  },
+  {
+   "id": "toggle_washer",
+   "title": "toggle washer",
+   "category": "washer",
+   "tags": [
+    "toggle",
+    "washer"
+   ],
+   "file": "parts/washer/toggle_washer.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
+   "bytes": 828,
+   "sha256": "71c2c31ce60f4ddeaee87cded91914cc439c44bb6e96c88b8eba4bef5666564d",
+   "thumb": "thumbs/toggle_washer.png"
+  }
+ ]
+}
