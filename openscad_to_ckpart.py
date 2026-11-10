@@ -15,7 +15,7 @@ Unsupported constructs (hull of 3D, minkowski, polyhedron, text, import, surface
 skewed transforms) raise Unsupported; the part then falls back to its STEP file and the manifest says
 `fallback: <reason>`.
 """
-import argparse, json, math, os, re, subprocess, sys, time
+import time, argparse, json, math, os, re, subprocess, sys, time
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from scadlang import Interp, G, T, ex, union, Unsupported, isnum, UNDEF as UNDEF_
@@ -387,7 +387,9 @@ class Emit:
     # ---- booleans on groups of lumps; the kernel is asked which bodies survive
     def query(self):
         self.oracle_calls += 1
+        t0 = time.time()
         r = get_oracle().ask(self.f, kernel_expr_vars(self))
+        if os.environ.get("CK_TRACE"): print(f"  [oracle {self.name} #{self.oracle_calls}] {len(self.f)} features, last {self.f[-1]['type']}/{self.f[-1].get('op')}: {time.time()-t0:.1f}s", file=sys.stderr, flush=True)
         return r
 
     def last_error(self, r, fid):
@@ -422,14 +424,20 @@ class Emit:
         return [n for n in out if n in alive]
 
     def intersect_group(self, a, b):
-        if len(a) != 1 or len(b) != 1:
-            if not a or not b: return []
-            raise Unsupported("intersection of multi-lump operands")
-        fid = self.add({"type": "combine", "op": "intersect", "target": {"body": a[0]}, "tools": [{"body": b[0]}], "body": a[0]}, "intersect")
-        r = self.query(); alive = {x[0] for x in r["bodies"]}
-        c = self.last_error(r, fid)
-        if c: self.notes.append(f"intersect: {c}")
-        return [a[0]] if a[0] in alive else []
+        if not a or not b: return []
+        if len(a) > 1 and len(b) > 1: raise Unsupported("intersection of two multi-lump operands")
+        many, one = (a, b[0]) if len(b) == 1 else (b, a[0])          # intersection is symmetric: keep the single lump as the tool
+        ids = {t: self.add({"type": "combine", "op": "intersect", "target": {"body": t}, "tools": [{"body": one}], "body": t, "keepTools": True}, "intersect") for t in many}
+        r = self.query(); alive = {x[0] for x in r["bodies"]}      # one kernel query for all the lumps (every query replays the whole tree)
+        out = []
+        for t, fid in ids.items():
+            c = self.last_error(r, fid)
+            if c:                                                  # refused: no overlap leaves nothing; the feature becomes a delete of that lump
+                self.notes.append(f"intersect: {c}")
+                d = next(x for x in self.f if x["id"] == fid); d.clear(); d.update({"id": fid, "type": "deleteBody", "bodies": [{"body": t}], "mode": "delete", "name": "drop empty intersection"})
+            elif t in alive: out.append(t)
+        self.add({"type": "deleteBody", "bodies": [{"body": one}], "mode": "delete"}, "drop tool")
+        return out
 
     # 2D tree -> group of bodies, with a maker that turns loops into a body name
     def shape_body(self, s, maker):

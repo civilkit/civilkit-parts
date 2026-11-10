@@ -16,7 +16,6 @@ for await (const line of rl) {
     const doc = { format: 'ck-part', version: 1, name: 'o', features: req.features, seq: req.features.length + 1, rollback: null, material: 'steel', counters: {}, variables: req.variables ?? [] };
     const s = await Session.open(doc, { wasmPath });
     const rep = await s.regenReport();
-    await s.facts();
     const m = await Q.massProps(s.kernel, { tag: s.tag, bodies: true });
     out = { errors: rep.errors, bodies: (m.bodies ?? []).map((b) => [b.name, b.volume]) };
     await s.close();
