@@ -595,12 +595,23 @@ def main():
     ap_.add_argument("--nop", nargs=2, metavar=("LIB", "OUT"))
     ap_.add_argument("--category", nargs="*"); ap_.add_argument("--limit", type=int)
     ap_.add_argument("--step-dir", default="out", help="existing STEP conversions (convert_openscad.py output) used as fallback / volume reference")
+    ap_.add_argument("--script", action="store_true", help="single file: also write <out>.ck.js (a CivilKit script) and rebuild the part by running it (needs KIT, a kit checkout)")
     ap_.add_argument("--check", action="store_true", help="run ck_check.mjs on the results (needs CK_KERNEL)")
     a = ap_.parse_args()
     if a.scad:
         src = Path(a.scad).read_text()
         doc, info = transpile(src, [Path(a.scad).parent] + [Path(p) for p in a.lib], Path(a.scad).stem, track_main=True)
         out = Path(a.o or Path(a.scad).with_suffix(".ckpart")); out.write_text(json.dumps(doc))
+        if a.script:
+            import scriptgen, tempfile
+            kit = os.environ.get("KIT") or sys.exit("set KIT to a kit checkout")
+            js = out.with_suffix(".ck.js")
+            js.write_text(scriptgen.decompile(doc, f"from {Path(a.scad).name}"))
+            with tempfile.TemporaryDirectory() as td:
+                r = subprocess.run(["node", str(Path(__file__).parent / "run_script.mjs"), "--out", td, str(js.resolve())], capture_output=True, text=True, env={**os.environ, "KIT": kit})
+                j = json.loads(r.stdout.strip().splitlines()[-1]) if r.stdout.strip() else {"ok": False, "errors": [r.stderr[-200:]]}
+                if j.get("ok"): out.write_text((Path(td) / (js.name[:-6] + ".ckpart")).read_text()); info["script"] = str(js); info["scriptVolume"] = j["volume"]
+                else: info["scriptError"] = j.get("errors")
         print(json.dumps({"out": str(out), **info})); return
     lib, outdir = Path(a.nop[0]), Path(a.nop[1]); outdir.mkdir(parents=True, exist_ok=True)
     commit = subprocess.run(["git", "-C", str(lib), "rev-parse", "--short", "HEAD"], capture_output=True, text=True).stdout.strip()

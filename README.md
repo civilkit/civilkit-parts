@@ -20,6 +20,19 @@ NopSCADlib part is not converted yet (`nut/M8_sliding_ball_t_nut`). Known gaps: 
 (they are unioned into the body); curved surfaces made by `hull()` of circles are approximated; parts needing extra arguments (screws)
 are not enumerated yet.
 
+## Import a single OpenSCAD file: script + history
+    export CK_KERNEL=<kernel checkout> KIT=<kit checkout>
+    .venv/bin/python openscad_to_ckpart.py part.scad -o part.ckpart --script
+
+Writes `part.ck.js`, a CivilKit script (docs/scripting.md in the kit: `variables`, `sketch`, `combine`, `appearance`, grouped under the
+part's name), runs it through the kernel (`run_script.mjs`) and writes `part.ckpart`, whose feature history comes from that script and
+which keeps it in its `script` field. Open the `.ckpart` in the app and the Script tab shows it; editing and running it rebuilds the part.
+`build_library.py ... --scripts` does the same for the whole library (`library/scripts/<id>.ck.js`).
+Measured on the 76 library parts: 75 scripts rebuild the same part (volume within 1e-5); the 80-tooth pulley's script is longer than the
+app's 40000-character limit, so that part ships with its history only.
+Limits: sketches are numbers (the script API cannot link sketch sizes to variables), and OpenSCAD variables are kept as document
+variables only where they feed a feature parameter (extrude depth, offsets), not where they only size a sketch.
+
 ## Rebuild the library
     export CK_KERNEL=<a kernel checkout with packages/dist built>
     git clone --depth 1 https://github.com/nophead/NopSCADlib.git /scratch/NopSCADlib      # never commit it here

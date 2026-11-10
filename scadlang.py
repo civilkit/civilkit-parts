@@ -96,7 +96,7 @@ def union(nodes):
 
 
 # ------------------------------------------------------------------ lexer
-TOK = re.compile(r"""\s+|//[^\n]*|/\*.*?\*/|(?P<num>(?:\d+\.?\d*|\.\d+)(?:[eE][+-]?\d+)?)|(?P<id>[$A-Za-z_][A-Za-z_0-9]*)|(?P<str>"(?:\\.|[^"\\])*")|(?P<inc><[^<>\n]*\.scad>)|(?P<op><=|>=|==|!=|&&|\|\||[-+*/%^<>=!?:;,.(){}\[\]#])""", re.S)
+TOK = re.compile(r"""\s+|//[^\n]*|/\*.*?\*/|(?P<id>\d+(?![eE][+-]?\d)[A-Za-z_][A-Za-z_0-9]*)|(?P<num>(?:\d+\.?\d*|\.\d+)(?:[eE][+-]?\d+)?)|(?P<id2>[$A-Za-z_][A-Za-z_0-9]*)|(?P<str>"(?:\\.|[^"\\])*")|(?P<inc><[^<>\n]*\.scad>)|(?P<op><=|>=|==|!=|&&|\|\||[-+*/%^<>=!?:;,.(){}\[\]#])""", re.S)
 
 def lex(src):
     out, i = [], 0
@@ -109,6 +109,7 @@ def lex(src):
         if k is None:
             continue
         v = m.group(k)
+        if k == "id2": k = "id"
         if k == "inc" and not (out and out[-1][1] in ("include", "use")):
             # a '<' that is not a path: re-lex as operator
             out.append(("op", "<")); i = m.start() + 1; continue
