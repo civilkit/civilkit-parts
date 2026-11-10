@@ -9,6 +9,9 @@ kit's own tool:  node <kit>/tools/library_thumbs.mjs <library dir>   (fills `thu
 import argparse, hashlib, json, os, shutil, subprocess, sys
 from pathlib import Path
 
+# washers are four numbers (inner, outer, thickness, flat/spring): a wizard serves them better than fixed library parts
+SKIP_CATEGORIES = {"washer"}
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -26,6 +29,7 @@ def main():
         if not ck.is_file() or chk.get("errors") or chk.get("validate") is False: continue   # only parts the kernel accepted
         if abs(chk.get("relErrScad") or 0) >= 0.01: continue                                  # and whose volume matches the OpenSCAD mesh
         cat, const = m["category"], m["name"].split("__", 1)[-1]
+        if cat in SKIP_CATEGORIES: continue
         pid = const if const not in seen else f"{cat}-{const}"
         seen[pid] = 1
         dst = lib / "parts" / cat / f"{pid}.ckpart"; dst.parent.mkdir(parents=True, exist_ok=True)
@@ -73,7 +77,7 @@ def main():
     import taxonomy
     for p in parts: p["category"], p["tags"] = taxonomy.classify(p["id"], Path(p["file"]).parent.name)
     manifest = {"format": "fwlib", "version": 1, "name": a.name,
-                "description": "Electronic and mechanical vitamins (bearings, nuts, washers, pulleys, LEDs) as parametric feature trees, converted from OpenSCAD (NopSCADlib) with colour. Each part keeps its source licence.",
+                "description": "Electronic and mechanical vitamins (bearings, nuts, pulleys, LEDs) as parametric feature trees, converted from OpenSCAD (NopSCADlib) with colour. Each part keeps its source licence.",
                 "homepage": a.homepage, "licence": "GPL-3.0-or-later", "categories": taxonomy.summarise(parts), "parts": parts}
     lib.mkdir(parents=True, exist_ok=True)
     (lib / "library.json").write_text(json.dumps(manifest, indent=1) + "\n")

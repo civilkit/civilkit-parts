@@ -1,6 +1,6 @@
 # civilkit-parts
 
-A library of parametric parts for CivilKit, plus the converters that make it. 204 NopSCADlib vitamins (bearings, nuts, washers, pulleys, LEDs, connectors, modules and more) are converted from OpenSCAD ([NopSCADlib](https://github.com/nophead/NopSCADlib)) into native `.ckpart` feature trees with colour.
+A library of parametric parts for CivilKit, plus the converters that make it. 189 NopSCADlib vitamins (bearings, nuts, pulleys, LEDs, connectors, modules and more) are converted from OpenSCAD ([NopSCADlib](https://github.com/nophead/NopSCADlib)) into native `.ckpart` feature trees with colour.
 The converters are Apache-2.0; the parts keep their source licence (GPL-3.0-or-later for NopSCADlib), see `NOTICE.md`.
 The parts are never bundled in the CivilKit app.
 
