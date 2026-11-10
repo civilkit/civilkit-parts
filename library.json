@@ -9,10 +9,12 @@
   {
    "id": "BB608",
    "title": "BB608",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BB608",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical",
+    "608"
    ],
    "file": "parts/ball_bearing/BB608.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -24,10 +26,12 @@
   {
    "id": "BB6200",
    "title": "BB6200",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BB6200",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical",
+    "6200"
    ],
    "file": "parts/ball_bearing/BB6200.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -39,10 +43,12 @@
   {
    "id": "BB6201",
    "title": "BB6201",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BB6201",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical",
+    "6201"
    ],
    "file": "parts/ball_bearing/BB6201.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -54,10 +60,12 @@
   {
    "id": "BB624",
    "title": "BB624",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BB624",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical",
+    "624"
    ],
    "file": "parts/ball_bearing/BB624.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -69,10 +77,12 @@
   {
    "id": "BB6808",
    "title": "BB6808",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BB6808",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical",
+    "6808"
    ],
    "file": "parts/ball_bearing/BB6808.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -84,10 +94,12 @@
   {
    "id": "BB686",
    "title": "BB686",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BB686",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical",
+    "686"
    ],
    "file": "parts/ball_bearing/BB686.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -99,10 +111,12 @@
   {
    "id": "BB696",
    "title": "BB696",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BB696",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical",
+    "696"
    ],
    "file": "parts/ball_bearing/BB696.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -114,10 +128,11 @@
   {
    "id": "BBF623",
    "title": "BBF623",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BBF623",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical"
    ],
    "file": "parts/ball_bearing/BBF623.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -129,10 +144,11 @@
   {
    "id": "BBF625",
    "title": "BBF625",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BBF625",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical"
    ],
    "file": "parts/ball_bearing/BBF625.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -144,10 +160,11 @@
   {
    "id": "BBF693",
    "title": "BBF693",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BBF693",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical"
    ],
    "file": "parts/ball_bearing/BBF693.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -159,10 +176,11 @@
   {
    "id": "BBF695",
    "title": "BBF695",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BBF695",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical"
    ],
    "file": "parts/ball_bearing/BBF695.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -174,10 +192,11 @@
   {
    "id": "BBMR63",
    "title": "BBMR63",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BBMR63",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical"
    ],
    "file": "parts/ball_bearing/BBMR63.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -189,10 +208,11 @@
   {
    "id": "BBMR83",
    "title": "BBMR83",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BBMR83",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical"
    ],
    "file": "parts/ball_bearing/BBMR83.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -204,10 +224,11 @@
   {
    "id": "BBMR85",
    "title": "BBMR85",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BBMR85",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical"
    ],
    "file": "parts/ball_bearing/BBMR85.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -219,10 +240,11 @@
   {
    "id": "BBMR93",
    "title": "BBMR93",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BBMR93",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical"
    ],
    "file": "parts/ball_bearing/BBMR93.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -234,10 +256,11 @@
   {
    "id": "BBMR95",
    "title": "BBMR95",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BBMR95",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical"
    ],
    "file": "parts/ball_bearing/BBMR95.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -249,10 +272,11 @@
   {
    "id": "BBSMR95",
    "title": "BBSMR95",
-   "category": "ball bearing",
+   "category": "bearings",
    "tags": [
-    "BBSMR95",
-    "ball bearing"
+    "ball bearing",
+    "bearing",
+    "mechanical"
    ],
    "file": "parts/ball_bearing/BBSMR95.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
@@ -264,12 +288,15 @@
   {
    "id": "HT_110_cap",
    "title": "HT 110 cap",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "110",
-    "HT",
-    "cap",
-    "ht pipe"
+    "pipe",
+    "ht pipe",
+    "drain",
+    "plumbing",
+    "mechanical",
+    "110mm",
+    "cap"
    ],
    "file": "parts/ht_pipe/HT_110_cap.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -281,13 +308,14 @@
   {
    "id": "HT_110_pipe_1000",
    "title": "HT 110 pipe 1000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1000",
-    "110",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "110mm"
    ],
    "file": "parts/ht_pipe/HT_110_pipe_1000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -299,13 +327,14 @@
   {
    "id": "HT_110_pipe_150",
    "title": "HT 110 pipe 150",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "110",
-    "150",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "110mm"
    ],
    "file": "parts/ht_pipe/HT_110_pipe_150.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -317,13 +346,14 @@
   {
    "id": "HT_110_pipe_1500",
    "title": "HT 110 pipe 1500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "110",
-    "1500",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "110mm"
    ],
    "file": "parts/ht_pipe/HT_110_pipe_1500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -335,13 +365,14 @@
   {
    "id": "HT_110_pipe_2000",
    "title": "HT 110 pipe 2000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "110",
-    "2000",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "110mm"
    ],
    "file": "parts/ht_pipe/HT_110_pipe_2000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -353,13 +384,14 @@
   {
    "id": "HT_110_pipe_250",
    "title": "HT 110 pipe 250",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "110",
-    "250",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "110mm"
    ],
    "file": "parts/ht_pipe/HT_110_pipe_250.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -371,13 +403,14 @@
   {
    "id": "HT_110_pipe_500",
    "title": "HT 110 pipe 500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "110",
-    "500",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "110mm"
    ],
    "file": "parts/ht_pipe/HT_110_pipe_500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -389,12 +422,15 @@
   {
    "id": "HT_125_cap",
    "title": "HT 125 cap",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "125",
-    "HT",
-    "cap",
-    "ht pipe"
+    "pipe",
+    "ht pipe",
+    "drain",
+    "plumbing",
+    "mechanical",
+    "125mm",
+    "cap"
    ],
    "file": "parts/ht_pipe/HT_125_cap.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -406,13 +442,14 @@
   {
    "id": "HT_125_pipe_1000",
    "title": "HT 125 pipe 1000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1000",
-    "125",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "125mm"
    ],
    "file": "parts/ht_pipe/HT_125_pipe_1000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -424,13 +461,14 @@
   {
    "id": "HT_125_pipe_150",
    "title": "HT 125 pipe 150",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "125",
-    "150",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "125mm"
    ],
    "file": "parts/ht_pipe/HT_125_pipe_150.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -442,13 +480,14 @@
   {
    "id": "HT_125_pipe_1500",
    "title": "HT 125 pipe 1500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "125",
-    "1500",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "125mm"
    ],
    "file": "parts/ht_pipe/HT_125_pipe_1500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -460,13 +499,14 @@
   {
    "id": "HT_125_pipe_2000",
    "title": "HT 125 pipe 2000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "125",
-    "2000",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "125mm"
    ],
    "file": "parts/ht_pipe/HT_125_pipe_2000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -478,13 +518,14 @@
   {
    "id": "HT_125_pipe_250",
    "title": "HT 125 pipe 250",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "125",
-    "250",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "125mm"
    ],
    "file": "parts/ht_pipe/HT_125_pipe_250.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -496,13 +537,14 @@
   {
    "id": "HT_125_pipe_500",
    "title": "HT 125 pipe 500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "125",
-    "500",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "125mm"
    ],
    "file": "parts/ht_pipe/HT_125_pipe_500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -514,12 +556,15 @@
   {
    "id": "HT_160_cap",
    "title": "HT 160 cap",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "160",
-    "HT",
-    "cap",
-    "ht pipe"
+    "pipe",
+    "ht pipe",
+    "drain",
+    "plumbing",
+    "mechanical",
+    "160mm",
+    "cap"
    ],
    "file": "parts/ht_pipe/HT_160_cap.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -531,13 +576,14 @@
   {
    "id": "HT_160_pipe_1000",
    "title": "HT 160 pipe 1000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1000",
-    "160",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "160mm"
    ],
    "file": "parts/ht_pipe/HT_160_pipe_1000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -549,13 +595,14 @@
   {
    "id": "HT_160_pipe_150",
    "title": "HT 160 pipe 150",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "150",
-    "160",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "160mm"
    ],
    "file": "parts/ht_pipe/HT_160_pipe_150.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -567,13 +614,14 @@
   {
    "id": "HT_160_pipe_1500",
    "title": "HT 160 pipe 1500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1500",
-    "160",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "160mm"
    ],
    "file": "parts/ht_pipe/HT_160_pipe_1500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -585,13 +633,14 @@
   {
    "id": "HT_160_pipe_2000",
    "title": "HT 160 pipe 2000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "160",
-    "2000",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "160mm"
    ],
    "file": "parts/ht_pipe/HT_160_pipe_2000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -603,13 +652,14 @@
   {
    "id": "HT_160_pipe_250",
    "title": "HT 160 pipe 250",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "160",
-    "250",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "160mm"
    ],
    "file": "parts/ht_pipe/HT_160_pipe_250.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -621,13 +671,14 @@
   {
    "id": "HT_160_pipe_500",
    "title": "HT 160 pipe 500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "160",
-    "500",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "160mm"
    ],
    "file": "parts/ht_pipe/HT_160_pipe_500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -639,12 +690,15 @@
   {
    "id": "HT_32_cap",
    "title": "HT 32 cap",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "32",
-    "HT",
-    "cap",
-    "ht pipe"
+    "pipe",
+    "ht pipe",
+    "drain",
+    "plumbing",
+    "mechanical",
+    "32mm",
+    "cap"
    ],
    "file": "parts/ht_pipe/HT_32_cap.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -656,13 +710,14 @@
   {
    "id": "HT_32_pipe_1000",
    "title": "HT 32 pipe 1000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1000",
-    "32",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "32mm"
    ],
    "file": "parts/ht_pipe/HT_32_pipe_1000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -674,13 +729,14 @@
   {
    "id": "HT_32_pipe_150",
    "title": "HT 32 pipe 150",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "150",
-    "32",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "32mm"
    ],
    "file": "parts/ht_pipe/HT_32_pipe_150.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -692,13 +748,14 @@
   {
    "id": "HT_32_pipe_1500",
    "title": "HT 32 pipe 1500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1500",
-    "32",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "32mm"
    ],
    "file": "parts/ht_pipe/HT_32_pipe_1500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -710,13 +767,14 @@
   {
    "id": "HT_32_pipe_2000",
    "title": "HT 32 pipe 2000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "2000",
-    "32",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "32mm"
    ],
    "file": "parts/ht_pipe/HT_32_pipe_2000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -728,13 +786,14 @@
   {
    "id": "HT_32_pipe_250",
    "title": "HT 32 pipe 250",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "250",
-    "32",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "32mm"
    ],
    "file": "parts/ht_pipe/HT_32_pipe_250.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -746,13 +805,14 @@
   {
    "id": "HT_32_pipe_500",
    "title": "HT 32 pipe 500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "32",
-    "500",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "32mm"
    ],
    "file": "parts/ht_pipe/HT_32_pipe_500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -764,12 +824,15 @@
   {
    "id": "HT_40_cap",
    "title": "HT 40 cap",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "40",
-    "HT",
-    "cap",
-    "ht pipe"
+    "pipe",
+    "ht pipe",
+    "drain",
+    "plumbing",
+    "mechanical",
+    "40mm",
+    "cap"
    ],
    "file": "parts/ht_pipe/HT_40_cap.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -781,13 +844,14 @@
   {
    "id": "HT_40_pipe_1000",
    "title": "HT 40 pipe 1000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1000",
-    "40",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "40mm"
    ],
    "file": "parts/ht_pipe/HT_40_pipe_1000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -799,13 +863,14 @@
   {
    "id": "HT_40_pipe_150",
    "title": "HT 40 pipe 150",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "150",
-    "40",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "40mm"
    ],
    "file": "parts/ht_pipe/HT_40_pipe_150.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -817,13 +882,14 @@
   {
    "id": "HT_40_pipe_1500",
    "title": "HT 40 pipe 1500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1500",
-    "40",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "40mm"
    ],
    "file": "parts/ht_pipe/HT_40_pipe_1500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -835,13 +901,14 @@
   {
    "id": "HT_40_pipe_2000",
    "title": "HT 40 pipe 2000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "2000",
-    "40",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "40mm"
    ],
    "file": "parts/ht_pipe/HT_40_pipe_2000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -853,13 +920,14 @@
   {
    "id": "HT_40_pipe_250",
    "title": "HT 40 pipe 250",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "250",
-    "40",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "40mm"
    ],
    "file": "parts/ht_pipe/HT_40_pipe_250.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -871,13 +939,14 @@
   {
    "id": "HT_40_pipe_500",
    "title": "HT 40 pipe 500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "40",
-    "500",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "40mm"
    ],
    "file": "parts/ht_pipe/HT_40_pipe_500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -889,13 +958,14 @@
   {
    "id": "HT_50_40_tpipe",
    "title": "HT 50 40 tpipe",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "40",
-    "50",
-    "HT",
+    "pipe",
     "ht pipe",
-    "tpipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "50mm"
    ],
    "file": "parts/ht_pipe/HT_50_40_tpipe.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -907,12 +977,15 @@
   {
    "id": "HT_50_cap",
    "title": "HT 50 cap",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "50",
-    "HT",
-    "cap",
-    "ht pipe"
+    "pipe",
+    "ht pipe",
+    "drain",
+    "plumbing",
+    "mechanical",
+    "50mm",
+    "cap"
    ],
    "file": "parts/ht_pipe/HT_50_cap.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -924,13 +997,14 @@
   {
    "id": "HT_50_pipe_1000",
    "title": "HT 50 pipe 1000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1000",
-    "50",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "50mm"
    ],
    "file": "parts/ht_pipe/HT_50_pipe_1000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -942,13 +1016,14 @@
   {
    "id": "HT_50_pipe_150",
    "title": "HT 50 pipe 150",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "150",
-    "50",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "50mm"
    ],
    "file": "parts/ht_pipe/HT_50_pipe_150.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -960,13 +1035,14 @@
   {
    "id": "HT_50_pipe_1500",
    "title": "HT 50 pipe 1500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1500",
-    "50",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "50mm"
    ],
    "file": "parts/ht_pipe/HT_50_pipe_1500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -978,13 +1054,14 @@
   {
    "id": "HT_50_pipe_2000",
    "title": "HT 50 pipe 2000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "2000",
-    "50",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "50mm"
    ],
    "file": "parts/ht_pipe/HT_50_pipe_2000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -996,13 +1073,14 @@
   {
    "id": "HT_50_pipe_250",
    "title": "HT 50 pipe 250",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "250",
-    "50",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "50mm"
    ],
    "file": "parts/ht_pipe/HT_50_pipe_250.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1014,13 +1092,14 @@
   {
    "id": "HT_50_pipe_500",
    "title": "HT 50 pipe 500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "50",
-    "500",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "50mm"
    ],
    "file": "parts/ht_pipe/HT_50_pipe_500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1032,12 +1111,14 @@
   {
    "id": "HT_50_tpipe",
    "title": "HT 50 tpipe",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "50",
-    "HT",
+    "pipe",
     "ht pipe",
-    "tpipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "50mm"
    ],
    "file": "parts/ht_pipe/HT_50_tpipe.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1049,12 +1130,15 @@
   {
    "id": "HT_75_cap",
    "title": "HT 75 cap",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "75",
-    "HT",
-    "cap",
-    "ht pipe"
+    "pipe",
+    "ht pipe",
+    "drain",
+    "plumbing",
+    "mechanical",
+    "75mm",
+    "cap"
    ],
    "file": "parts/ht_pipe/HT_75_cap.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1066,13 +1150,14 @@
   {
    "id": "HT_75_pipe_1000",
    "title": "HT 75 pipe 1000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1000",
-    "75",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "75mm"
    ],
    "file": "parts/ht_pipe/HT_75_pipe_1000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1084,13 +1169,14 @@
   {
    "id": "HT_75_pipe_150",
    "title": "HT 75 pipe 150",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "150",
-    "75",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "75mm"
    ],
    "file": "parts/ht_pipe/HT_75_pipe_150.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1102,13 +1188,14 @@
   {
    "id": "HT_75_pipe_1500",
    "title": "HT 75 pipe 1500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1500",
-    "75",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "75mm"
    ],
    "file": "parts/ht_pipe/HT_75_pipe_1500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1120,13 +1207,14 @@
   {
    "id": "HT_75_pipe_2000",
    "title": "HT 75 pipe 2000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "2000",
-    "75",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "75mm"
    ],
    "file": "parts/ht_pipe/HT_75_pipe_2000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1138,13 +1226,14 @@
   {
    "id": "HT_75_pipe_250",
    "title": "HT 75 pipe 250",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "250",
-    "75",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "75mm"
    ],
    "file": "parts/ht_pipe/HT_75_pipe_250.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1156,13 +1245,14 @@
   {
    "id": "HT_75_pipe_500",
    "title": "HT 75 pipe 500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "500",
-    "75",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "75mm"
    ],
    "file": "parts/ht_pipe/HT_75_pipe_500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1174,12 +1264,15 @@
   {
    "id": "HT_90_cap",
    "title": "HT 90 cap",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "90",
-    "HT",
-    "cap",
-    "ht pipe"
+    "pipe",
+    "ht pipe",
+    "drain",
+    "plumbing",
+    "mechanical",
+    "90mm",
+    "cap"
    ],
    "file": "parts/ht_pipe/HT_90_cap.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1191,13 +1284,14 @@
   {
    "id": "HT_90_pipe_1000",
    "title": "HT 90 pipe 1000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1000",
-    "90",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "90mm"
    ],
    "file": "parts/ht_pipe/HT_90_pipe_1000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1209,13 +1303,14 @@
   {
    "id": "HT_90_pipe_150",
    "title": "HT 90 pipe 150",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "150",
-    "90",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "90mm"
    ],
    "file": "parts/ht_pipe/HT_90_pipe_150.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1227,13 +1322,14 @@
   {
    "id": "HT_90_pipe_1500",
    "title": "HT 90 pipe 1500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "1500",
-    "90",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "90mm"
    ],
    "file": "parts/ht_pipe/HT_90_pipe_1500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1245,13 +1341,14 @@
   {
    "id": "HT_90_pipe_2000",
    "title": "HT 90 pipe 2000",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "2000",
-    "90",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "90mm"
    ],
    "file": "parts/ht_pipe/HT_90_pipe_2000.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1263,13 +1360,14 @@
   {
    "id": "HT_90_pipe_250",
    "title": "HT 90 pipe 250",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "250",
-    "90",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "90mm"
    ],
    "file": "parts/ht_pipe/HT_90_pipe_250.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1281,13 +1379,14 @@
   {
    "id": "HT_90_pipe_500",
    "title": "HT 90 pipe 500",
-   "category": "ht pipe",
+   "category": "tubing & pipe",
    "tags": [
-    "500",
-    "90",
-    "HT",
+    "pipe",
     "ht pipe",
-    "pipe"
+    "drain",
+    "plumbing",
+    "mechanical",
+    "90mm"
    ],
    "file": "parts/ht_pipe/HT_90_pipe_500.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
@@ -1299,10 +1398,11 @@
   {
    "id": "CNCKM2p5",
    "title": "CNCKM2p5",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "CNCKM2p5",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical"
    ],
    "file": "parts/insert/CNCKM2p5.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1314,10 +1414,11 @@
   {
    "id": "CNCKM3",
    "title": "CNCKM3",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "CNCKM3",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical"
    ],
    "file": "parts/insert/CNCKM3.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1329,10 +1430,11 @@
   {
    "id": "CNCKM4",
    "title": "CNCKM4",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "CNCKM4",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical"
    ],
    "file": "parts/insert/CNCKM4.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1344,10 +1446,11 @@
   {
    "id": "CNCKM5",
    "title": "CNCKM5",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "CNCKM5",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical"
    ],
    "file": "parts/insert/CNCKM5.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1359,10 +1462,11 @@
   {
    "id": "F1BM2",
    "title": "F1BM2",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "F1BM2",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical"
    ],
    "file": "parts/insert/F1BM2.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1374,10 +1478,11 @@
   {
    "id": "F1BM2p5",
    "title": "F1BM2p5",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "F1BM2p5",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical"
    ],
    "file": "parts/insert/F1BM2p5.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1389,10 +1494,11 @@
   {
    "id": "F1BM3",
    "title": "F1BM3",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "F1BM3",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical"
    ],
    "file": "parts/insert/F1BM3.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1404,10 +1510,11 @@
   {
    "id": "F1BM4",
    "title": "F1BM4",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "F1BM4",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical"
    ],
    "file": "parts/insert/F1BM4.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1419,10 +1526,13 @@
   {
    "id": "M10x25",
    "title": "M10x25",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "M10x25",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical",
+    "m10",
+    "length 25mm"
    ],
    "file": "parts/insert/M10x25.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1434,10 +1544,13 @@
   {
    "id": "M12x30",
    "title": "M12x30",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "M12x30",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical",
+    "m12",
+    "length 30mm"
    ],
    "file": "parts/insert/M12x30.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1449,10 +1562,13 @@
   {
    "id": "M16x30",
    "title": "M16x30",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "M16x30",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical",
+    "m16",
+    "length 30mm"
    ],
    "file": "parts/insert/M16x30.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1464,10 +1580,13 @@
   {
    "id": "M3x8",
    "title": "M3x8",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "M3x8",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical",
+    "m3",
+    "length 8mm"
    ],
    "file": "parts/insert/M3x8.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1479,10 +1598,13 @@
   {
    "id": "M4x10",
    "title": "M4x10",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "M4x10",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical",
+    "m4",
+    "length 10mm"
    ],
    "file": "parts/insert/M4x10.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1494,10 +1616,13 @@
   {
    "id": "M5x12",
    "title": "M5x12",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "M5x12",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical",
+    "m5",
+    "length 12mm"
    ],
    "file": "parts/insert/M5x12.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1509,10 +1634,13 @@
   {
    "id": "M6x15",
    "title": "M6x15",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "M6x15",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical",
+    "m6",
+    "length 15mm"
    ],
    "file": "parts/insert/M6x15.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1524,10 +1652,13 @@
   {
    "id": "M8x18",
    "title": "M8x18",
-   "category": "insert",
+   "category": "fasteners",
    "tags": [
-    "M8x18",
-    "insert"
+    "threaded insert",
+    "insert",
+    "mechanical",
+    "m8",
+    "length 18mm"
    ],
    "file": "parts/insert/M8x18.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
@@ -1539,10 +1670,12 @@
   {
    "id": "LSN8x2",
    "title": "LSN8x2",
-   "category": "leadnut",
+   "category": "motion",
    "tags": [
-    "LSN8x2",
-    "leadnut"
+    "leadscrew",
+    "nut",
+    "mechanical",
+    "8x2"
    ],
    "file": "parts/leadnut/LSN8x2.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/leadnut.scad",
@@ -1554,10 +1687,12 @@
   {
    "id": "LSN8x8",
    "title": "LSN8x8",
-   "category": "leadnut",
+   "category": "motion",
    "tags": [
-    "LSN8x8",
-    "leadnut"
+    "leadscrew",
+    "nut",
+    "mechanical",
+    "8x8"
    ],
    "file": "parts/leadnut/LSN8x8.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/leadnut.scad",
@@ -1569,10 +1704,11 @@
   {
    "id": "SFU1610",
    "title": "SFU1610",
-   "category": "leadnut",
+   "category": "motion",
    "tags": [
-    "SFU1610",
-    "leadnut"
+    "leadscrew",
+    "nut",
+    "mechanical"
    ],
    "file": "parts/leadnut/SFU1610.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/leadnut.scad",
@@ -1584,10 +1720,13 @@
   {
    "id": "LED10mm",
    "title": "LED10mm",
-   "category": "led",
+   "category": "electronics",
    "tags": [
-    "LED10mm",
-    "led"
+    "led",
+    "indicator",
+    "light",
+    "electronics",
+    "10mm"
    ],
    "file": "parts/led/LED10mm.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
@@ -1599,10 +1738,13 @@
   {
    "id": "LED3mm",
    "title": "LED3mm",
-   "category": "led",
+   "category": "electronics",
    "tags": [
-    "LED3mm",
-    "led"
+    "led",
+    "indicator",
+    "light",
+    "electronics",
+    "3mm"
    ],
    "file": "parts/led/LED3mm.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
@@ -1614,10 +1756,13 @@
   {
    "id": "LED5mm",
    "title": "LED5mm",
-   "category": "led",
+   "category": "electronics",
    "tags": [
-    "LED5mm",
-    "led"
+    "led",
+    "indicator",
+    "light",
+    "electronics",
+    "5mm"
    ],
    "file": "parts/led/LED5mm.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
@@ -1629,10 +1774,14 @@
   {
    "id": "LED5x2mm",
    "title": "LED5x2mm",
-   "category": "led",
+   "category": "electronics",
    "tags": [
-    "LED5x2mm",
-    "led"
+    "led",
+    "indicator",
+    "light",
+    "electronics",
+    "5x2",
+    "5mm"
    ],
    "file": "parts/led/LED5x2mm.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
@@ -1644,10 +1793,13 @@
   {
    "id": "LED8mm",
    "title": "LED8mm",
-   "category": "led",
+   "category": "electronics",
    "tags": [
-    "LED8mm",
-    "led"
+    "led",
+    "indicator",
+    "light",
+    "electronics",
+    "8mm"
    ],
    "file": "parts/led/LED8mm.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
@@ -1659,10 +1811,13 @@
   {
    "id": "LM10LUU",
    "title": "LM10LUU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM10LUU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm10"
    ],
    "file": "parts/linear_bearing/LM10LUU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1674,10 +1829,13 @@
   {
    "id": "LM10UU",
    "title": "LM10UU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM10UU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm10"
    ],
    "file": "parts/linear_bearing/LM10UU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1689,10 +1847,13 @@
   {
    "id": "LM12LUU",
    "title": "LM12LUU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM12LUU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm12"
    ],
    "file": "parts/linear_bearing/LM12LUU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1704,10 +1865,13 @@
   {
    "id": "LM12UU",
    "title": "LM12UU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM12UU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm12"
    ],
    "file": "parts/linear_bearing/LM12UU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1719,10 +1883,13 @@
   {
    "id": "LM16LUU",
    "title": "LM16LUU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM16LUU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm16"
    ],
    "file": "parts/linear_bearing/LM16LUU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1734,10 +1901,13 @@
   {
    "id": "LM16UU",
    "title": "LM16UU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM16UU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm16"
    ],
    "file": "parts/linear_bearing/LM16UU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1749,10 +1919,13 @@
   {
    "id": "LM16UUOP",
    "title": "LM16UUOP",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM16UUOP",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm16"
    ],
    "file": "parts/linear_bearing/LM16UUOP.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1764,10 +1937,13 @@
   {
    "id": "LM3LUU",
    "title": "LM3LUU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM3LUU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm3"
    ],
    "file": "parts/linear_bearing/LM3LUU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1779,10 +1955,13 @@
   {
    "id": "LM3UU",
    "title": "LM3UU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM3UU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm3"
    ],
    "file": "parts/linear_bearing/LM3UU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1794,10 +1973,13 @@
   {
    "id": "LM4LUU",
    "title": "LM4LUU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM4LUU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm4"
    ],
    "file": "parts/linear_bearing/LM4LUU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1809,10 +1991,13 @@
   {
    "id": "LM4UU",
    "title": "LM4UU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM4UU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm4"
    ],
    "file": "parts/linear_bearing/LM4UU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1824,10 +2009,13 @@
   {
    "id": "LM5LUU",
    "title": "LM5LUU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM5LUU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm5"
    ],
    "file": "parts/linear_bearing/LM5LUU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1839,10 +2027,13 @@
   {
    "id": "LM5UU",
    "title": "LM5UU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM5UU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm5"
    ],
    "file": "parts/linear_bearing/LM5UU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1854,10 +2045,13 @@
   {
    "id": "LM6LUU",
    "title": "LM6LUU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM6LUU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm6"
    ],
    "file": "parts/linear_bearing/LM6LUU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1869,10 +2063,13 @@
   {
    "id": "LM6UU",
    "title": "LM6UU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM6UU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm6"
    ],
    "file": "parts/linear_bearing/LM6UU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1884,10 +2081,13 @@
   {
    "id": "LM8LUU",
    "title": "LM8LUU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM8LUU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm8"
    ],
    "file": "parts/linear_bearing/LM8LUU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1899,10 +2099,13 @@
   {
    "id": "LM8UU",
    "title": "LM8UU",
-   "category": "linear bearing",
+   "category": "bearings",
    "tags": [
-    "LM8UU",
-    "linear bearing"
+    "linear bearing",
+    "bearing",
+    "bushing",
+    "mechanical",
+    "lm8"
    ],
    "file": "parts/linear_bearing/LM8UU.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
@@ -1914,10 +2117,11 @@
   {
    "id": "M2_nut",
    "title": "M2 nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M2",
-    "nut"
+    "nut",
+    "mechanical",
+    "m2"
    ],
    "file": "parts/nut/M2_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -1929,10 +2133,11 @@
   {
    "id": "M2p5_nut",
    "title": "M2p5 nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M2p5",
-    "nut"
+    "nut",
+    "mechanical",
+    "m2.5"
    ],
    "file": "parts/nut/M2p5_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -1944,11 +2149,12 @@
   {
    "id": "M3_hammer_nut",
    "title": "M3 hammer nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M3",
-    "hammer",
-    "nut"
+    "nut",
+    "mechanical",
+    "m3",
+    "hammer"
    ],
    "file": "parts/nut/M3_hammer_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -1960,10 +2166,11 @@
   {
    "id": "M3_nut",
    "title": "M3 nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M3",
-    "nut"
+    "nut",
+    "mechanical",
+    "m3"
    ],
    "file": "parts/nut/M3_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -1975,10 +2182,11 @@
   {
    "id": "M3_sliding_t_nut",
    "title": "M3 sliding t nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M3",
     "nut",
+    "mechanical",
+    "m3",
     "sliding"
    ],
    "file": "parts/nut/M3_sliding_t_nut.ckpart",
@@ -1991,10 +2199,11 @@
   {
    "id": "M3nS_thin_nut",
    "title": "M3nS thin nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M3nS",
     "nut",
+    "mechanical",
+    "m3",
     "thin"
    ],
    "file": "parts/nut/M3nS_thin_nut.ckpart",
@@ -2007,11 +2216,12 @@
   {
    "id": "M4_hammer_nut",
    "title": "M4 hammer nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M4",
-    "hammer",
-    "nut"
+    "nut",
+    "mechanical",
+    "m4",
+    "hammer"
    ],
    "file": "parts/nut/M4_hammer_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -2023,10 +2233,11 @@
   {
    "id": "M4_nut",
    "title": "M4 nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M4",
-    "nut"
+    "nut",
+    "mechanical",
+    "m4"
    ],
    "file": "parts/nut/M4_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -2038,10 +2249,11 @@
   {
    "id": "M4_sliding_t_nut",
    "title": "M4 sliding t nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M4",
     "nut",
+    "mechanical",
+    "m4",
     "sliding"
    ],
    "file": "parts/nut/M4_sliding_t_nut.ckpart",
@@ -2054,11 +2266,11 @@
   {
    "id": "M4_weld_nut",
    "title": "M4 weld nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M4",
     "nut",
-    "weld"
+    "mechanical",
+    "m4"
    ],
    "file": "parts/nut/M4_weld_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -2070,11 +2282,12 @@
   {
    "id": "M4_wingnut",
    "title": "M4 wingnut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M4",
     "nut",
-    "wingnut"
+    "mechanical",
+    "m4",
+    "wing"
    ],
    "file": "parts/nut/M4_wingnut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -2086,10 +2299,11 @@
   {
    "id": "M4nS_thin_nut",
    "title": "M4nS thin nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M4nS",
     "nut",
+    "mechanical",
+    "m4",
     "thin"
    ],
    "file": "parts/nut/M4nS_thin_nut.ckpart",
@@ -2102,10 +2316,11 @@
   {
    "id": "M5_nut",
    "title": "M5 nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M5",
-    "nut"
+    "nut",
+    "mechanical",
+    "m5"
    ],
    "file": "parts/nut/M5_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -2117,10 +2332,11 @@
   {
    "id": "M5_sliding_t_nut",
    "title": "M5 sliding t nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M5",
     "nut",
+    "mechanical",
+    "m5",
     "sliding"
    ],
    "file": "parts/nut/M5_sliding_t_nut.ckpart",
@@ -2133,10 +2349,11 @@
   {
    "id": "M5nS_thin_nut",
    "title": "M5nS thin nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M5nS",
     "nut",
+    "mechanical",
+    "m5",
     "thin"
    ],
    "file": "parts/nut/M5nS_thin_nut.ckpart",
@@ -2149,11 +2366,11 @@
   {
    "id": "M6_half_nut",
    "title": "M6 half nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M6",
-    "half",
-    "nut"
+    "nut",
+    "mechanical",
+    "m6"
    ],
    "file": "parts/nut/M6_half_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -2165,10 +2382,11 @@
   {
    "id": "M6_nut",
    "title": "M6 nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M6",
-    "nut"
+    "nut",
+    "mechanical",
+    "m6"
    ],
    "file": "parts/nut/M6_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -2180,10 +2398,11 @@
   {
    "id": "M6_sliding_t_nut",
    "title": "M6 sliding t nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M6",
     "nut",
+    "mechanical",
+    "m6",
     "sliding"
    ],
    "file": "parts/nut/M6_sliding_t_nut.ckpart",
@@ -2196,11 +2415,11 @@
   {
    "id": "M6_weld_nut",
    "title": "M6 weld nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M6",
     "nut",
-    "weld"
+    "mechanical",
+    "m6"
    ],
    "file": "parts/nut/M6_weld_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -2212,10 +2431,11 @@
   {
    "id": "M6nS_thin_nut",
    "title": "M6nS thin nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M6nS",
     "nut",
+    "mechanical",
+    "m6",
     "thin"
    ],
    "file": "parts/nut/M6nS_thin_nut.ckpart",
@@ -2228,10 +2448,11 @@
   {
    "id": "M8_nut",
    "title": "M8 nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M8",
-    "nut"
+    "nut",
+    "mechanical",
+    "m8"
    ],
    "file": "parts/nut/M8_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -2243,10 +2464,11 @@
   {
    "id": "M8nS_thin_nut",
    "title": "M8nS thin nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
-    "M8nS",
     "nut",
+    "mechanical",
+    "m8",
     "thin"
    ],
    "file": "parts/nut/M8nS_thin_nut.ckpart",
@@ -2259,10 +2481,10 @@
   {
    "id": "toggle_nut",
    "title": "toggle nut",
-   "category": "nut",
+   "category": "fasteners",
    "tags": [
     "nut",
-    "toggle"
+    "mechanical"
    ],
    "file": "parts/nut/toggle_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
@@ -2274,11 +2496,15 @@
   {
    "id": "M2x16_brass_pillar",
    "title": "M2x16 brass pillar",
-   "category": "pillar",
+   "category": "fasteners",
    "tags": [
-    "M2x16",
-    "brass",
-    "pillar"
+    "standoff",
+    "pillar",
+    "spacer",
+    "mechanical",
+    "m2",
+    "length 16mm",
+    "brass"
    ],
    "file": "parts/pillar/M2x16_brass_pillar.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
@@ -2290,12 +2516,16 @@
   {
    "id": "M3x10_nylon_hex_pillar",
    "title": "M3x10 nylon hex pillar",
-   "category": "pillar",
+   "category": "fasteners",
    "tags": [
-    "M3x10",
-    "hex",
+    "standoff",
+    "pillar",
+    "spacer",
+    "mechanical",
+    "m3",
+    "length 10mm",
     "nylon",
-    "pillar"
+    "hex"
    ],
    "file": "parts/pillar/M3x10_nylon_hex_pillar.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
@@ -2307,11 +2537,15 @@
   {
    "id": "M3x13_hex_pillar",
    "title": "M3x13 hex pillar",
-   "category": "pillar",
+   "category": "fasteners",
    "tags": [
-    "M3x13",
-    "hex",
-    "pillar"
+    "standoff",
+    "pillar",
+    "spacer",
+    "mechanical",
+    "m3",
+    "length 13mm",
+    "hex"
    ],
    "file": "parts/pillar/M3x13_hex_pillar.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
@@ -2323,11 +2557,15 @@
   {
    "id": "M3x20_hex_pillar",
    "title": "M3x20 hex pillar",
-   "category": "pillar",
+   "category": "fasteners",
    "tags": [
-    "M3x20",
-    "hex",
-    "pillar"
+    "standoff",
+    "pillar",
+    "spacer",
+    "mechanical",
+    "m3",
+    "length 20mm",
+    "hex"
    ],
    "file": "parts/pillar/M3x20_hex_pillar.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
@@ -2339,12 +2577,16 @@
   {
    "id": "M3x20_nylon_hex_pillar",
    "title": "M3x20 nylon hex pillar",
-   "category": "pillar",
+   "category": "fasteners",
    "tags": [
-    "M3x20",
-    "hex",
+    "standoff",
+    "pillar",
+    "spacer",
+    "mechanical",
+    "m3",
+    "length 20mm",
     "nylon",
-    "pillar"
+    "hex"
    ],
    "file": "parts/pillar/M3x20_nylon_hex_pillar.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
@@ -2356,11 +2598,15 @@
   {
    "id": "M3x20_nylon_pillar",
    "title": "M3x20 nylon pillar",
-   "category": "pillar",
+   "category": "fasteners",
    "tags": [
-    "M3x20",
-    "nylon",
-    "pillar"
+    "standoff",
+    "pillar",
+    "spacer",
+    "mechanical",
+    "m3",
+    "length 20mm",
+    "nylon"
    ],
    "file": "parts/pillar/M3x20_nylon_pillar.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
@@ -2372,11 +2618,15 @@
   {
    "id": "M3x6_hex_pillar",
    "title": "M3x6 hex pillar",
-   "category": "pillar",
+   "category": "fasteners",
    "tags": [
-    "M3x6",
-    "hex",
-    "pillar"
+    "standoff",
+    "pillar",
+    "spacer",
+    "mechanical",
+    "m3",
+    "length 6mm",
+    "hex"
    ],
    "file": "parts/pillar/M3x6_hex_pillar.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
@@ -2388,11 +2638,15 @@
   {
    "id": "M4x17_nylon_pillar",
    "title": "M4x17 nylon pillar",
-   "category": "pillar",
+   "category": "fasteners",
    "tags": [
-    "M4x17",
-    "nylon",
-    "pillar"
+    "standoff",
+    "pillar",
+    "spacer",
+    "mechanical",
+    "m4",
+    "length 17mm",
+    "nylon"
    ],
    "file": "parts/pillar/M4x17_nylon_pillar.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
@@ -2404,10 +2658,12 @@
   {
    "id": "KY240W",
    "title": "KY240W",
-   "category": "psu",
+   "category": "power",
    "tags": [
-    "KY240W",
-    "psu"
+    "power supply",
+    "psu",
+    "mains",
+    "electronics"
    ],
    "file": "parts/psu/KY240W.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/psu.scad",
@@ -2419,10 +2675,12 @@
   {
    "id": "GT2x12_pulley",
    "title": "GT2x12 pulley",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x12",
-    "pulley"
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical"
    ],
    "file": "parts/pulley/GT2x12_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2434,12 +2692,14 @@
   {
    "id": "GT2x16_plain_idler",
    "title": "GT2x16 plain idler",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x16",
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical",
     "idler",
-    "plain",
-    "pulley"
+    "plain"
    ],
    "file": "parts/pulley/GT2x16_plain_idler.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2451,10 +2711,12 @@
   {
    "id": "GT2x16_pulley",
    "title": "GT2x16 pulley",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x16",
-    "pulley"
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical"
    ],
    "file": "parts/pulley/GT2x16_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2466,10 +2728,12 @@
   {
    "id": "GT2x16_pulley_9",
    "title": "GT2x16 pulley 9",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x16",
-    "pulley"
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical"
    ],
    "file": "parts/pulley/GT2x16_pulley_9.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2481,11 +2745,13 @@
   {
    "id": "GT2x16_toothed_idler",
    "title": "GT2x16 toothed idler",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x16",
-    "idler",
     "pulley",
+    "belt",
+    "gt2",
+    "mechanical",
+    "idler",
     "toothed"
    ],
    "file": "parts/pulley/GT2x16_toothed_idler.ckpart",
@@ -2498,11 +2764,13 @@
   {
    "id": "GT2x16_toothed_idler_9",
    "title": "GT2x16 toothed idler 9",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x16",
-    "idler",
     "pulley",
+    "belt",
+    "gt2",
+    "mechanical",
+    "idler",
     "toothed"
    ],
    "file": "parts/pulley/GT2x16_toothed_idler_9.ckpart",
@@ -2515,12 +2783,15 @@
   {
    "id": "GT2x16x7_plain_idler",
    "title": "GT2x16x7 plain idler",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x16x7",
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical",
+    "16x7",
     "idler",
-    "plain",
-    "pulley"
+    "plain"
    ],
    "file": "parts/pulley/GT2x16x7_plain_idler.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2532,12 +2803,14 @@
   {
    "id": "GT2x20_plain_idler",
    "title": "GT2x20 plain idler",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x20",
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical",
     "idler",
-    "plain",
-    "pulley"
+    "plain"
    ],
    "file": "parts/pulley/GT2x20_plain_idler.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2549,10 +2822,12 @@
   {
    "id": "GT2x20_pulley_9",
    "title": "GT2x20 pulley 9",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x20",
-    "pulley"
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical"
    ],
    "file": "parts/pulley/GT2x20_pulley_9.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2564,11 +2839,13 @@
   {
    "id": "GT2x20_toothed_idler",
    "title": "GT2x20 toothed idler",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x20",
-    "idler",
     "pulley",
+    "belt",
+    "gt2",
+    "mechanical",
+    "idler",
     "toothed"
    ],
    "file": "parts/pulley/GT2x20_toothed_idler.ckpart",
@@ -2581,11 +2858,13 @@
   {
    "id": "GT2x20_toothed_idler_9",
    "title": "GT2x20 toothed idler 9",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x20",
-    "idler",
     "pulley",
+    "belt",
+    "gt2",
+    "mechanical",
+    "idler",
     "toothed"
    ],
    "file": "parts/pulley/GT2x20_toothed_idler_9.ckpart",
@@ -2598,10 +2877,12 @@
   {
    "id": "GT2x20ob_pulley",
    "title": "GT2x20ob pulley",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x20ob",
-    "pulley"
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical"
    ],
    "file": "parts/pulley/GT2x20ob_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2613,10 +2894,12 @@
   {
    "id": "GT2x20um_pulley",
    "title": "GT2x20um pulley",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x20um",
-    "pulley"
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical"
    ],
    "file": "parts/pulley/GT2x20um_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2628,10 +2911,12 @@
   {
    "id": "GT2x80_pulley",
    "title": "GT2x80 pulley",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "GT2x80",
-    "pulley"
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical"
    ],
    "file": "parts/pulley/GT2x80_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2642,10 +2927,13 @@
   {
    "id": "T2p5x16_pulley",
    "title": "T2p5x16 pulley",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "T2p5x16",
-    "pulley"
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical",
+    "2.5x16"
    ],
    "file": "parts/pulley/T2p5x16_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2657,10 +2945,13 @@
   {
    "id": "T5x10_pulley",
    "title": "T5x10 pulley",
-   "category": "pulley",
+   "category": "motion",
    "tags": [
-    "T5x10",
-    "pulley"
+    "pulley",
+    "belt",
+    "gt2",
+    "mechanical",
+    "5x10"
    ],
    "file": "parts/pulley/T5x10_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
@@ -2672,12 +2963,13 @@
   {
    "id": "SC_5x8_rigid",
    "title": "SC 5x8 rigid",
-   "category": "shaft coupling",
+   "category": "motion",
    "tags": [
+    "coupling",
+    "shaft",
+    "mechanical",
     "5x8",
-    "SC",
-    "rigid",
-    "shaft coupling"
+    "rigid"
    ],
    "file": "parts/shaft_coupling/SC_5x8_rigid.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/shaft_coupling.scad",
@@ -2689,10 +2981,13 @@
   {
    "id": "spool_200x55",
    "title": "spool 200x55",
-   "category": "spool",
+   "category": "printing",
    "tags": [
-    "200x55",
-    "spool"
+    "filament",
+    "spool",
+    "3d printing",
+    "mechanical",
+    "200x55"
    ],
    "file": "parts/spool/spool_200x55.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/spool.scad",
@@ -2704,10 +2999,13 @@
   {
    "id": "spool_200x60",
    "title": "spool 200x60",
-   "category": "spool",
+   "category": "printing",
    "tags": [
-    "200x60",
-    "spool"
+    "filament",
+    "spool",
+    "3d printing",
+    "mechanical",
+    "200x60"
    ],
    "file": "parts/spool/spool_200x60.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/spool.scad",
@@ -2719,10 +3017,13 @@
   {
    "id": "spool_300x85",
    "title": "spool 300x85",
-   "category": "spool",
+   "category": "printing",
    "tags": [
-    "300x85",
-    "spool"
+    "filament",
+    "spool",
+    "3d printing",
+    "mechanical",
+    "300x85"
    ],
    "file": "parts/spool/spool_300x85.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/spool.scad",
@@ -2734,10 +3035,13 @@
   {
    "id": "spool_300x88",
    "title": "spool 300x88",
-   "category": "spool",
+   "category": "printing",
    "tags": [
-    "300x88",
-    "spool"
+    "filament",
+    "spool",
+    "3d printing",
+    "mechanical",
+    "300x88"
    ],
    "file": "parts/spool/spool_300x88.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/spool.scad",
@@ -2749,10 +3053,12 @@
   {
    "id": "SSR10DA",
    "title": "SSR10DA",
-   "category": "ssr",
+   "category": "electronics",
    "tags": [
-    "SSR10DA",
-    "ssr"
+    "solid state relay",
+    "relay",
+    "mains",
+    "electronics"
    ],
    "file": "parts/ssr/SSR10DA.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ssr.scad",
@@ -2764,10 +3070,12 @@
   {
    "id": "SSR25DA",
    "title": "SSR25DA",
-   "category": "ssr",
+   "category": "electronics",
    "tags": [
-    "SSR25DA",
-    "ssr"
+    "solid state relay",
+    "relay",
+    "mains",
+    "electronics"
    ],
    "file": "parts/ssr/SSR25DA.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ssr.scad",
@@ -2779,11 +3087,11 @@
   {
    "id": "UKPFS1008_10",
    "title": "UKPFS1008 10",
-   "category": "swiss clip",
+   "category": "hardware",
    "tags": [
-    "10",
-    "UKPFS1008",
-    "swiss clip"
+    "clip",
+    "cable",
+    "mechanical"
    ],
    "file": "parts/swiss_clip/UKPFS1008_10.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/swiss_clip.scad",
@@ -2795,10 +3103,12 @@
   {
    "id": "CARBONFIBER10",
    "title": "CARBONFIBER10",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "CARBONFIBER10",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "carbon fibre"
    ],
    "file": "parts/tubing/CARBONFIBER10.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2809,10 +3119,12 @@
   {
    "id": "HSHRNK100",
    "title": "HSHRNK100",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "HSHRNK100",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "heat shrink"
    ],
    "file": "parts/tubing/HSHRNK100.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2824,10 +3136,12 @@
   {
    "id": "HSHRNK16",
    "title": "HSHRNK16",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "HSHRNK16",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "heat shrink"
    ],
    "file": "parts/tubing/HSHRNK16.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2839,10 +3153,12 @@
   {
    "id": "HSHRNK24",
    "title": "HSHRNK24",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "HSHRNK24",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "heat shrink"
    ],
    "file": "parts/tubing/HSHRNK24.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2854,10 +3170,12 @@
   {
    "id": "HSHRNK32",
    "title": "HSHRNK32",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "HSHRNK32",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "heat shrink"
    ],
    "file": "parts/tubing/HSHRNK32.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2869,10 +3187,12 @@
   {
    "id": "HSHRNK64",
    "title": "HSHRNK64",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "HSHRNK64",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "heat shrink"
    ],
    "file": "parts/tubing/HSHRNK64.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2884,10 +3204,12 @@
   {
    "id": "NEOP85",
    "title": "NEOP85",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "NEOP85",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "neoprene"
    ],
    "file": "parts/tubing/NEOP85.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2899,10 +3221,11 @@
   {
    "id": "PF7",
    "title": "PF7",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "PF7",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical"
    ],
    "file": "parts/tubing/PF7.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2914,10 +3237,12 @@
   {
    "id": "PTFE07",
    "title": "PTFE07",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "PTFE07",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "ptfe"
    ],
    "file": "parts/tubing/PTFE07.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2929,10 +3254,12 @@
   {
    "id": "PTFE20",
    "title": "PTFE20",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "PTFE20",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "ptfe"
    ],
    "file": "parts/tubing/PTFE20.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2944,10 +3271,12 @@
   {
    "id": "PTFE2_3",
    "title": "PTFE2 3",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "PTFE2",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "ptfe"
    ],
    "file": "parts/tubing/PTFE2_3.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2959,10 +3288,12 @@
   {
    "id": "PTFE2_4",
    "title": "PTFE2 4",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "PTFE2",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "ptfe"
    ],
    "file": "parts/tubing/PTFE2_4.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2974,10 +3305,12 @@
   {
    "id": "PTFE4_6",
    "title": "PTFE4 6",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "PTFE4",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical",
+    "ptfe"
    ],
    "file": "parts/tubing/PTFE4_6.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -2989,10 +3322,11 @@
   {
    "id": "PVC64",
    "title": "PVC64",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "PVC64",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical"
    ],
    "file": "parts/tubing/PVC64.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -3004,10 +3338,11 @@
   {
    "id": "PVC85",
    "title": "PVC85",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "PVC85",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical"
    ],
    "file": "parts/tubing/PVC85.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -3019,12 +3354,11 @@
   {
    "id": "STFE4_3p2_CLR",
    "title": "STFE4 3p2 CLR",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "3p2",
-    "CLR",
-    "STFE4",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical"
    ],
    "file": "parts/tubing/STFE4_3p2_CLR.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -3036,12 +3370,11 @@
   {
    "id": "STFE4_6p4_CLR",
    "title": "STFE4 6p4 CLR",
-   "category": "tubing",
+   "category": "tubing & pipe",
    "tags": [
-    "6p4",
-    "CLR",
-    "STFE4",
-    "tubing"
+    "tube",
+    "tubing",
+    "mechanical"
    ],
    "file": "parts/tubing/STFE4_6p4_CLR.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
@@ -3053,10 +3386,11 @@
   {
    "id": "M2_washer",
    "title": "M2 washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M2",
-    "washer"
+    "washer",
+    "mechanical",
+    "m2"
    ],
    "file": "parts/washer/M2_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3068,10 +3402,11 @@
   {
    "id": "M2p5_washer",
    "title": "M2p5 washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M2p5",
-    "washer"
+    "washer",
+    "mechanical",
+    "m2.5"
    ],
    "file": "parts/washer/M2p5_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3083,11 +3418,12 @@
   {
    "id": "M3_penny_washer",
    "title": "M3 penny washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M3",
-    "penny",
-    "washer"
+    "washer",
+    "mechanical",
+    "m3",
+    "penny washer"
    ],
    "file": "parts/washer/M3_penny_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3099,11 +3435,12 @@
   {
    "id": "M3_rubber_washer",
    "title": "M3 rubber washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M3",
-    "rubber",
-    "washer"
+    "washer",
+    "mechanical",
+    "m3",
+    "rubber"
    ],
    "file": "parts/washer/M3_rubber_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3115,10 +3452,11 @@
   {
    "id": "M3_washer",
    "title": "M3 washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M3",
-    "washer"
+    "washer",
+    "mechanical",
+    "m3"
    ],
    "file": "parts/washer/M3_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3130,10 +3468,11 @@
   {
    "id": "M3p5_washer",
    "title": "M3p5 washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M3p5",
-    "washer"
+    "washer",
+    "mechanical",
+    "m3.5"
    ],
    "file": "parts/washer/M3p5_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3145,11 +3484,12 @@
   {
    "id": "M4_penny_washer",
    "title": "M4 penny washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M4",
-    "penny",
-    "washer"
+    "washer",
+    "mechanical",
+    "m4",
+    "penny washer"
    ],
    "file": "parts/washer/M4_penny_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3161,10 +3501,11 @@
   {
    "id": "M4_washer",
    "title": "M4 washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M4",
-    "washer"
+    "washer",
+    "mechanical",
+    "m4"
    ],
    "file": "parts/washer/M4_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3176,11 +3517,12 @@
   {
    "id": "M5_penny_washer",
    "title": "M5 penny washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M5",
-    "penny",
-    "washer"
+    "washer",
+    "mechanical",
+    "m5",
+    "penny washer"
    ],
    "file": "parts/washer/M5_penny_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3192,10 +3534,11 @@
   {
    "id": "M5_washer",
    "title": "M5 washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M5",
-    "washer"
+    "washer",
+    "mechanical",
+    "m5"
    ],
    "file": "parts/washer/M5_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3207,11 +3550,12 @@
   {
    "id": "M6_penny_washer",
    "title": "M6 penny washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M6",
-    "penny",
-    "washer"
+    "washer",
+    "mechanical",
+    "m6",
+    "penny washer"
    ],
    "file": "parts/washer/M6_penny_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3223,10 +3567,11 @@
   {
    "id": "M6_washer",
    "title": "M6 washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M6",
-    "washer"
+    "washer",
+    "mechanical",
+    "m6"
    ],
    "file": "parts/washer/M6_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3238,11 +3583,12 @@
   {
    "id": "M8_penny_washer",
    "title": "M8 penny washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M8",
-    "penny",
-    "washer"
+    "washer",
+    "mechanical",
+    "m8",
+    "penny washer"
    ],
    "file": "parts/washer/M8_penny_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3254,10 +3600,11 @@
   {
    "id": "M8_washer",
    "title": "M8 washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "M8",
-    "washer"
+    "washer",
+    "mechanical",
+    "m8"
    ],
    "file": "parts/washer/M8_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3269,10 +3616,10 @@
   {
    "id": "toggle_washer",
    "title": "toggle washer",
-   "category": "washer",
+   "category": "fasteners",
    "tags": [
-    "toggle",
-    "washer"
+    "washer",
+    "mechanical"
    ],
    "file": "parts/washer/toggle_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
@@ -3280,6 +3627,119 @@
    "sha256": "1c940f4220f2d6a36a53c7b3b6447d89c3251bc3e8ffee7c8a4ac06a29daaab0",
    "script": "scripts/toggle_washer.ck.js",
    "thumb": "thumbs/toggle_washer.png"
+  }
+ ],
+ "categories": [
+  {
+   "id": "tubing & pipe",
+   "title": "tubing & pipe",
+   "count": 75,
+   "tags": [
+    "mechanical",
+    "pipe",
+    "ht pipe",
+    "drain",
+    "plumbing",
+    "tube",
+    "tubing",
+    "50mm"
+   ]
+  },
+  {
+   "id": "fasteners",
+   "title": "Fasteners",
+   "count": 62,
+   "tags": [
+    "mechanical",
+    "nut",
+    "threaded insert",
+    "insert",
+    "washer",
+    "m3",
+    "m4",
+    "m6"
+   ]
+  },
+  {
+   "id": "bearings",
+   "title": "Bearings",
+   "count": 34,
+   "tags": [
+    "bearing",
+    "mechanical",
+    "ball bearing",
+    "linear bearing",
+    "bushing",
+    "lm16",
+    "lm10",
+    "lm12"
+   ]
+  },
+  {
+   "id": "motion",
+   "title": "Motion",
+   "count": 20,
+   "tags": [
+    "mechanical",
+    "pulley",
+    "belt",
+    "gt2",
+    "idler",
+    "toothed",
+    "leadscrew",
+    "nut"
+   ]
+  },
+  {
+   "id": "electronics",
+   "title": "Electronics",
+   "count": 7,
+   "tags": [
+    "electronics",
+    "led",
+    "indicator",
+    "light",
+    "5mm",
+    "solid state relay",
+    "relay",
+    "mains"
+   ]
+  },
+  {
+   "id": "printing",
+   "title": "Printing",
+   "count": 4,
+   "tags": [
+    "filament",
+    "spool",
+    "3d printing",
+    "mechanical",
+    "200x55",
+    "200x60",
+    "300x85",
+    "300x88"
+   ]
+  },
+  {
+   "id": "power",
+   "title": "Power",
+   "count": 1,
+   "tags": [
+    "power supply",
+    "psu",
+    "mains",
+    "electronics"
+   ]
+  },
+  {
+   "id": "hardware",
+   "title": "Hardware",
+   "count": 1,
+   "tags": [
+    "clip",
+    "cable",
+    "mechanical"
+   ]
   }
  ]
 }

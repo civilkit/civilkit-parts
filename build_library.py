@@ -70,9 +70,11 @@ def main():
             p["bytes"] = len(data); p["sha256"] = hashlib.sha256(data).hexdigest(); p["script"] = f'scripts/{p["id"]}.ck.js'; n_ok += 1
         shutil.rmtree(tmp, ignore_errors=True)
         print(f"{n_ok}/{len(parts)} parts carry their script")
+    import taxonomy
+    for p in parts: p["category"], p["tags"] = taxonomy.classify(p["id"], Path(p["file"]).parent.name)
     manifest = {"format": "fwlib", "version": 1, "name": a.name,
                 "description": "Electronic and mechanical vitamins (bearings, nuts, washers, pulleys, LEDs) as parametric feature trees, converted from OpenSCAD (NopSCADlib) with colour. Each part keeps its source licence.",
-                "homepage": a.homepage, "licence": "GPL-3.0-or-later", "parts": parts}
+                "homepage": a.homepage, "licence": "GPL-3.0-or-later", "categories": taxonomy.summarise(parts), "parts": parts}
     lib.mkdir(parents=True, exist_ok=True)
     (lib / "library.json").write_text(json.dumps(manifest, indent=1) + "\n")
     print(f"{len(parts)} parts -> {lib}/library.json")
