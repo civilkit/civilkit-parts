@@ -1,0 +1,50 @@
+{
+ "name": "insert__M10x25",
+ "category": "insert",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/insert.scad",
+  "call": "insert(M10x25)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "insert/M10x25.ckpart",
+ "features": 5,
+ "by_type": {
+  "sketch": 1,
+  "revolve": 1,
+  "moveBody": 3
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.03,
+ "check": {
+  "file": "M10x25.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 2500.4132279462037,
+  "box": {
+   "min": [
+    -9.235954284667969,
+    -9.246487839980801,
+    -24.9921875
+   ],
+   "max": [
+    9.25,
+    9.246487839980801,
+    0.007812500000001698
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "ms": 151,
+  "scadVolume": 2496.4015842344984,
+  "relErrScad": 0.0016069705038804824
+ }
+}

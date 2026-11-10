@@ -1,0 +1,55 @@
+{
+ "name": "pillar__M3x20_nylon_hex_pillar",
+ "category": "pillar",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/pillar.scad",
+  "call": "pillar(M3x20_nylon_hex_pillar)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "pillar/M3x20_nylon_hex_pillar.ckpart",
+ "features": 8,
+ "by_type": {
+  "sketch": 3,
+  "extrude": 3,
+  "moveBody": 1,
+  "combine": 1
+ },
+ "variables": {
+  "pillar_bot_thread": "6",
+  "pillar_height": "20",
+  "pillar_top_thread": "-6"
+ },
+ "warnings": [],
+ "colors": 2,
+ "oracle_calls": 1,
+ "bodies": 1,
+ "seconds": 0.08,
+ "check": {
+  "file": "M3x20_nylon_hex_pillar.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 1108.457293651636,
+  "box": {
+   "min": [
+    -4.618802154,
+    -4,
+    -5.9921875
+   ],
+   "max": [
+    4.618802154,
+    4,
+    20
+   ]
+  },
+  "faces": 12,
+  "validate": true,
+  "ok": true,
+  "ms": 156,
+  "scadVolume": 1108.4543471541613,
+  "relErrScad": 2.658203725178281e-06
+ }
+}

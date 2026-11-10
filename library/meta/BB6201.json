@@ -27,7 +27,7 @@
  "colors": 2,
  "oracle_calls": 1,
  "bodies": 3,
- "seconds": 0.12,
+ "seconds": 0.13,
  "check": {
   "file": "BB6201.ckpart",
   "errors": [],
@@ -50,7 +50,7 @@
   "ok": true,
   "refVolume": 4770.071556936806,
   "relErr": 0.3804731055388365,
-  "ms": 1688,
+  "ms": 1271,
   "scadVolume": 6578.886071876085,
   "relErrScad": 0.0009225610391531337
  }

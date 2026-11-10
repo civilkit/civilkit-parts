@@ -24,7 +24,7 @@
  "colors": 1,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.02,
+ "seconds": 0.03,
  "check": {
   "file": "M2_washer.ckpart",
   "errors": [],
@@ -47,7 +47,7 @@
   "ok": true,
   "refVolume": 4.041647849496758,
   "relErr": 0.00029423557813464357,
-  "ms": 579,
+  "ms": 265,
   "scadVolume": 4.041647849496753,
   "relErrScad": 0.0002942355781357427
  }

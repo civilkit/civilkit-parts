@@ -1,0 +1,49 @@
+{
+ "name": "tubing__HSHRNK32",
+ "category": "tubing",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/tubing.scad",
+  "call": "tubing(HSHRNK32)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "tubing/HSHRNK32.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.02,
+ "check": {
+  "file": "HSHRNK32.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 32.0442450666158,
+  "box": {
+   "min": [
+    -1.8,
+    -1.7938520908355713,
+    -7.5
+   ],
+   "max": [
+    1.8,
+    1.7938520908355713,
+    7.5
+   ]
+  },
+  "faces": 4,
+  "validate": true,
+  "ok": true,
+  "ms": 114,
+  "scadVolume": 32.04172775845494,
+  "relErrScad": 7.856343390212865e-05
+ }
+}

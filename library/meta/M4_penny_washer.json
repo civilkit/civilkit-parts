@@ -24,7 +24,7 @@
  "colors": 1,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.02,
+ "seconds": 0.03,
  "check": {
   "file": "M4_penny_washer.ckpart",
   "errors": [],
@@ -47,7 +47,7 @@
   "ok": true,
   "refVolume": 105.36465542730004,
   "relErr": 0.0017744778487003285,
-  "ms": 477,
+  "ms": 222,
   "scadVolume": 105.3646554273001,
   "relErrScad": 0.0017744778486997882
  }

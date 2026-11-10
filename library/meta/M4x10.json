@@ -1,0 +1,50 @@
+{
+ "name": "insert__M4x10",
+ "category": "insert",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/insert.scad",
+  "call": "insert(M4x10)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "insert/M4x10.ckpart",
+ "features": 5,
+ "by_type": {
+  "sketch": 1,
+  "revolve": 1,
+  "moveBody": 3
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.03,
+ "check": {
+  "file": "M4x10.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 125.1728322914681,
+  "box": {
+   "min": [
+    -4,
+    -3.994133710861206,
+    -9.9921875
+   ],
+   "max": [
+    4,
+    3.994133710861206,
+    0.007812500000000734
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "ms": 149,
+  "scadVolume": 124.97197699864367,
+  "relErrScad": 0.001607202651732143
+ }
+}

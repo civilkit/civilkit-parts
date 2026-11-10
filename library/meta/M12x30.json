@@ -1,0 +1,50 @@
+{
+ "name": "insert__M12x30",
+ "category": "insert",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/insert.scad",
+  "call": "insert(M12x30)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "insert/M12x30.ckpart",
+ "features": 5,
+ "by_type": {
+  "sketch": 1,
+  "revolve": 1,
+  "moveBody": 3
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.03,
+ "check": {
+  "file": "M12x30.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 4303.98193541801,
+  "box": {
+   "min": [
+    -10.983296680766479,
+    -10.995823377274466,
+    -29.9921875
+   ],
+   "max": [
+    11,
+    10.995823377274466,
+    0.00781250000000202
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "ms": 154,
+  "scadVolume": 4297.071823990827,
+  "relErrScad": 0.001608097725665867
+ }
+}

@@ -29,7 +29,7 @@
  "colors": 1,
  "oracle_calls": 2,
  "bodies": 1,
- "seconds": 0.21,
+ "seconds": 0.23,
  "check": {
   "file": "GT2x20_plain_idler.ckpart",
   "errors": [],
@@ -52,7 +52,7 @@
   "ok": true,
   "refVolume": 1135.2349883277511,
   "relErr": 0.0017807346430809752,
-  "ms": 890,
+  "ms": 625,
   "scadVolume": 1135.234988327752,
   "relErrScad": 0.0017807346430801726
  }

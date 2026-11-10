@@ -27,7 +27,7 @@
  "colors": 2,
  "oracle_calls": 1,
  "bodies": 3,
- "seconds": 0.13,
+ "seconds": 0.15,
  "check": {
   "file": "BBF625.ckpart",
   "errors": [],
@@ -50,7 +50,7 @@
   "ok": true,
   "refVolume": 286.7378133964764,
   "relErr": 1.9306436129518527,
-  "ms": 2283,
+  "ms": 1288,
   "scadVolume": 839.3711305971475,
   "relErrScad": 0.0011380077181552496
  }

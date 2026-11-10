@@ -1,0 +1,54 @@
+{
+ "name": "ht_pipe__HT_125_cap",
+ "category": "ht_pipe",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/ht_pipe.scad",
+  "call": "ht_pipe(HT_125_cap)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "ht_pipe/HT_125_cap.ckpart",
+ "features": 7,
+ "by_type": {
+  "sketch": 2,
+  "extrude": 1,
+  "revolve": 1,
+  "moveBody": 2,
+  "combine": 1
+ },
+ "variables": {
+  "pipe_length": "34"
+ },
+ "warnings": [],
+ "colors": 0,
+ "oracle_calls": 1,
+ "bodies": 1,
+ "seconds": 0.14,
+ "check": {
+  "file": "HT_125_cap.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 108873.70610911516,
+  "box": {
+   "min": [
+    -69,
+    -69,
+    0
+   ],
+   "max": [
+    69,
+    68.91143899480264,
+    104.7
+   ]
+  },
+  "faces": 12,
+  "validate": true,
+  "ok": true,
+  "ms": 210,
+  "scadVolume": 108674.19207894691,
+  "relErrScad": 0.001835891542890905
+ }
+}

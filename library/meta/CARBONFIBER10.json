@@ -1,0 +1,51 @@
+{
+ "name": "tubing__CARBONFIBER10",
+ "category": "tubing",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/tubing.scad",
+  "call": "tubing(CARBONFIBER10)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "tubing/CARBONFIBER10.ckpart",
+ "features": 529,
+ "by_type": {
+  "sketch": 128,
+  "revolve": 128,
+  "moveBody": 264,
+  "combine": 9
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 16,
+ "oracle_calls": 9,
+ "bodies": 1,
+ "seconds": 5.55,
+ "check": {
+  "file": "CARBONFIBER10.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 424.1150082331603,
+  "box": {
+   "min": [
+    -5.000000000000001,
+    -5,
+    -7.5
+   ],
+   "max": [
+    5.000000000000001,
+    5,
+    7.5
+   ]
+  },
+  "faces": 72,
+  "validate": true,
+  "ok": true,
+  "ms": 1661,
+  "scadVolume": 423.2252272809744,
+  "relErrScad": 0.0021023816512600896
+ }
+}

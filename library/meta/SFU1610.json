@@ -1,0 +1,55 @@
+{
+ "name": "leadnut__SFU1610",
+ "category": "leadnut",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/leadnut.scad",
+  "call": "leadnut(SFU1610)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "leadnut/SFU1610.ckpart",
+ "features": 27,
+ "by_type": {
+  "sketch": 10,
+  "extrude": 10,
+  "combine": 4,
+  "moveBody": 3
+ },
+ "variables": {
+  "leadnut_flange_offset": "0",
+  "leadnut_flange_t": "10",
+  "leadnut_height": "42.5"
+ },
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 5,
+ "bodies": 1,
+ "seconds": 1.16,
+ "check": {
+  "file": "SFU1610.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 26425.429041283813,
+  "box": {
+   "min": [
+    -20,
+    -24,
+    -32.5
+   ],
+   "max": [
+    20,
+    24,
+    10.000000000000004
+   ]
+  },
+  "faces": 15,
+  "validate": true,
+  "ok": true,
+  "ms": 428,
+  "scadVolume": 26386.87936674367,
+  "relErrScad": 0.0014609410231635367
+ }
+}

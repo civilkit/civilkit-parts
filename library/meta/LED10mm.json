@@ -30,7 +30,7 @@
  "colors": 2,
  "oracle_calls": 4,
  "bodies": 1,
- "seconds": 0.76,
+ "seconds": 0.48,
  "check": {
   "file": "LED10mm.ckpart",
   "errors": [],
@@ -53,8 +53,8 @@
   "ok": true,
   "refVolume": 957.7322504841213,
   "relErr": 0.0033703123999636927,
-  "ms": 890,
-  "scadVolume": 958.5322504841199,
-  "relErrScad": 0.0025328901332500337
+  "ms": 639,
+  "scadVolume": 958.5322504841203,
+  "relErrScad": 0.0025328901332496772
  }
 }

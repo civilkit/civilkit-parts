@@ -22,7 +22,7 @@
  "colors": 2,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.11,
+ "seconds": 0.04,
  "check": {
   "file": "M2p5_nut.ckpart",
   "errors": [],
@@ -45,7 +45,7 @@
   "ok": true,
   "refVolume": 37.3394126611237,
   "relErr": -0.0018487528318966945,
-  "ms": 299,
+  "ms": 176,
   "scadVolume": 37.33941266112635,
   "relErrScad": -0.0018487528319675425
  }

@@ -1,0 +1,49 @@
+{
+ "name": "tubing__PF7",
+ "category": "tubing",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/tubing.scad",
+  "call": "tubing(PF7)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "tubing/PF7.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.02,
+ "check": {
+  "file": "PF7.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 75.56786968944867,
+  "box": {
+   "min": [
+    -2.3,
+    -2.2935688495635986,
+    -7.5
+   ],
+   "max": [
+    2.3,
+    2.2935688495635986,
+    7.5
+   ]
+  },
+  "faces": 4,
+  "validate": true,
+  "ok": true,
+  "ms": 114,
+  "scadVolume": 75.55560046018496,
+  "relErrScad": 0.00016238676139135127
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "name": "insert__M3x8",
+ "category": "insert",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/insert.scad",
+  "call": "insert(M3x8)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "insert/M3x8.ckpart",
+ "features": 5,
+ "by_type": {
+  "sketch": 1,
+  "revolve": 1,
+  "moveBody": 3
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.03,
+ "check": {
+  "file": "M3x8.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 76.87084524252519,
+  "box": {
+   "min": [
+    -2.9954445492999486,
+    -2.9988609210748542,
+    -7.9921875
+   ],
+   "max": [
+    3,
+    2.9988609210748542,
+    0.007812500000000552
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "ms": 148,
+  "scadVolume": 76.74747292735815,
+  "relErrScad": 0.0016075098040533341
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "name": "linear_bearing__LM4UU",
+ "category": "linear_bearing",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/linear_bearing.scad",
+  "call": "linear_bearing(LM4UU)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "linear_bearing/LM4UU.ckpart",
+ "features": 7,
+ "by_type": {
+  "sketch": 3,
+  "extrude": 3,
+  "combine": 1
+ },
+ "variables": {
+  "bearing_length": "12"
+ },
+ "warnings": [],
+ "colors": 3,
+ "oracle_calls": 1,
+ "bodies": 1,
+ "seconds": 0.13,
+ "check": {
+  "file": "LM4UU.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 439.91344937099444,
+  "box": {
+   "min": [
+    -3.9934764157045426,
+    -3.998368771312757,
+    -6
+   ],
+   "max": [
+    4,
+    3.998368771312757,
+    6
+   ]
+  },
+  "faces": 12,
+  "validate": true,
+  "ok": true,
+  "ms": 212,
+  "scadVolume": 439.1982138727327,
+  "relErrScad": 0.0016285027481213507
+ }
+}

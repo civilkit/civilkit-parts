@@ -1,0 +1,54 @@
+{
+ "name": "ht_pipe__HT_90_pipe_1000",
+ "category": "ht_pipe",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/ht_pipe.scad",
+  "call": "ht_pipe(HT_90_pipe_1000)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "ht_pipe/HT_90_pipe_1000.ckpart",
+ "features": 7,
+ "by_type": {
+  "sketch": 2,
+  "extrude": 1,
+  "revolve": 1,
+  "moveBody": 2,
+  "combine": 1
+ },
+ "variables": {
+  "pipe_length": "1000"
+ },
+ "warnings": [],
+ "colors": 0,
+ "oracle_calls": 1,
+ "bodies": 1,
+ "seconds": 0.12,
+ "check": {
+  "file": "HT_90_pipe_1000.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 639081.8376358711,
+  "box": {
+   "min": [
+    -51.0939071176956,
+    -51.398376514055975,
+    0
+   ],
+   "max": [
+    51.5,
+    51.39837651405598,
+    1070.7
+   ]
+  },
+  "faces": 12,
+  "validate": true,
+  "ok": true,
+  "ms": 194,
+  "scadVolume": 637911.7532793304,
+  "relErrScad": 0.0018342417278340035
+ }
+}

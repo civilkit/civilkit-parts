@@ -1,0 +1,52 @@
+{
+ "name": "psu__KY240W",
+ "category": "psu",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/psu.scad",
+  "call": "psu(KY240W)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "psu/KY240W.ckpart",
+ "features": 3,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1,
+  "moveBody": 1
+ },
+ "variables": {
+  "psu_height": "50"
+ },
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.16,
+ "check": {
+  "file": "KY240W.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 1094499.9999999998,
+  "box": {
+   "min": [
+    -99.5,
+    -55,
+    0
+   ],
+   "max": [
+    99.5,
+    55,
+    50
+   ]
+  },
+  "faces": 6,
+  "validate": true,
+  "ok": true,
+  "ms": 82,
+  "scadVolume": 1094500.0000000002,
+  "relErrScad": -4.2545572161511115e-16
+ }
+}

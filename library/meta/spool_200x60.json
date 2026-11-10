@@ -1,0 +1,53 @@
+{
+ "name": "spool__spool_200x60",
+ "category": "spool",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/spool.scad",
+  "call": "spool(spool_200x60)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "spool/spool_200x60.ckpart",
+ "features": 4,
+ "by_type": {
+  "sketch": 1,
+  "revolve": 1,
+  "moveBody": 2
+ },
+ "variables": {
+  "spool_hub_thickness": "2",
+  "spool_width": "60"
+ },
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.01,
+ "check": {
+  "file": "spool_200x60.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 389571.62621207634,
+  "box": {
+   "min": [
+    -100,
+    -99.88673400878906,
+    -35.00000000000001
+   ],
+   "max": [
+    100,
+    99.88673400878906,
+    35.00000000000001
+   ]
+  },
+  "faces": 12,
+  "validate": true,
+  "ok": true,
+  "ms": 259,
+  "scadVolume": 388860.03502028465,
+  "relErrScad": 0.0018299416954858237
+ }
+}

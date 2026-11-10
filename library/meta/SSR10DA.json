@@ -1,0 +1,56 @@
+{
+ "name": "ssr__SSR10DA",
+ "category": "ssr",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/ssr.scad",
+  "call": "ssr(SSR10DA)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "ssr/SSR10DA.ckpart",
+ "features": 18,
+ "by_type": {
+  "sketch": 6,
+  "extrude": 6,
+  "combine": 5,
+  "moveBody": 1
+ },
+ "variables": {
+  "ssr_base_t": "2.5",
+  "ssr_height": "33"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon"
+ ],
+ "colors": 2,
+ "oracle_calls": 7,
+ "bodies": 1,
+ "seconds": 0.48,
+ "check": {
+  "file": "SSR10DA.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 81071.99906690192,
+  "box": {
+   "min": [
+    -29,
+    -22.5,
+    0
+   ],
+   "max": [
+    29,
+    22.5,
+    33
+   ]
+  },
+  "faces": 16,
+  "validate": true,
+  "ok": true,
+  "ms": 140,
+  "scadVolume": 81075.71503960574,
+  "relErrScad": -4.583336331980655e-05
+ }
+}

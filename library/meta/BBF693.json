@@ -27,7 +27,7 @@
  "colors": 2,
  "oracle_calls": 1,
  "bodies": 3,
- "seconds": 0.12,
+ "seconds": 0.15,
  "check": {
   "file": "BBF693.ckpart",
   "errors": [],
@@ -50,8 +50,8 @@
   "ok": true,
   "refVolume": 49.26454678028255,
   "relErr": 1.6603741072748812,
-  "ms": 1045,
-  "scadVolume": 130.89564126646204,
-  "relErrScad": 0.0012718788251693995
+  "ms": 766,
+  "scadVolume": 130.895641266462,
+  "relErrScad": 0.001271878825169617
  }
 }

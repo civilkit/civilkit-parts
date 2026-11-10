@@ -22,7 +22,7 @@
  "colors": 2,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.08,
+ "seconds": 0.04,
  "check": {
   "file": "M4_hammer_nut.ckpart",
   "errors": [],
@@ -45,7 +45,7 @@
   "ok": true,
   "refVolume": 35.256485568851964,
   "relErr": -0.0029345209001983546,
-  "ms": 376,
+  "ms": 257,
   "scadVolume": 35.256485568849996,
   "relErrScad": -0.002934520900142693
  }

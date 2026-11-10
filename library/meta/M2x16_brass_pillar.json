@@ -1,0 +1,55 @@
+{
+ "name": "pillar__M2x16_brass_pillar",
+ "category": "pillar",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/pillar.scad",
+  "call": "pillar(M2x16_brass_pillar)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "pillar/M2x16_brass_pillar.ckpart",
+ "features": 9,
+ "by_type": {
+  "sketch": 3,
+  "extrude": 3,
+  "moveBody": 2,
+  "combine": 1
+ },
+ "variables": {
+  "pillar_bot_thread": "-3",
+  "pillar_height": "16",
+  "pillar_top_thread": "3"
+ },
+ "warnings": [],
+ "colors": 2,
+ "oracle_calls": 1,
+ "bodies": 1,
+ "seconds": 0.09,
+ "check": {
+  "file": "M2x16_brass_pillar.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 126.25365797402773,
+  "box": {
+   "min": [
+    -1.5850000381469727,
+    -1.5850000381469727,
+    0
+   ],
+   "max": [
+    1.5850000381469727,
+    1.5850000381469727,
+    18.9921875
+   ]
+  },
+  "faces": 7,
+  "validate": true,
+  "ok": true,
+  "ms": 191,
+  "scadVolume": 125.73399322073932,
+  "relErrScad": 0.00413304898680887
+ }
+}

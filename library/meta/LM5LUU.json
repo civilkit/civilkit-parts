@@ -1,0 +1,55 @@
+{
+ "name": "linear_bearing__LM5LUU",
+ "category": "linear_bearing",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/linear_bearing.scad",
+  "call": "linear_bearing(LM5LUU)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "linear_bearing/LM5LUU.ckpart",
+ "features": 21,
+ "by_type": {
+  "sketch": 7,
+  "extrude": 7,
+  "moveBody": 5,
+  "combine": 2
+ },
+ "variables": {
+  "bearing_groove_length": "1.1",
+  "bearing_groove_spacing": "20.4",
+  "bearing_length": "28"
+ },
+ "warnings": [],
+ "colors": 7,
+ "oracle_calls": 2,
+ "bodies": 1,
+ "seconds": 0.31,
+ "check": {
+  "file": "LM5LUU.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 1612.9957701142448,
+  "box": {
+   "min": [
+    -4.987820251299121,
+    -4.9969541350954785,
+    -14
+   ],
+   "max": [
+    5,
+    4.9969541350954785,
+    14
+   ]
+  },
+  "faces": 20,
+  "validate": true,
+  "ok": true,
+  "ms": 321,
+  "scadVolume": 1610.044347818893,
+  "relErrScad": 0.001833131055893062
+ }
+}

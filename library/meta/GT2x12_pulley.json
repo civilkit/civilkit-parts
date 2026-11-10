@@ -33,7 +33,7 @@
  "colors": 1,
  "oracle_calls": 9,
  "bodies": 1,
- "seconds": 1.86,
+ "seconds": 1.8,
  "check": {
   "file": "GT2x12_pulley.ckpart",
   "errors": [],
@@ -56,7 +56,7 @@
   "ok": true,
   "refVolume": 822.0862622836479,
   "relErr": 0.03949067854701511,
-  "ms": 2183,
+  "ms": 2453,
   "scadVolume": 854.6643827718597,
   "relErrScad": -0.00013265577545582577
  },

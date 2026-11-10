@@ -16,8 +16,9 @@
    ],
    "file": "parts/ball_bearing/BB608.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3080,
-   "sha256": "dd4859e7e2cc0be8785fa62933727fe4ae1c202cf2f2fbda12fbbf6e9605a2c9",
+   "bytes": 6135,
+   "sha256": "33a19b35e51ef8a54d4492846f9056a99d7d5d561815b890ec412f9ebca1adf6",
+   "script": "scripts/BB608.ck.js",
    "thumb": "thumbs/BB608.png"
   },
   {
@@ -30,8 +31,9 @@
    ],
    "file": "parts/ball_bearing/BB6200.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3061,
-   "sha256": "2d3a6afee137eb15705c48bce92a2863cc529907fbc2219c02fca5be470d6168",
+   "bytes": 6092,
+   "sha256": "6f848620e6c49fc9892e645c18421bbf65ca5907f8e0cf72b94b9d10396b5585",
+   "script": "scripts/BB6200.ck.js",
    "thumb": "thumbs/BB6200.png"
   },
   {
@@ -44,8 +46,9 @@
    ],
    "file": "parts/ball_bearing/BB6201.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3062,
-   "sha256": "1f629a90a5d97cfd11025a325c56d169e994c413ac0c7816557daf21e78cec82",
+   "bytes": 6078,
+   "sha256": "3907111ea41cffb036ef6b8f657b6de8b042ac5aaeaa16fa07a4f16b857393dc",
+   "script": "scripts/BB6201.ck.js",
    "thumb": "thumbs/BB6201.png"
   },
   {
@@ -58,8 +61,9 @@
    ],
    "file": "parts/ball_bearing/BB624.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3012,
-   "sha256": "7b24ea2ad31d2e8d875a5ab25c30a8eaff61ce4de4faa386c2dd30b53324cd12",
+   "bytes": 6007,
+   "sha256": "cbba541158f05c7a8b11e8991361953688f2473325e3350494eec34289e653e1",
+   "script": "scripts/BB624.ck.js",
    "thumb": "thumbs/BB624.png"
   },
   {
@@ -72,8 +76,9 @@
    ],
    "file": "parts/ball_bearing/BB6808.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3072,
-   "sha256": "9ccba3bd1d7fd352a92974ac882528a309a0844f77c18cb62972dbafde72fe42",
+   "bytes": 6112,
+   "sha256": "a23de44ff9e560f90da2e5ae5db42657742e2b321658812dafdd577c26f6cac5",
+   "script": "scripts/BB6808.ck.js",
    "thumb": "thumbs/BB6808.png"
   },
   {
@@ -86,8 +91,9 @@
    ],
    "file": "parts/ball_bearing/BB686.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3048,
-   "sha256": "8d5f3125e3b9dc510ae53cfdbf08454640441eddc8426230224489c57790d327",
+   "bytes": 6079,
+   "sha256": "896e77f907038c892c4879a175f2747dc1afae6acf9c4bbfc6a4091cf997157b",
+   "script": "scripts/BB686.ck.js",
    "thumb": "thumbs/BB686.png"
   },
   {
@@ -100,8 +106,9 @@
    ],
    "file": "parts/ball_bearing/BB696.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3044,
-   "sha256": "e32a49819fbd1d5b83bfa982a4f612fd5764a80402535e14812142f5e43112bf",
+   "bytes": 6067,
+   "sha256": "8e43d6389af3844b75c3ad53cfa726af16692cfa88927a385f43ae904dd4fd50",
+   "script": "scripts/BB696.ck.js",
    "thumb": "thumbs/BB696.png"
   },
   {
@@ -114,8 +121,9 @@
    ],
    "file": "parts/ball_bearing/BBF623.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 4145,
-   "sha256": "8a00aefa27563232ad02561a5393ff1c6bf641d40ef9732d428b69fc7be3af98",
+   "bytes": 8440,
+   "sha256": "9cf64db7afc466da2bfbeef35e4c4fe01b5427a8f57082bfe24e3ef05ff33744",
+   "script": "scripts/BBF623.ck.js",
    "thumb": "thumbs/BBF623.png"
   },
   {
@@ -128,8 +136,9 @@
    ],
    "file": "parts/ball_bearing/BBF625.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 4173,
-   "sha256": "13520ed83b5fc722f58104dfbab93a3e999b4066ccad47802fda4a91e7e3100f",
+   "bytes": 8508,
+   "sha256": "621d61dd960222cfb0d1d34de7fb1a6a91650380b963b6488912d5afe4cffe54",
+   "script": "scripts/BBF625.ck.js",
    "thumb": "thumbs/BBF625.png"
   },
   {
@@ -142,8 +151,9 @@
    ],
    "file": "parts/ball_bearing/BBF693.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 4177,
-   "sha256": "fdee4228997f85a927e2de6f4d0e2c27c535f14f16314167511aa4ecdc653b5d",
+   "bytes": 8528,
+   "sha256": "f32ad1e418135550ed3e4904c617f6b763fdc8fa5adb7700c19f51c18ed892d9",
+   "script": "scripts/BBF693.ck.js",
    "thumb": "thumbs/BBF693.png"
   },
   {
@@ -156,8 +166,9 @@
    ],
    "file": "parts/ball_bearing/BBF695.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 4175,
-   "sha256": "08a764a0e8816af9ef89a48790fbbba61705a368145feb2e87d25fe2c2a88dfa",
+   "bytes": 8504,
+   "sha256": "6185b505310079df8679f44451542983f5fdbd144caccd5d8ab3a4f088ddbad5",
+   "script": "scripts/BBF695.ck.js",
    "thumb": "thumbs/BBF695.png"
   },
   {
@@ -170,8 +181,9 @@
    ],
    "file": "parts/ball_bearing/BBMR63.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3098,
-   "sha256": "a26df32c95c52af9aae4ae74d5df16d4fe3304dcc4ae18c676216acf159f49f8",
+   "bytes": 6168,
+   "sha256": "63c9375288f1da3e3d1d98e06dfb04c282a418046e650c216405f620bbd2fc32",
+   "script": "scripts/BBMR63.ck.js",
    "thumb": "thumbs/BBMR63.png"
   },
   {
@@ -184,8 +196,9 @@
    ],
    "file": "parts/ball_bearing/BBMR83.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3088,
-   "sha256": "62dbca12cfa3e951cf7bccd75b82650960a666016951b770cac1d085ec316abf",
+   "bytes": 6148,
+   "sha256": "943c482b551eefa5c1b55597d1704c16f76eeaf78bcc7b353add38aa489159f4",
+   "script": "scripts/BBMR83.ck.js",
    "thumb": "thumbs/BBMR83.png"
   },
   {
@@ -198,8 +211,9 @@
    ],
    "file": "parts/ball_bearing/BBMR85.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3098,
-   "sha256": "23b5f14a62d0ccd556c1043965a01d4daf2a1ada261b7693fba9c35d8aca2a6c",
+   "bytes": 6168,
+   "sha256": "6ba0a619b06d84f40862d2a115fe57cb7e075aef974fb435a260491aee0264fa",
+   "script": "scripts/BBMR85.ck.js",
    "thumb": "thumbs/BBMR85.png"
   },
   {
@@ -212,8 +226,9 @@
    ],
    "file": "parts/ball_bearing/BBMR93.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3088,
-   "sha256": "8fc7bcb6660f7ad424139f5135ca72416bbbf61f4d4e2f2a21cd347aa00b9ae5",
+   "bytes": 6132,
+   "sha256": "bfbdd7ececf1a7c5bc7b000aa6e63f845dfbbe20d569bff5c4ed69d3d658b60c",
+   "script": "scripts/BBMR93.ck.js",
    "thumb": "thumbs/BBMR93.png"
   },
   {
@@ -226,8 +241,9 @@
    ],
    "file": "parts/ball_bearing/BBMR95.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3088,
-   "sha256": "133fcf04ff29bd28b58f94cc9d84cfacf08cfa6a11daeb921e91776860e2b52f",
+   "bytes": 6148,
+   "sha256": "492fe1a5302bb3cae7b458c30ab8ffb80a3288d3740b509c8aee9d808bcd7b3f",
+   "script": "scripts/BBMR95.ck.js",
    "thumb": "thumbs/BBMR95.png"
   },
   {
@@ -240,9 +256,1330 @@
    ],
    "file": "parts/ball_bearing/BBSMR95.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ball_bearing.scad",
-   "bytes": 3108,
-   "sha256": "b8c4d2765221b20376afe7cf0263b2e5e2a1c8c9ef3745d76bea1f2878c87d31",
+   "bytes": 6185,
+   "sha256": "aceb66cb8d7d89fe02e02df509954f45d86f6b3b76083ddf1bf89f8d5f3f633b",
+   "script": "scripts/BBSMR95.ck.js",
    "thumb": "thumbs/BBSMR95.png"
+  },
+  {
+   "id": "HT_110_cap",
+   "title": "HT 110 cap",
+   "category": "ht pipe",
+   "tags": [
+    "110",
+    "HT",
+    "cap",
+    "ht pipe"
+   ],
+   "file": "parts/ht_pipe/HT_110_cap.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4572,
+   "sha256": "950c0d592f11b93c99065a9023e25383ea52257cf861b797a67c7d7458c1e8ed",
+   "script": "scripts/HT_110_cap.ck.js",
+   "thumb": "thumbs/HT_110_cap.png"
+  },
+  {
+   "id": "HT_110_pipe_1000",
+   "title": "HT 110 pipe 1000",
+   "category": "ht pipe",
+   "tags": [
+    "1000",
+    "110",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_110_pipe_1000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4642,
+   "sha256": "3a40d3f4784778a17b48e7ea530227dda71761f99789ee91aff5c50bdc729ed7",
+   "script": "scripts/HT_110_pipe_1000.ck.js",
+   "thumb": "thumbs/HT_110_pipe_1000.png"
+  },
+  {
+   "id": "HT_110_pipe_150",
+   "title": "HT 110 pipe 150",
+   "category": "ht pipe",
+   "tags": [
+    "110",
+    "150",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_110_pipe_150.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4629,
+   "sha256": "ff01af6fc30e6c689c67f67e425bb9e805fa19a78580f3e5a4aa7c0c42c9ffac",
+   "script": "scripts/HT_110_pipe_150.ck.js",
+   "thumb": "thumbs/HT_110_pipe_150.png"
+  },
+  {
+   "id": "HT_110_pipe_1500",
+   "title": "HT 110 pipe 1500",
+   "category": "ht pipe",
+   "tags": [
+    "110",
+    "1500",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_110_pipe_1500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4642,
+   "sha256": "16f653a3d4f122277ce057b93abc8493482058fa8343720ec2a36c4ed8dd344b",
+   "script": "scripts/HT_110_pipe_1500.ck.js",
+   "thumb": "thumbs/HT_110_pipe_1500.png"
+  },
+  {
+   "id": "HT_110_pipe_2000",
+   "title": "HT 110 pipe 2000",
+   "category": "ht pipe",
+   "tags": [
+    "110",
+    "2000",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_110_pipe_2000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4642,
+   "sha256": "e715cfa6588a35fbc75f47cb87d5e2e9a5887aa863172b19912581745cdb7fd2",
+   "script": "scripts/HT_110_pipe_2000.ck.js",
+   "thumb": "thumbs/HT_110_pipe_2000.png"
+  },
+  {
+   "id": "HT_110_pipe_250",
+   "title": "HT 110 pipe 250",
+   "category": "ht pipe",
+   "tags": [
+    "110",
+    "250",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_110_pipe_250.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4629,
+   "sha256": "9a16df08c14f6b47ccd56ed34cabeee796b2908ee179869f955999047ccf633e",
+   "script": "scripts/HT_110_pipe_250.ck.js",
+   "thumb": "thumbs/HT_110_pipe_250.png"
+  },
+  {
+   "id": "HT_110_pipe_500",
+   "title": "HT 110 pipe 500",
+   "category": "ht pipe",
+   "tags": [
+    "110",
+    "500",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_110_pipe_500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4629,
+   "sha256": "7d9c189e2d47d7948bcc408944e0527e995a5c92e509182ca1930c1881a4f33e",
+   "script": "scripts/HT_110_pipe_500.ck.js",
+   "thumb": "thumbs/HT_110_pipe_500.png"
+  },
+  {
+   "id": "HT_125_cap",
+   "title": "HT 125 cap",
+   "category": "ht pipe",
+   "tags": [
+    "125",
+    "HT",
+    "cap",
+    "ht pipe"
+   ],
+   "file": "parts/ht_pipe/HT_125_cap.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4578,
+   "sha256": "668fa8ee0e4524721ddd1f29cc1fb9758f52693874aa59f15ad8d5e44945509c",
+   "script": "scripts/HT_125_cap.ck.js",
+   "thumb": "thumbs/HT_125_cap.png"
+  },
+  {
+   "id": "HT_125_pipe_1000",
+   "title": "HT 125 pipe 1000",
+   "category": "ht pipe",
+   "tags": [
+    "1000",
+    "125",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_125_pipe_1000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4648,
+   "sha256": "93dfadaf47fd7fe7ef5b947bc8d883abe3a0fc9f3e486b3eee126dab79b07f6d",
+   "script": "scripts/HT_125_pipe_1000.ck.js",
+   "thumb": "thumbs/HT_125_pipe_1000.png"
+  },
+  {
+   "id": "HT_125_pipe_150",
+   "title": "HT 125 pipe 150",
+   "category": "ht pipe",
+   "tags": [
+    "125",
+    "150",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_125_pipe_150.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4635,
+   "sha256": "94086e2bed92157a5ba55c95ab4579c0f02cc89f5f3ebebf28945ad7e52d78b3",
+   "script": "scripts/HT_125_pipe_150.ck.js",
+   "thumb": "thumbs/HT_125_pipe_150.png"
+  },
+  {
+   "id": "HT_125_pipe_1500",
+   "title": "HT 125 pipe 1500",
+   "category": "ht pipe",
+   "tags": [
+    "125",
+    "1500",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_125_pipe_1500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4648,
+   "sha256": "3f310e4d6d403bde3c0cac1b346928aa497496b08a2e0aaf8a0c77b525d929b0",
+   "script": "scripts/HT_125_pipe_1500.ck.js",
+   "thumb": "thumbs/HT_125_pipe_1500.png"
+  },
+  {
+   "id": "HT_125_pipe_2000",
+   "title": "HT 125 pipe 2000",
+   "category": "ht pipe",
+   "tags": [
+    "125",
+    "2000",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_125_pipe_2000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4648,
+   "sha256": "7b3bbf9b89879934175df062744952b9b6085823e5b80673c4e343d4f437336e",
+   "script": "scripts/HT_125_pipe_2000.ck.js",
+   "thumb": "thumbs/HT_125_pipe_2000.png"
+  },
+  {
+   "id": "HT_125_pipe_250",
+   "title": "HT 125 pipe 250",
+   "category": "ht pipe",
+   "tags": [
+    "125",
+    "250",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_125_pipe_250.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4635,
+   "sha256": "38f7b9c0e061ad592ff252cb2101c3334d7aacf8acedd99c324d7b54779aae8c",
+   "script": "scripts/HT_125_pipe_250.ck.js",
+   "thumb": "thumbs/HT_125_pipe_250.png"
+  },
+  {
+   "id": "HT_125_pipe_500",
+   "title": "HT 125 pipe 500",
+   "category": "ht pipe",
+   "tags": [
+    "125",
+    "500",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_125_pipe_500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4635,
+   "sha256": "22f2bf3853785e89554f401263b610342137ecd540d9711680619b50addbc0f6",
+   "script": "scripts/HT_125_pipe_500.ck.js",
+   "thumb": "thumbs/HT_125_pipe_500.png"
+  },
+  {
+   "id": "HT_160_cap",
+   "title": "HT 160 cap",
+   "category": "ht pipe",
+   "tags": [
+    "160",
+    "HT",
+    "cap",
+    "ht pipe"
+   ],
+   "file": "parts/ht_pipe/HT_160_cap.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4572,
+   "sha256": "85ab54c2a7e3d3a2543056ca4560fe069d507828365dc4e5affdb4a4eff8c1dc",
+   "script": "scripts/HT_160_cap.ck.js",
+   "thumb": "thumbs/HT_160_cap.png"
+  },
+  {
+   "id": "HT_160_pipe_1000",
+   "title": "HT 160 pipe 1000",
+   "category": "ht pipe",
+   "tags": [
+    "1000",
+    "160",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_160_pipe_1000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4642,
+   "sha256": "4c990f4a42fa196646473dc9c9c7af26496a88c6a5630c6e54df9841ec65a286",
+   "script": "scripts/HT_160_pipe_1000.ck.js",
+   "thumb": "thumbs/HT_160_pipe_1000.png"
+  },
+  {
+   "id": "HT_160_pipe_150",
+   "title": "HT 160 pipe 150",
+   "category": "ht pipe",
+   "tags": [
+    "150",
+    "160",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_160_pipe_150.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4629,
+   "sha256": "fe42fbca814f9f3970ef43194e0657cf423ba8f4e15ca5c5499a858d223aa70b",
+   "script": "scripts/HT_160_pipe_150.ck.js",
+   "thumb": "thumbs/HT_160_pipe_150.png"
+  },
+  {
+   "id": "HT_160_pipe_1500",
+   "title": "HT 160 pipe 1500",
+   "category": "ht pipe",
+   "tags": [
+    "1500",
+    "160",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_160_pipe_1500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4642,
+   "sha256": "65476187e707df0bdd477a968392dff8ae160482a96d3679706bdd3ff1d4e823",
+   "script": "scripts/HT_160_pipe_1500.ck.js",
+   "thumb": "thumbs/HT_160_pipe_1500.png"
+  },
+  {
+   "id": "HT_160_pipe_2000",
+   "title": "HT 160 pipe 2000",
+   "category": "ht pipe",
+   "tags": [
+    "160",
+    "2000",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_160_pipe_2000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4642,
+   "sha256": "c9a76098433c654a7dba4590559af2c3e684eeeabe3b4d4a5599d4036d977001",
+   "script": "scripts/HT_160_pipe_2000.ck.js",
+   "thumb": "thumbs/HT_160_pipe_2000.png"
+  },
+  {
+   "id": "HT_160_pipe_250",
+   "title": "HT 160 pipe 250",
+   "category": "ht pipe",
+   "tags": [
+    "160",
+    "250",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_160_pipe_250.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4629,
+   "sha256": "471d42f4c3fa8b525fa874b2748f7bad21d1070e939269d78476845f22cbc6c4",
+   "script": "scripts/HT_160_pipe_250.ck.js",
+   "thumb": "thumbs/HT_160_pipe_250.png"
+  },
+  {
+   "id": "HT_160_pipe_500",
+   "title": "HT 160 pipe 500",
+   "category": "ht pipe",
+   "tags": [
+    "160",
+    "500",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_160_pipe_500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4629,
+   "sha256": "1433ae5c024976da33cf69b54580ce8018a0abd85437ad6ea90bee7247942ecc",
+   "script": "scripts/HT_160_pipe_500.ck.js",
+   "thumb": "thumbs/HT_160_pipe_500.png"
+  },
+  {
+   "id": "HT_32_cap",
+   "title": "HT 32 cap",
+   "category": "ht pipe",
+   "tags": [
+    "32",
+    "HT",
+    "cap",
+    "ht pipe"
+   ],
+   "file": "parts/ht_pipe/HT_32_cap.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4569,
+   "sha256": "c9754e8e6332e5ea9cbf3f6d7fc5f646c94b32e8cd116d29a41f9daadff3530a",
+   "script": "scripts/HT_32_cap.ck.js",
+   "thumb": "thumbs/HT_32_cap.png"
+  },
+  {
+   "id": "HT_32_pipe_1000",
+   "title": "HT 32 pipe 1000",
+   "category": "ht pipe",
+   "tags": [
+    "1000",
+    "32",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_32_pipe_1000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4639,
+   "sha256": "863d184b1665597c21ad1483df4f54744daa8844c7f6dd80255255902d98f9ba",
+   "script": "scripts/HT_32_pipe_1000.ck.js",
+   "thumb": "thumbs/HT_32_pipe_1000.png"
+  },
+  {
+   "id": "HT_32_pipe_150",
+   "title": "HT 32 pipe 150",
+   "category": "ht pipe",
+   "tags": [
+    "150",
+    "32",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_32_pipe_150.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4626,
+   "sha256": "d9a8419870fca208d2a7bc893a7a5807e2073218e8c692cc79585e622ff563f8",
+   "script": "scripts/HT_32_pipe_150.ck.js",
+   "thumb": "thumbs/HT_32_pipe_150.png"
+  },
+  {
+   "id": "HT_32_pipe_1500",
+   "title": "HT 32 pipe 1500",
+   "category": "ht pipe",
+   "tags": [
+    "1500",
+    "32",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_32_pipe_1500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4639,
+   "sha256": "be2ad6132392c0ae3dddd74d19d57d6e264a533f8543d7e5f91be7ce2a68f158",
+   "script": "scripts/HT_32_pipe_1500.ck.js",
+   "thumb": "thumbs/HT_32_pipe_1500.png"
+  },
+  {
+   "id": "HT_32_pipe_2000",
+   "title": "HT 32 pipe 2000",
+   "category": "ht pipe",
+   "tags": [
+    "2000",
+    "32",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_32_pipe_2000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4639,
+   "sha256": "67ad32f68c201943ccc250a6029da8ccef6728017f1d9280c94af0d9e6e18c7d",
+   "script": "scripts/HT_32_pipe_2000.ck.js",
+   "thumb": "thumbs/HT_32_pipe_2000.png"
+  },
+  {
+   "id": "HT_32_pipe_250",
+   "title": "HT 32 pipe 250",
+   "category": "ht pipe",
+   "tags": [
+    "250",
+    "32",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_32_pipe_250.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4626,
+   "sha256": "6f9fd2623d87bb208329ab255c451c8457af5c9218f6c389aeabba20f689ea37",
+   "script": "scripts/HT_32_pipe_250.ck.js",
+   "thumb": "thumbs/HT_32_pipe_250.png"
+  },
+  {
+   "id": "HT_32_pipe_500",
+   "title": "HT 32 pipe 500",
+   "category": "ht pipe",
+   "tags": [
+    "32",
+    "500",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_32_pipe_500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4626,
+   "sha256": "147d6bcc7c8de03f60092f9f412fe72c64a849d2284aaedd1cb5584ca64badec",
+   "script": "scripts/HT_32_pipe_500.ck.js",
+   "thumb": "thumbs/HT_32_pipe_500.png"
+  },
+  {
+   "id": "HT_40_cap",
+   "title": "HT 40 cap",
+   "category": "ht pipe",
+   "tags": [
+    "40",
+    "HT",
+    "cap",
+    "ht pipe"
+   ],
+   "file": "parts/ht_pipe/HT_40_cap.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4561,
+   "sha256": "0af36f04c0999726def52239a43393d98b0bf5405db5207959e270e54028d69c",
+   "script": "scripts/HT_40_cap.ck.js",
+   "thumb": "thumbs/HT_40_cap.png"
+  },
+  {
+   "id": "HT_40_pipe_1000",
+   "title": "HT 40 pipe 1000",
+   "category": "ht pipe",
+   "tags": [
+    "1000",
+    "40",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_40_pipe_1000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4631,
+   "sha256": "a0ff0ed21573ae25250757fa66bc1aa38dc9309747b400abc3729e8de039ad64",
+   "script": "scripts/HT_40_pipe_1000.ck.js",
+   "thumb": "thumbs/HT_40_pipe_1000.png"
+  },
+  {
+   "id": "HT_40_pipe_150",
+   "title": "HT 40 pipe 150",
+   "category": "ht pipe",
+   "tags": [
+    "150",
+    "40",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_40_pipe_150.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4618,
+   "sha256": "465e1b0e1134e34ae0ee63e70f343eea7824a725677dc95f49252305b0cd19b4",
+   "script": "scripts/HT_40_pipe_150.ck.js",
+   "thumb": "thumbs/HT_40_pipe_150.png"
+  },
+  {
+   "id": "HT_40_pipe_1500",
+   "title": "HT 40 pipe 1500",
+   "category": "ht pipe",
+   "tags": [
+    "1500",
+    "40",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_40_pipe_1500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4631,
+   "sha256": "6dda5363629d0ed9ad4986c58be56acc003cc5749a8cbad42875ca49cfe3237b",
+   "script": "scripts/HT_40_pipe_1500.ck.js",
+   "thumb": "thumbs/HT_40_pipe_1500.png"
+  },
+  {
+   "id": "HT_40_pipe_2000",
+   "title": "HT 40 pipe 2000",
+   "category": "ht pipe",
+   "tags": [
+    "2000",
+    "40",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_40_pipe_2000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4631,
+   "sha256": "496ead528320ddfe9cb79d3f882711d71c220572638ca5e03cea6687c9baecb4",
+   "script": "scripts/HT_40_pipe_2000.ck.js",
+   "thumb": "thumbs/HT_40_pipe_2000.png"
+  },
+  {
+   "id": "HT_40_pipe_250",
+   "title": "HT 40 pipe 250",
+   "category": "ht pipe",
+   "tags": [
+    "250",
+    "40",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_40_pipe_250.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4618,
+   "sha256": "cc7851b7ef8d197abab24daffbbb561260475806ab962ffc59880819120ca480",
+   "script": "scripts/HT_40_pipe_250.ck.js",
+   "thumb": "thumbs/HT_40_pipe_250.png"
+  },
+  {
+   "id": "HT_40_pipe_500",
+   "title": "HT 40 pipe 500",
+   "category": "ht pipe",
+   "tags": [
+    "40",
+    "500",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_40_pipe_500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4618,
+   "sha256": "f65d441d753519386cbe241f137f097e808b6227d2a8ca9b863361b96ecbc203",
+   "script": "scripts/HT_40_pipe_500.ck.js",
+   "thumb": "thumbs/HT_40_pipe_500.png"
+  },
+  {
+   "id": "HT_50_40_tpipe",
+   "title": "HT 50 40 tpipe",
+   "category": "ht pipe",
+   "tags": [
+    "40",
+    "50",
+    "HT",
+    "ht pipe",
+    "tpipe"
+   ],
+   "file": "parts/ht_pipe/HT_50_40_tpipe.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4618,
+   "sha256": "85aa1aca22813828f420ca9f46a0951f5c5b06b9973c668b37c4b413d15b3fdc",
+   "script": "scripts/HT_50_40_tpipe.ck.js",
+   "thumb": "thumbs/HT_50_40_tpipe.png"
+  },
+  {
+   "id": "HT_50_cap",
+   "title": "HT 50 cap",
+   "category": "ht pipe",
+   "tags": [
+    "50",
+    "HT",
+    "cap",
+    "ht pipe"
+   ],
+   "file": "parts/ht_pipe/HT_50_cap.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4561,
+   "sha256": "5abee61f7340792ced681065d7c254575d59ef7b9b434dd7ecb45dc6ca6812cf",
+   "script": "scripts/HT_50_cap.ck.js",
+   "thumb": "thumbs/HT_50_cap.png"
+  },
+  {
+   "id": "HT_50_pipe_1000",
+   "title": "HT 50 pipe 1000",
+   "category": "ht pipe",
+   "tags": [
+    "1000",
+    "50",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_50_pipe_1000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4631,
+   "sha256": "3cb3daa093f9be25813bcb2231b82e4a0705531f3e4216bd811c492384ad7a37",
+   "script": "scripts/HT_50_pipe_1000.ck.js",
+   "thumb": "thumbs/HT_50_pipe_1000.png"
+  },
+  {
+   "id": "HT_50_pipe_150",
+   "title": "HT 50 pipe 150",
+   "category": "ht pipe",
+   "tags": [
+    "150",
+    "50",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_50_pipe_150.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4618,
+   "sha256": "1f925c3a2ee329ea351b6c5a9400d3b638d069e54fb982c96ce1a356b292f666",
+   "script": "scripts/HT_50_pipe_150.ck.js",
+   "thumb": "thumbs/HT_50_pipe_150.png"
+  },
+  {
+   "id": "HT_50_pipe_1500",
+   "title": "HT 50 pipe 1500",
+   "category": "ht pipe",
+   "tags": [
+    "1500",
+    "50",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_50_pipe_1500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4631,
+   "sha256": "38a3ef2946991de92fa92b2b8358735bd8289036f2883947cc449f11267cb025",
+   "script": "scripts/HT_50_pipe_1500.ck.js",
+   "thumb": "thumbs/HT_50_pipe_1500.png"
+  },
+  {
+   "id": "HT_50_pipe_2000",
+   "title": "HT 50 pipe 2000",
+   "category": "ht pipe",
+   "tags": [
+    "2000",
+    "50",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_50_pipe_2000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4631,
+   "sha256": "2d379e968ac98ad7da56880c76ec8b04679c535393dff6e0068a6378d23484c0",
+   "script": "scripts/HT_50_pipe_2000.ck.js",
+   "thumb": "thumbs/HT_50_pipe_2000.png"
+  },
+  {
+   "id": "HT_50_pipe_250",
+   "title": "HT 50 pipe 250",
+   "category": "ht pipe",
+   "tags": [
+    "250",
+    "50",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_50_pipe_250.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4618,
+   "sha256": "3f45d9871fbc8aeaf8595e3c53de7fe2c35f2f3bf0074032b6d4e159180b4887",
+   "script": "scripts/HT_50_pipe_250.ck.js",
+   "thumb": "thumbs/HT_50_pipe_250.png"
+  },
+  {
+   "id": "HT_50_pipe_500",
+   "title": "HT 50 pipe 500",
+   "category": "ht pipe",
+   "tags": [
+    "50",
+    "500",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_50_pipe_500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4618,
+   "sha256": "f13370391c1ac08d10fb0f6d2e60dc2de8f66ea97e779a41dfb0df3506ca8360",
+   "script": "scripts/HT_50_pipe_500.ck.js",
+   "thumb": "thumbs/HT_50_pipe_500.png"
+  },
+  {
+   "id": "HT_50_tpipe",
+   "title": "HT 50 tpipe",
+   "category": "ht pipe",
+   "tags": [
+    "50",
+    "HT",
+    "ht pipe",
+    "tpipe"
+   ],
+   "file": "parts/ht_pipe/HT_50_tpipe.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4585,
+   "sha256": "70b0d6575209dec0b7b7460954a30e0eaeee04d5ed109cbfd85ab93522c491ea",
+   "script": "scripts/HT_50_tpipe.ck.js",
+   "thumb": "thumbs/HT_50_tpipe.png"
+  },
+  {
+   "id": "HT_75_cap",
+   "title": "HT 75 cap",
+   "category": "ht pipe",
+   "tags": [
+    "75",
+    "HT",
+    "cap",
+    "ht pipe"
+   ],
+   "file": "parts/ht_pipe/HT_75_cap.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4567,
+   "sha256": "7c654f8b9c997ac92e763090dc6a30c4bdbe844ad1fc3147ffadac1e066bb22b",
+   "script": "scripts/HT_75_cap.ck.js",
+   "thumb": "thumbs/HT_75_cap.png"
+  },
+  {
+   "id": "HT_75_pipe_1000",
+   "title": "HT 75 pipe 1000",
+   "category": "ht pipe",
+   "tags": [
+    "1000",
+    "75",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_75_pipe_1000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4637,
+   "sha256": "937881a7c253de5efea56e5abcd5f9546ea591c3ccf9fb6b141d1ae2da94ef9c",
+   "script": "scripts/HT_75_pipe_1000.ck.js",
+   "thumb": "thumbs/HT_75_pipe_1000.png"
+  },
+  {
+   "id": "HT_75_pipe_150",
+   "title": "HT 75 pipe 150",
+   "category": "ht pipe",
+   "tags": [
+    "150",
+    "75",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_75_pipe_150.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4624,
+   "sha256": "70b8f967d60b9fccdcc2e72a22beada3494d423c2f628db73cbea8fa1e390882",
+   "script": "scripts/HT_75_pipe_150.ck.js",
+   "thumb": "thumbs/HT_75_pipe_150.png"
+  },
+  {
+   "id": "HT_75_pipe_1500",
+   "title": "HT 75 pipe 1500",
+   "category": "ht pipe",
+   "tags": [
+    "1500",
+    "75",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_75_pipe_1500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4637,
+   "sha256": "a77974f6bee4359d461c02dd103d55b161a5ad7cf829900910b1513b80ad0f09",
+   "script": "scripts/HT_75_pipe_1500.ck.js",
+   "thumb": "thumbs/HT_75_pipe_1500.png"
+  },
+  {
+   "id": "HT_75_pipe_2000",
+   "title": "HT 75 pipe 2000",
+   "category": "ht pipe",
+   "tags": [
+    "2000",
+    "75",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_75_pipe_2000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4637,
+   "sha256": "6db6c42446aebc0c816a01f2df0f287f99cd1e8cf00a5148069bafbf64cd0051",
+   "script": "scripts/HT_75_pipe_2000.ck.js",
+   "thumb": "thumbs/HT_75_pipe_2000.png"
+  },
+  {
+   "id": "HT_75_pipe_250",
+   "title": "HT 75 pipe 250",
+   "category": "ht pipe",
+   "tags": [
+    "250",
+    "75",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_75_pipe_250.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4624,
+   "sha256": "42547d0b6b9e8e3cdd1036121d9983bb0c0d53088c0a07940756a30d74262d4e",
+   "script": "scripts/HT_75_pipe_250.ck.js",
+   "thumb": "thumbs/HT_75_pipe_250.png"
+  },
+  {
+   "id": "HT_75_pipe_500",
+   "title": "HT 75 pipe 500",
+   "category": "ht pipe",
+   "tags": [
+    "500",
+    "75",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_75_pipe_500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4624,
+   "sha256": "ebdec1ac591b56e54c374cf918c6bd031e76b60c2936359155a12148a0fa8def",
+   "script": "scripts/HT_75_pipe_500.ck.js",
+   "thumb": "thumbs/HT_75_pipe_500.png"
+  },
+  {
+   "id": "HT_90_cap",
+   "title": "HT 90 cap",
+   "category": "ht pipe",
+   "tags": [
+    "90",
+    "HT",
+    "cap",
+    "ht pipe"
+   ],
+   "file": "parts/ht_pipe/HT_90_cap.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4561,
+   "sha256": "a613cb3af14360497baad3d3030665e714be4fd54ac44d89a7167cc6114557a7",
+   "script": "scripts/HT_90_cap.ck.js",
+   "thumb": "thumbs/HT_90_cap.png"
+  },
+  {
+   "id": "HT_90_pipe_1000",
+   "title": "HT 90 pipe 1000",
+   "category": "ht pipe",
+   "tags": [
+    "1000",
+    "90",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_90_pipe_1000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4631,
+   "sha256": "4f711ae1170fab6a9bf975d7e7a1962373279925ca09fa873366a2261d7d9695",
+   "script": "scripts/HT_90_pipe_1000.ck.js",
+   "thumb": "thumbs/HT_90_pipe_1000.png"
+  },
+  {
+   "id": "HT_90_pipe_150",
+   "title": "HT 90 pipe 150",
+   "category": "ht pipe",
+   "tags": [
+    "150",
+    "90",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_90_pipe_150.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4618,
+   "sha256": "dd59118770e8dcfd8c05a741bf8ef5f9585ab2b3e0b760f242060c47de901d80",
+   "script": "scripts/HT_90_pipe_150.ck.js",
+   "thumb": "thumbs/HT_90_pipe_150.png"
+  },
+  {
+   "id": "HT_90_pipe_1500",
+   "title": "HT 90 pipe 1500",
+   "category": "ht pipe",
+   "tags": [
+    "1500",
+    "90",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_90_pipe_1500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4631,
+   "sha256": "9f2a53ec442dc2fe8193597966a3f3219e3eab931755b155179c6da9be61b432",
+   "script": "scripts/HT_90_pipe_1500.ck.js",
+   "thumb": "thumbs/HT_90_pipe_1500.png"
+  },
+  {
+   "id": "HT_90_pipe_2000",
+   "title": "HT 90 pipe 2000",
+   "category": "ht pipe",
+   "tags": [
+    "2000",
+    "90",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_90_pipe_2000.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4631,
+   "sha256": "083f3e24e9c8eb09fced18cef28532e0e823012bc8ca15991ae37f1497a2694c",
+   "script": "scripts/HT_90_pipe_2000.ck.js",
+   "thumb": "thumbs/HT_90_pipe_2000.png"
+  },
+  {
+   "id": "HT_90_pipe_250",
+   "title": "HT 90 pipe 250",
+   "category": "ht pipe",
+   "tags": [
+    "250",
+    "90",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_90_pipe_250.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4618,
+   "sha256": "cf0351cbca6f625b657aedae959f3d55eba250b2a4dce752e42d00cca10d2375",
+   "script": "scripts/HT_90_pipe_250.ck.js",
+   "thumb": "thumbs/HT_90_pipe_250.png"
+  },
+  {
+   "id": "HT_90_pipe_500",
+   "title": "HT 90 pipe 500",
+   "category": "ht pipe",
+   "tags": [
+    "500",
+    "90",
+    "HT",
+    "ht pipe",
+    "pipe"
+   ],
+   "file": "parts/ht_pipe/HT_90_pipe_500.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ht_pipe.scad",
+   "bytes": 4618,
+   "sha256": "7b5694d4238411b1b2e540bb572dc489f0f760eeec1dd33f22274d2220578c22",
+   "script": "scripts/HT_90_pipe_500.ck.js",
+   "thumb": "thumbs/HT_90_pipe_500.png"
+  },
+  {
+   "id": "CNCKM2p5",
+   "title": "CNCKM2p5",
+   "category": "insert",
+   "tags": [
+    "CNCKM2p5",
+    "insert"
+   ],
+   "file": "parts/insert/CNCKM2p5.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 4615,
+   "sha256": "92b7ab4ef3a7f77ba2d0bc84dbb39cebe25cf65e30429dd96e83c4fb16fec619",
+   "script": "scripts/CNCKM2p5.ck.js",
+   "thumb": "thumbs/CNCKM2p5.png"
+  },
+  {
+   "id": "CNCKM3",
+   "title": "CNCKM3",
+   "category": "insert",
+   "tags": [
+    "CNCKM3",
+    "insert"
+   ],
+   "file": "parts/insert/CNCKM3.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 4681,
+   "sha256": "95031c46dfc2ccd637c09221992919a65615932bf437f378f07d78939123fd82",
+   "script": "scripts/CNCKM3.ck.js",
+   "thumb": "thumbs/CNCKM3.png"
+  },
+  {
+   "id": "CNCKM4",
+   "title": "CNCKM4",
+   "category": "insert",
+   "tags": [
+    "CNCKM4",
+    "insert"
+   ],
+   "file": "parts/insert/CNCKM4.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 4673,
+   "sha256": "b04194a83fa11faa6e20af2c2cbbb85a984f330d09fff37970725209e979cefd",
+   "script": "scripts/CNCKM4.ck.js",
+   "thumb": "thumbs/CNCKM4.png"
+  },
+  {
+   "id": "CNCKM5",
+   "title": "CNCKM5",
+   "category": "insert",
+   "tags": [
+    "CNCKM5",
+    "insert"
+   ],
+   "file": "parts/insert/CNCKM5.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 4663,
+   "sha256": "8ce79d3ae64e50248b103fd6e36ee3259e15f3621e92883d18b078cb46da1db8",
+   "script": "scripts/CNCKM5.ck.js",
+   "thumb": "thumbs/CNCKM5.png"
+  },
+  {
+   "id": "F1BM2",
+   "title": "F1BM2",
+   "category": "insert",
+   "tags": [
+    "F1BM2",
+    "insert"
+   ],
+   "file": "parts/insert/F1BM2.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 4642,
+   "sha256": "aec1f02139b67bb985a112ae59bdaa6c7c3502850eda5c52155d14bdc1afb8e1",
+   "script": "scripts/F1BM2.ck.js",
+   "thumb": "thumbs/F1BM2.png"
+  },
+  {
+   "id": "F1BM2p5",
+   "title": "F1BM2p5",
+   "category": "insert",
+   "tags": [
+    "F1BM2p5",
+    "insert"
+   ],
+   "file": "parts/insert/F1BM2p5.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 4614,
+   "sha256": "3181977a590a537eef366a4ea1a82928d9f173ed8b9077a17d6e22f1cc847b1a",
+   "script": "scripts/F1BM2p5.ck.js",
+   "thumb": "thumbs/F1BM2p5.png"
+  },
+  {
+   "id": "F1BM3",
+   "title": "F1BM3",
+   "category": "insert",
+   "tags": [
+    "F1BM3",
+    "insert"
+   ],
+   "file": "parts/insert/F1BM3.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 4592,
+   "sha256": "a270559b2abac6876cc69c79c076ddb7eb86cefb07b8efd1667082607c7b5560",
+   "script": "scripts/F1BM3.ck.js",
+   "thumb": "thumbs/F1BM3.png"
+  },
+  {
+   "id": "F1BM4",
+   "title": "F1BM4",
+   "category": "insert",
+   "tags": [
+    "F1BM4",
+    "insert"
+   ],
+   "file": "parts/insert/F1BM4.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 4670,
+   "sha256": "52fcab494968a819d19da9d1749f85bca02fd2e045e6bfdb033265d213da6e2a",
+   "script": "scripts/F1BM4.ck.js",
+   "thumb": "thumbs/F1BM4.png"
+  },
+  {
+   "id": "M10x25",
+   "title": "M10x25",
+   "category": "insert",
+   "tags": [
+    "M10x25",
+    "insert"
+   ],
+   "file": "parts/insert/M10x25.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 3783,
+   "sha256": "5e583f12a04cda52aac0cb4f7bad3413bcd58587ca9cc726161bdc05f7575058",
+   "script": "scripts/M10x25.ck.js",
+   "thumb": "thumbs/M10x25.png"
+  },
+  {
+   "id": "M12x30",
+   "title": "M12x30",
+   "category": "insert",
+   "tags": [
+    "M12x30",
+    "insert"
+   ],
+   "file": "parts/insert/M12x30.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 3825,
+   "sha256": "902143ed1dce88bec3cf716ec2ae24c76bc356345a3b30611cc6fa9d72744fde",
+   "script": "scripts/M12x30.ck.js",
+   "thumb": "thumbs/M12x30.png"
+  },
+  {
+   "id": "M16x30",
+   "title": "M16x30",
+   "category": "insert",
+   "tags": [
+    "M16x30",
+    "insert"
+   ],
+   "file": "parts/insert/M16x30.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 3859,
+   "sha256": "8ca7090c0387a4519ad162205b28f359a299646dcf5b799144b6d96d0682c4bb",
+   "script": "scripts/M16x30.ck.js",
+   "thumb": "thumbs/M16x30.png"
+  },
+  {
+   "id": "M3x8",
+   "title": "M3x8",
+   "category": "insert",
+   "tags": [
+    "M3x8",
+    "insert"
+   ],
+   "file": "parts/insert/M3x8.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 3817,
+   "sha256": "edde750d508a3e5d9f0d0b8691b526aed964e5ef727d051315fb0c3fea482c2d",
+   "script": "scripts/M3x8.ck.js",
+   "thumb": "thumbs/M3x8.png"
+  },
+  {
+   "id": "M4x10",
+   "title": "M4x10",
+   "category": "insert",
+   "tags": [
+    "M4x10",
+    "insert"
+   ],
+   "file": "parts/insert/M4x10.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 3774,
+   "sha256": "36b1dc7503a509f0f99d8116d4c85760f0248cd46669fbfe5c123e4d390f6a49",
+   "script": "scripts/M4x10.ck.js",
+   "thumb": "thumbs/M4x10.png"
+  },
+  {
+   "id": "M5x12",
+   "title": "M5x12",
+   "category": "insert",
+   "tags": [
+    "M5x12",
+    "insert"
+   ],
+   "file": "parts/insert/M5x12.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 3830,
+   "sha256": "c2f17829c45e51ca1fa731dfbff9d39ef213254d1b00c6cb1141c5a8ce7df558",
+   "script": "scripts/M5x12.ck.js",
+   "thumb": "thumbs/M5x12.png"
+  },
+  {
+   "id": "M6x15",
+   "title": "M6x15",
+   "category": "insert",
+   "tags": [
+    "M6x15",
+    "insert"
+   ],
+   "file": "parts/insert/M6x15.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 3828,
+   "sha256": "7f4e4f0d60c6264568f96c145f0b0710c7ba1dac4fe79d91b1972d1d32454994",
+   "script": "scripts/M6x15.ck.js",
+   "thumb": "thumbs/M6x15.png"
+  },
+  {
+   "id": "M8x18",
+   "title": "M8x18",
+   "category": "insert",
+   "tags": [
+    "M8x18",
+    "insert"
+   ],
+   "file": "parts/insert/M8x18.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/insert.scad",
+   "bytes": 3828,
+   "sha256": "8324a42940cb6a0ace2759fe6a6ebfa8c50e045800aa4cd0c3a930f5e7ad75ed",
+   "script": "scripts/M8x18.ck.js",
+   "thumb": "thumbs/M8x18.png"
+  },
+  {
+   "id": "LSN8x2",
+   "title": "LSN8x2",
+   "category": "leadnut",
+   "tags": [
+    "LSN8x2",
+    "leadnut"
+   ],
+   "file": "parts/leadnut/LSN8x2.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/leadnut.scad",
+   "bytes": 6147,
+   "sha256": "f18d82f8c8fec243ee040c8e34267132dd31b2926e1e6788262cbb0626ff327b",
+   "script": "scripts/LSN8x2.ck.js",
+   "thumb": "thumbs/LSN8x2.png"
+  },
+  {
+   "id": "LSN8x8",
+   "title": "LSN8x8",
+   "category": "leadnut",
+   "tags": [
+    "LSN8x8",
+    "leadnut"
+   ],
+   "file": "parts/leadnut/LSN8x8.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/leadnut.scad",
+   "bytes": 5502,
+   "sha256": "362eae79974c425b319f3866492411d30ed2e879e6d13980cfb907d6f9a074f3",
+   "script": "scripts/LSN8x8.ck.js",
+   "thumb": "thumbs/LSN8x8.png"
+  },
+  {
+   "id": "SFU1610",
+   "title": "SFU1610",
+   "category": "leadnut",
+   "tags": [
+    "SFU1610",
+    "leadnut"
+   ],
+   "file": "parts/leadnut/SFU1610.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/leadnut.scad",
+   "bytes": 9652,
+   "sha256": "8cee86499ea16b8b6a4db310186fdbc82f4cadd085e3eb0ddc54eaf7a21986ee",
+   "script": "scripts/SFU1610.ck.js",
+   "thumb": "thumbs/SFU1610.png"
   },
   {
    "id": "LED10mm",
@@ -254,8 +1591,9 @@
    ],
    "file": "parts/led/LED10mm.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
-   "bytes": 5707,
-   "sha256": "e00b971cc9866f9d887ee77e794ca838e42eac20247a4d4b6e4b2de3a05eb084",
+   "bytes": 8260,
+   "sha256": "bb5e39fa57b4ab650eef5733e3adb49596d3ae5aad6947f7e3c67bd720f40b5f",
+   "script": "scripts/LED10mm.ck.js",
    "thumb": "thumbs/LED10mm.png"
   },
   {
@@ -268,8 +1606,9 @@
    ],
    "file": "parts/led/LED3mm.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
-   "bytes": 5677,
-   "sha256": "64e114f23dd276cef69ea8180c82faabb92141c97ab26e8c3287d20bb35b04ee",
+   "bytes": 8246,
+   "sha256": "35fb60af939d3338ca702633bcb23787ff37b1e2a0f4ec7ae2464cdf96a4b769",
+   "script": "scripts/LED3mm.ck.js",
    "thumb": "thumbs/LED3mm.png"
   },
   {
@@ -282,8 +1621,9 @@
    ],
    "file": "parts/led/LED5mm.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
-   "bytes": 5677,
-   "sha256": "894f74eeea91b8e0c211c6267a88291bf3242fa4c49e1c7dec710cc7e3cc662f",
+   "bytes": 8238,
+   "sha256": "2f004143a06d556e1834b67780b53764b3817e2858952d4a3c443e000dfd75a2",
+   "script": "scripts/LED5mm.ck.js",
    "thumb": "thumbs/LED5mm.png"
   },
   {
@@ -296,8 +1636,9 @@
    ],
    "file": "parts/led/LED5x2mm.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
-   "bytes": 4292,
-   "sha256": "f6e82a08a4a68b2ca42b03d634de9130d973cee5dd8b92f215a568bedb406752",
+   "bytes": 6497,
+   "sha256": "f459576ca47a5b2079efc581bbd717e78d01c5f1a0a1e2585ec75cdfd69cf186",
+   "script": "scripts/LED5x2mm.ck.js",
    "thumb": "thumbs/LED5x2mm.png"
   },
   {
@@ -310,9 +1651,265 @@
    ],
    "file": "parts/led/LED8mm.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/led.scad",
-   "bytes": 5683,
-   "sha256": "a42c8d8389500d5cefda576516ab84ff6a23e8000fd875e31d03fc464b36aa0b",
+   "bytes": 8236,
+   "sha256": "c9d22372a8ee12ebd3f6a09b53d17da246d21371c5ee00bbf8aadee4c2b2c7c1",
+   "script": "scripts/LED8mm.ck.js",
    "thumb": "thumbs/LED8mm.png"
+  },
+  {
+   "id": "LM10LUU",
+   "title": "LM10LUU",
+   "category": "linear bearing",
+   "tags": [
+    "LM10LUU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM10LUU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8143,
+   "sha256": "42b0bb13a2498799d7f9a9ffe39af514085dff47196c81abc12a71cbbe0cbbf1",
+   "script": "scripts/LM10LUU.ck.js",
+   "thumb": "thumbs/LM10LUU.png"
+  },
+  {
+   "id": "LM10UU",
+   "title": "LM10UU",
+   "category": "linear bearing",
+   "tags": [
+    "LM10UU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM10UU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8118,
+   "sha256": "42a72df635914681435890263ff16489f7b033f29b57da90591f6a5b921be879",
+   "script": "scripts/LM10UU.ck.js",
+   "thumb": "thumbs/LM10UU.png"
+  },
+  {
+   "id": "LM12LUU",
+   "title": "LM12LUU",
+   "category": "linear bearing",
+   "tags": [
+    "LM12LUU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM12LUU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8155,
+   "sha256": "822614dea8d855c6f8e93a017a15011ce3ad5aff85f7bcc3bed2824a2ba03890",
+   "script": "scripts/LM12LUU.ck.js",
+   "thumb": "thumbs/LM12LUU.png"
+  },
+  {
+   "id": "LM12UU",
+   "title": "LM12UU",
+   "category": "linear bearing",
+   "tags": [
+    "LM12UU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM12UU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8130,
+   "sha256": "55424c063fd182482ccb0cc396f7b92ee9279b2f110676b3596ab53f8e60ee64",
+   "script": "scripts/LM12UU.ck.js",
+   "thumb": "thumbs/LM12UU.png"
+  },
+  {
+   "id": "LM16LUU",
+   "title": "LM16LUU",
+   "category": "linear bearing",
+   "tags": [
+    "LM16LUU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM16LUU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8151,
+   "sha256": "62421ab6affd5de56a4e1c70b8eff058584d01f37bcd94de37148b9357c035ee",
+   "script": "scripts/LM16LUU.ck.js",
+   "thumb": "thumbs/LM16LUU.png"
+  },
+  {
+   "id": "LM16UU",
+   "title": "LM16UU",
+   "category": "linear bearing",
+   "tags": [
+    "LM16UU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM16UU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8130,
+   "sha256": "78614e3ce86dbd9986d74ede4326c947ef6feafcf9f245859c0ddc19d3b1c3a1",
+   "script": "scripts/LM16UU.ck.js",
+   "thumb": "thumbs/LM16UU.png"
+  },
+  {
+   "id": "LM16UUOP",
+   "title": "LM16UUOP",
+   "category": "linear bearing",
+   "tags": [
+    "LM16UUOP",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM16UUOP.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 23565,
+   "sha256": "48117fcaf5eb7d8b4e3e43e2c14f1b6ec47b7cb2bb601e78337f4c3a967c508d",
+   "script": "scripts/LM16UUOP.ck.js",
+   "thumb": "thumbs/LM16UUOP.png"
+  },
+  {
+   "id": "LM3LUU",
+   "title": "LM3LUU",
+   "category": "linear bearing",
+   "tags": [
+    "LM3LUU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM3LUU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 2975,
+   "sha256": "64894d52f6c2d41ce3d2dbfc9022107d6c9b6876233a156c88dabdeb71e5aa7e",
+   "script": "scripts/LM3LUU.ck.js",
+   "thumb": "thumbs/LM3LUU.png"
+  },
+  {
+   "id": "LM3UU",
+   "title": "LM3UU",
+   "category": "linear bearing",
+   "tags": [
+    "LM3UU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM3UU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 2964,
+   "sha256": "bd7ba560f96f8e4a938bf711879127ff05a642c9a67feca674b043fb92945cf1",
+   "script": "scripts/LM3UU.ck.js",
+   "thumb": "thumbs/LM3UU.png"
+  },
+  {
+   "id": "LM4LUU",
+   "title": "LM4LUU",
+   "category": "linear bearing",
+   "tags": [
+    "LM4LUU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM4LUU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 2963,
+   "sha256": "e6eb8f13f49f24ba704b484953b4e55f25a045923c2c44802c137156b8daf419",
+   "script": "scripts/LM4LUU.ck.js",
+   "thumb": "thumbs/LM4LUU.png"
+  },
+  {
+   "id": "LM4UU",
+   "title": "LM4UU",
+   "category": "linear bearing",
+   "tags": [
+    "LM4UU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM4UU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 2952,
+   "sha256": "9d2173c8c58ddb82cb3818e310ee051f707f468a5bd41398b5d230d09f654c50",
+   "script": "scripts/LM4UU.ck.js",
+   "thumb": "thumbs/LM4UU.png"
+  },
+  {
+   "id": "LM5LUU",
+   "title": "LM5LUU",
+   "category": "linear bearing",
+   "tags": [
+    "LM5LUU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM5LUU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8114,
+   "sha256": "2d74908e627bcbd3a34259b36fa09adf4a8d860f50124f3f88bd0f23606f9414",
+   "script": "scripts/LM5LUU.ck.js",
+   "thumb": "thumbs/LM5LUU.png"
+  },
+  {
+   "id": "LM5UU",
+   "title": "LM5UU",
+   "category": "linear bearing",
+   "tags": [
+    "LM5UU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM5UU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8089,
+   "sha256": "2e4769c814f479d5f9c6f344b7d7f51ab41c926e0ebddca9df6f92b2e30a3cad",
+   "script": "scripts/LM5UU.ck.js",
+   "thumb": "thumbs/LM5UU.png"
+  },
+  {
+   "id": "LM6LUU",
+   "title": "LM6LUU",
+   "category": "linear bearing",
+   "tags": [
+    "LM6LUU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM6LUU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8108,
+   "sha256": "99cf08fa0fab5ed8516ab12ebe5354a81fc90f824ed97eda833f0f7fd7354a60",
+   "script": "scripts/LM6LUU.ck.js",
+   "thumb": "thumbs/LM6LUU.png"
+  },
+  {
+   "id": "LM6UU",
+   "title": "LM6UU",
+   "category": "linear bearing",
+   "tags": [
+    "LM6UU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM6UU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8087,
+   "sha256": "5b00f47c325883e10df00f395b398550a0facdc4a142272efe28c861699b8571",
+   "script": "scripts/LM6UU.ck.js",
+   "thumb": "thumbs/LM6UU.png"
+  },
+  {
+   "id": "LM8LUU",
+   "title": "LM8LUU",
+   "category": "linear bearing",
+   "tags": [
+    "LM8LUU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM8LUU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8132,
+   "sha256": "4c9e26808919960caaf5861293b4fa440d6d560c9e8ba6dbaae07faabe28e3b7",
+   "script": "scripts/LM8LUU.ck.js",
+   "thumb": "thumbs/LM8LUU.png"
+  },
+  {
+   "id": "LM8UU",
+   "title": "LM8UU",
+   "category": "linear bearing",
+   "tags": [
+    "LM8UU",
+    "linear bearing"
+   ],
+   "file": "parts/linear_bearing/LM8UU.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
+   "bytes": 8111,
+   "sha256": "7a7c53420a5e4f0afe60433ef70682142ce9db681d50e5fa84c74b244135472d",
+   "script": "scripts/LM8UU.ck.js",
+   "thumb": "thumbs/LM8UU.png"
   },
   {
    "id": "M2_nut",
@@ -324,8 +1921,9 @@
    ],
    "file": "parts/nut/M2_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1156,
-   "sha256": "c8841a698c138a1d8e8b560e34ad7bea2f5c85cdd4d23d1065cba701e63989dc",
+   "bytes": 1663,
+   "sha256": "883c3b47dc3855af307a2d501e8437e9938cae8f3ff338c130aeb8ae137a3329",
+   "script": "scripts/M2_nut.ck.js",
    "thumb": "thumbs/M2_nut.png"
   },
   {
@@ -338,8 +1936,9 @@
    ],
    "file": "parts/nut/M2p5_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1157,
-   "sha256": "ede247fb16ea61c391ddfe0e7886b1706fdafc4a06a5ee03e6ec94923f5d0d4c",
+   "bytes": 1669,
+   "sha256": "9623028cc076ddbc636e939c87924d0c007b6450c691f761b63c2fe997309318",
+   "script": "scripts/M2p5_nut.ck.js",
    "thumb": "thumbs/M2p5_nut.png"
   },
   {
@@ -353,8 +1952,9 @@
    ],
    "file": "parts/nut/M3_hammer_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1168,
-   "sha256": "3decaa39779b4e6c0aab66cf1e89b3e20bf0c4f58167c07ecb750ecb9a5086b6",
+   "bytes": 1683,
+   "sha256": "0c03231cf68fff9bb1042aa6a99e29df4e75afced3f8a5df58966268950a3a3e",
+   "script": "scripts/M3_hammer_nut.ck.js",
    "thumb": "thumbs/M3_hammer_nut.png"
   },
   {
@@ -367,8 +1967,9 @@
    ],
    "file": "parts/nut/M3_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1146,
-   "sha256": "e630abc160ad5ba387747fff7b263912486af14b7c0b4c38e33d0550ebe3f7de",
+   "bytes": 1647,
+   "sha256": "3b9ac0d5c89e8a34ead4b377472a38b1c549766f4881bf5b091c4bd440c6f58d",
+   "script": "scripts/M3_nut.ck.js",
    "thumb": "thumbs/M3_nut.png"
   },
   {
@@ -382,8 +1983,9 @@
    ],
    "file": "parts/nut/M3_sliding_t_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1176,
-   "sha256": "c52529dcfd60f89104fb0c57f9f712ee317118c6afb70aad5fef8da0bdd013b5",
+   "bytes": 1697,
+   "sha256": "48b1e7e170bdf708a64c5eef02d00d96b89038ce49aba3fec18aa1adc1aca934",
+   "script": "scripts/M3_sliding_t_nut.ck.js",
    "thumb": "thumbs/M3_sliding_t_nut.png"
   },
   {
@@ -397,8 +1999,9 @@
    ],
    "file": "parts/nut/M3nS_thin_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1173,
-   "sha256": "eccfcfdb51571da30ec39577bf035cafb6cab7772ef545717be22c9bd7ae82db",
+   "bytes": 1709,
+   "sha256": "1b116712d071bcb1a4b4bc5eb23b95901dee812b629bd7d66d69958b847eb2bb",
+   "script": "scripts/M3nS_thin_nut.ck.js",
    "thumb": "thumbs/M3nS_thin_nut.png"
   },
   {
@@ -412,8 +2015,9 @@
    ],
    "file": "parts/nut/M4_hammer_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1168,
-   "sha256": "d1357fdde82d9eb8ea619da1f0a3cb9cadbf1596c25f46a869638896e9cf16cc",
+   "bytes": 1679,
+   "sha256": "bc763ebbd618e5b0c693eb0931f71a481c544b4eb9760a3330766cd3f286a30a",
+   "script": "scripts/M4_hammer_nut.ck.js",
    "thumb": "thumbs/M4_hammer_nut.png"
   },
   {
@@ -426,8 +2030,9 @@
    ],
    "file": "parts/nut/M4_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1156,
-   "sha256": "3fd68e1febcbd149e7a08769b12a195bd645f055325c34531f4c0a608233b6c2",
+   "bytes": 1655,
+   "sha256": "b0a5779dfa4edbf40023499ff56448dd9d991466ea7676bcc3d95f5dcb17fb6e",
+   "script": "scripts/M4_nut.ck.js",
    "thumb": "thumbs/M4_nut.png"
   },
   {
@@ -441,8 +2046,9 @@
    ],
    "file": "parts/nut/M4_sliding_t_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1176,
-   "sha256": "4979e63b44f9e9e98b03d5d8b1d4c8267d8fb869e8558885cc15087c5327bdaf",
+   "bytes": 1695,
+   "sha256": "98c90d76cf86e7cd9cb1bc658488be01025636e0598078c607f8c85af47928bc",
+   "script": "scripts/M4_sliding_t_nut.ck.js",
    "thumb": "thumbs/M4_sliding_t_nut.png"
   },
   {
@@ -456,8 +2062,9 @@
    ],
    "file": "parts/nut/M4_weld_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1167,
-   "sha256": "70bffaf2f122e526987546f48d6e03ee9577812739b7ff0ead01ec7278f420a2",
+   "bytes": 1693,
+   "sha256": "cafadf9a7fcc4eaa880659338551465c91d68b51be689f9e6417afd26fde347b",
+   "script": "scripts/M4_weld_nut.ck.js",
    "thumb": "thumbs/M4_weld_nut.png"
   },
   {
@@ -471,8 +2078,9 @@
    ],
    "file": "parts/nut/M4_wingnut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1159,
-   "sha256": "2b5d8fc49e162af158e12bb6334b5592471d862cb9969e2e9779942cf8f21e6c",
+   "bytes": 1661,
+   "sha256": "bdfada878c2d1a99649a5370aa6f355fd4edb6eb7afa02a609226e97c9464d40",
+   "script": "scripts/M4_wingnut.ck.js",
    "thumb": "thumbs/M4_wingnut.png"
   },
   {
@@ -486,8 +2094,9 @@
    ],
    "file": "parts/nut/M4nS_thin_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1171,
-   "sha256": "3a2953d957a3763bc981323b5a12071227153831bf1ffca6d815fb0f55ed9bec",
+   "bytes": 1693,
+   "sha256": "f8302cae856c1b4ce22f3f3bc17521f9e77e252d4c88ccd3acfbb2bb63201054",
+   "script": "scripts/M4nS_thin_nut.ck.js",
    "thumb": "thumbs/M4nS_thin_nut.png"
   },
   {
@@ -500,8 +2109,9 @@
    ],
    "file": "parts/nut/M5_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1146,
-   "sha256": "db08dc625c74c1e3a9b04bbdfef87c6f7768fce166d496ad6be4184fadfca501",
+   "bytes": 1645,
+   "sha256": "8d097ab8a34ad0956a5c9fa8437bb6fcc2c1fd5bd3f8bd49ad329563a7872ed3",
+   "script": "scripts/M5_nut.ck.js",
    "thumb": "thumbs/M5_nut.png"
   },
   {
@@ -515,8 +2125,9 @@
    ],
    "file": "parts/nut/M5_sliding_t_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1176,
-   "sha256": "a9539b29f85c35896e8adbdfba06d1b305a000133b936bd63678b17e67a41070",
+   "bytes": 1699,
+   "sha256": "0ccb60ce9dfa1449de2c54736a185c6662960c5ef170060b496b37431b01d9fe",
+   "script": "scripts/M5_sliding_t_nut.ck.js",
    "thumb": "thumbs/M5_sliding_t_nut.png"
   },
   {
@@ -530,8 +2141,9 @@
    ],
    "file": "parts/nut/M5nS_thin_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1167,
-   "sha256": "5b6b2bf333556f1604282d79473852ab4a307a1fc0b185160be303cd6d9e4990",
+   "bytes": 1657,
+   "sha256": "3ddf40c31869d9b735cba44a5f156a28d2f0f8f106948dbb84e1dab6be06be69",
+   "script": "scripts/M5nS_thin_nut.ck.js",
    "thumb": "thumbs/M5nS_thin_nut.png"
   },
   {
@@ -545,8 +2157,9 @@
    ],
    "file": "parts/nut/M6_half_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1171,
-   "sha256": "0d0c42a282944b6cd24d63c4b1cddad3e101810106b4d36ba437949e5ccfd96d",
+   "bytes": 1691,
+   "sha256": "716ebed23dce058e2abb0895a4930bd5790d5eea411aed11cbe0d1ef239e035b",
+   "script": "scripts/M6_half_nut.ck.js",
    "thumb": "thumbs/M6_half_nut.png"
   },
   {
@@ -559,8 +2172,9 @@
    ],
    "file": "parts/nut/M6_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1156,
-   "sha256": "8b867413c8e1aabee8b2b067d07f4eacb0e4b678aa7cd7da829d24dbc21536e4",
+   "bytes": 1661,
+   "sha256": "fa3d31abd0883e604cd4612692715397e3d6e4f1e2bf7310cc4bcf21fee28704",
+   "script": "scripts/M6_nut.ck.js",
    "thumb": "thumbs/M6_nut.png"
   },
   {
@@ -574,8 +2188,9 @@
    ],
    "file": "parts/nut/M6_sliding_t_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1176,
-   "sha256": "99e77be3aacc8d3e85fd54bd84f6cfffc4dc2b121f5b760d9ef9a1d8c6e24a9a",
+   "bytes": 1671,
+   "sha256": "d5c473abd2d77178515ac4c78c3cf6d9b962717e30fe62ef5fada0693a2b1bd8",
+   "script": "scripts/M6_sliding_t_nut.ck.js",
    "thumb": "thumbs/M6_sliding_t_nut.png"
   },
   {
@@ -589,8 +2204,9 @@
    ],
    "file": "parts/nut/M6_weld_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1171,
-   "sha256": "d0ec4ab884894fa4019ff52648e01122c0875c4124bb26e2e5c81872fbaee865",
+   "bytes": 1685,
+   "sha256": "a5de56e4f49b124bcf53e4d568efeeb0894857d832590451c166b27b5227b811",
+   "script": "scripts/M6_weld_nut.ck.js",
    "thumb": "thumbs/M6_weld_nut.png"
   },
   {
@@ -604,8 +2220,9 @@
    ],
    "file": "parts/nut/M6nS_thin_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1167,
-   "sha256": "62a68684526f970f42c6ccb580363eaad7d569f3c3665e09a4ad58903f56677c",
+   "bytes": 1677,
+   "sha256": "bfbe948a41c01dfb3a6ebcefffd0b468523ca346567fdbf24de9e5e3a4f1fba5",
+   "script": "scripts/M6nS_thin_nut.ck.js",
    "thumb": "thumbs/M6nS_thin_nut.png"
   },
   {
@@ -618,8 +2235,9 @@
    ],
    "file": "parts/nut/M8_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1150,
-   "sha256": "75c8e9c622b1f9d8e881628db85e4514ea1ef1132659d6c440611b0e08c8b2ed",
+   "bytes": 1651,
+   "sha256": "a015fcdc2d87bbc39228997eab6c2df0d3866460e2b70083d3ec1e5bd6cd0630",
+   "script": "scripts/M8_nut.ck.js",
    "thumb": "thumbs/M8_nut.png"
   },
   {
@@ -633,8 +2251,9 @@
    ],
    "file": "parts/nut/M8nS_thin_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1171,
-   "sha256": "3588a423077d2b2e8a78e467020f4f608f44298eeea2ec2acf5e0434430b3bef",
+   "bytes": 1691,
+   "sha256": "92097e1fb8a2ec3bd7b0a14c3beea151758f16094109387d17a1a8b408691ed0",
+   "script": "scripts/M8nS_thin_nut.ck.js",
    "thumb": "thumbs/M8nS_thin_nut.png"
   },
   {
@@ -647,9 +2266,155 @@
    ],
    "file": "parts/nut/toggle_nut.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/nut.scad",
-   "bytes": 1159,
-   "sha256": "6e4d9f0175796e91559023162806cc35ebb7d622da47962d6d2decce7a79170d",
+   "bytes": 1673,
+   "sha256": "069a8f88b414abd13b2a2d4baac764bca08557ad9b8df6729453b55c5495303b",
+   "script": "scripts/toggle_nut.ck.js",
    "thumb": "thumbs/toggle_nut.png"
+  },
+  {
+   "id": "M2x16_brass_pillar",
+   "title": "M2x16 brass pillar",
+   "category": "pillar",
+   "tags": [
+    "M2x16",
+    "brass",
+    "pillar"
+   ],
+   "file": "parts/pillar/M2x16_brass_pillar.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
+   "bytes": 3596,
+   "sha256": "28305bcebb8e07766ec6448bddb9437626d88ed69acfcac35888b95c0ec42b38",
+   "script": "scripts/M2x16_brass_pillar.ck.js",
+   "thumb": "thumbs/M2x16_brass_pillar.png"
+  },
+  {
+   "id": "M3x10_nylon_hex_pillar",
+   "title": "M3x10 nylon hex pillar",
+   "category": "pillar",
+   "tags": [
+    "M3x10",
+    "hex",
+    "nylon",
+    "pillar"
+   ],
+   "file": "parts/pillar/M3x10_nylon_hex_pillar.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
+   "bytes": 3898,
+   "sha256": "0c6d212efecbd570c9f8056418e89bc982af6a4ec0bf0d6e6d06e8daca3664c4",
+   "script": "scripts/M3x10_nylon_hex_pillar.ck.js",
+   "thumb": "thumbs/M3x10_nylon_hex_pillar.png"
+  },
+  {
+   "id": "M3x13_hex_pillar",
+   "title": "M3x13 hex pillar",
+   "category": "pillar",
+   "tags": [
+    "M3x13",
+    "hex",
+    "pillar"
+   ],
+   "file": "parts/pillar/M3x13_hex_pillar.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
+   "bytes": 3818,
+   "sha256": "26b493a2afdd441b1048b5532c978f42cc064d0ad5684aa409cb9347d24be4b5",
+   "script": "scripts/M3x13_hex_pillar.ck.js",
+   "thumb": "thumbs/M3x13_hex_pillar.png"
+  },
+  {
+   "id": "M3x20_hex_pillar",
+   "title": "M3x20 hex pillar",
+   "category": "pillar",
+   "tags": [
+    "M3x20",
+    "hex",
+    "pillar"
+   ],
+   "file": "parts/pillar/M3x20_hex_pillar.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
+   "bytes": 3818,
+   "sha256": "c539deae6d45cc15266bfca594a9ba725e767e5b8102d341bd31a660a81b8a9e",
+   "script": "scripts/M3x20_hex_pillar.ck.js",
+   "thumb": "thumbs/M3x20_hex_pillar.png"
+  },
+  {
+   "id": "M3x20_nylon_hex_pillar",
+   "title": "M3x20 nylon hex pillar",
+   "category": "pillar",
+   "tags": [
+    "M3x20",
+    "hex",
+    "nylon",
+    "pillar"
+   ],
+   "file": "parts/pillar/M3x20_nylon_hex_pillar.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
+   "bytes": 3862,
+   "sha256": "214963ca9264a086c55fb26c3f545cb6923fa4e0369dbab4808caefdd18dcaff",
+   "script": "scripts/M3x20_nylon_hex_pillar.ck.js",
+   "thumb": "thumbs/M3x20_nylon_hex_pillar.png"
+  },
+  {
+   "id": "M3x20_nylon_pillar",
+   "title": "M3x20 nylon pillar",
+   "category": "pillar",
+   "tags": [
+    "M3x20",
+    "nylon",
+    "pillar"
+   ],
+   "file": "parts/pillar/M3x20_nylon_pillar.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
+   "bytes": 5109,
+   "sha256": "2bf36e1c52cfee3a00505ec6b7509b65ed11dd316cac9e840af632d2c7fda65d",
+   "script": "scripts/M3x20_nylon_pillar.ck.js",
+   "thumb": "thumbs/M3x20_nylon_pillar.png"
+  },
+  {
+   "id": "M3x6_hex_pillar",
+   "title": "M3x6 hex pillar",
+   "category": "pillar",
+   "tags": [
+    "M3x6",
+    "hex",
+    "pillar"
+   ],
+   "file": "parts/pillar/M3x6_hex_pillar.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
+   "bytes": 3804,
+   "sha256": "852bb21f1a3d59ca4c0d11883bac8339cc24cda5ed5f31b0d5e3b38d5d43e1c6",
+   "script": "scripts/M3x6_hex_pillar.ck.js",
+   "thumb": "thumbs/M3x6_hex_pillar.png"
+  },
+  {
+   "id": "M4x17_nylon_pillar",
+   "title": "M4x17 nylon pillar",
+   "category": "pillar",
+   "tags": [
+    "M4x17",
+    "nylon",
+    "pillar"
+   ],
+   "file": "parts/pillar/M4x17_nylon_pillar.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pillar.scad",
+   "bytes": 5101,
+   "sha256": "b4f210d3a8d8bbf4b6b857b0964df1a9035e885b1bdc674706ad5ebe66448870",
+   "script": "scripts/M4x17_nylon_pillar.ck.js",
+   "thumb": "thumbs/M4x17_nylon_pillar.png"
+  },
+  {
+   "id": "KY240W",
+   "title": "KY240W",
+   "category": "psu",
+   "tags": [
+    "KY240W",
+    "psu"
+   ],
+   "file": "parts/psu/KY240W.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/psu.scad",
+   "bytes": 1685,
+   "sha256": "32c151d4da6d9d442ba803c619830ad6d2329ee984f7305ce0075e02cf5fe731",
+   "script": "scripts/KY240W.ck.js",
+   "thumb": "thumbs/KY240W.png"
   },
   {
    "id": "GT2x12_pulley",
@@ -661,8 +2426,9 @@
    ],
    "file": "parts/pulley/GT2x12_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 54270,
-   "sha256": "60666bd68838d897000a16b68f7be93918ac6ec3986e22b20df2561a708d36bc",
+   "bytes": 68604,
+   "sha256": "f0488256f9d3cd8dd3e90898747ddbea86ee5af70a56c5b672ef421f566701d0",
+   "script": "scripts/GT2x12_pulley.ck.js",
    "thumb": "thumbs/GT2x12_pulley.png"
   },
   {
@@ -677,8 +2443,9 @@
    ],
    "file": "parts/pulley/GT2x16_plain_idler.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 3231,
-   "sha256": "a1730c329a20d0f55280228db62be3514d45bbdd6cbbcea06b71357ef1335eab",
+   "bytes": 6005,
+   "sha256": "ef8c1ad3c0ddfd2e2447bf1445c8b096a988f0ee92127c5f8ede2d2b618b5899",
+   "script": "scripts/GT2x16_plain_idler.ck.js",
    "thumb": "thumbs/GT2x16_plain_idler.png"
   },
   {
@@ -691,8 +2458,9 @@
    ],
    "file": "parts/pulley/GT2x16_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 71410,
-   "sha256": "2513bbe5b040e457e89b102fd556cca67a69433b8b6e2cc179561e82b8b80f43",
+   "bytes": 88724,
+   "sha256": "986e562a8799e73d3215ce44175f37df2630a9e0fd091ae2bcd67f89bc6a47e3",
+   "script": "scripts/GT2x16_pulley.ck.js",
    "thumb": "thumbs/GT2x16_pulley.png"
   },
   {
@@ -705,8 +2473,9 @@
    ],
    "file": "parts/pulley/GT2x16_pulley_9.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 71560,
-   "sha256": "02b1836462399ada710607883f08058ae56778c8a5f375ff4b2fa085d4958bfa",
+   "bytes": 88894,
+   "sha256": "93dafe90390e163fc2cfde3f392f0ce1876bfac984393283487da9db64c46808",
+   "script": "scripts/GT2x16_pulley_9.ck.js",
    "thumb": "thumbs/GT2x16_pulley_9.png"
   },
   {
@@ -721,8 +2490,9 @@
    ],
    "file": "parts/pulley/GT2x16_toothed_idler.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 68917,
-   "sha256": "d6849330474028737bc60930d60af4e16139d950f337ff67ffa12e6d7124e9a0",
+   "bytes": 84065,
+   "sha256": "d159bc2d89da6f7c3660ab3b4c864d86785e4c9ee15fc2773173322d2a829a60",
+   "script": "scripts/GT2x16_toothed_idler.ck.js",
    "thumb": "thumbs/GT2x16_toothed_idler.png"
   },
   {
@@ -737,8 +2507,9 @@
    ],
    "file": "parts/pulley/GT2x16_toothed_idler_9.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 69012,
-   "sha256": "d97fc012beac45cd4bd5a3fe2c2182225792e855a4ecacd2c3cf4959e6277319",
+   "bytes": 84161,
+   "sha256": "846f64b91b154f167891c1c530081988fb42c1b4541f359ab5429b12d909d363",
+   "script": "scripts/GT2x16_toothed_idler_9.ck.js",
    "thumb": "thumbs/GT2x16_toothed_idler_9.png"
   },
   {
@@ -753,8 +2524,9 @@
    ],
    "file": "parts/pulley/GT2x16x7_plain_idler.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 3253,
-   "sha256": "c8d8983a6fe49827001bdbc5c2e35328a2806aaa33d62594a3d59493f7e1cf50",
+   "bytes": 6023,
+   "sha256": "72443d7b79f702bc7a5c3983e28803562460a002760e8791c9c317c8226c052e",
+   "script": "scripts/GT2x16x7_plain_idler.ck.js",
    "thumb": "thumbs/GT2x16x7_plain_idler.png"
   },
   {
@@ -769,8 +2541,9 @@
    ],
    "file": "parts/pulley/GT2x20_plain_idler.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 3229,
-   "sha256": "212259c3e17163bdaf3a92f3e366c734a1c43742e653a086e4d90c329cca8e34",
+   "bytes": 5977,
+   "sha256": "a96e09263b39b604bf022afc2ac4d69ccecb25100cfa5de7e6a30eb3725a019e",
+   "script": "scripts/GT2x20_plain_idler.ck.js",
    "thumb": "thumbs/GT2x20_plain_idler.png"
   },
   {
@@ -783,8 +2556,9 @@
    ],
    "file": "parts/pulley/GT2x20_pulley_9.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 88537,
-   "sha256": "cbcc9859c0939bd9e8a84b99949cf77863e30df0b167a9f01d7e9afb4b6c94bd",
+   "bytes": 108756,
+   "sha256": "da8f0f26f2705aedcee6270d771991635913b2c8413ae37aa1a92182230ec7bf",
+   "script": "scripts/GT2x20_pulley_9.ck.js",
    "thumb": "thumbs/GT2x20_pulley_9.png"
   },
   {
@@ -799,8 +2573,9 @@
    ],
    "file": "parts/pulley/GT2x20_toothed_idler.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 85960,
-   "sha256": "273792eff505ad6015e9b8a410703a3d52cf08d896f6d046072e2c75f90c52a4",
+   "bytes": 104003,
+   "sha256": "5351390ba14efe36c5892d013552566e0009a6cb5df5fafeec4c288b772cd71b",
+   "script": "scripts/GT2x20_toothed_idler.ck.js",
    "thumb": "thumbs/GT2x20_toothed_idler.png"
   },
   {
@@ -815,8 +2590,9 @@
    ],
    "file": "parts/pulley/GT2x20_toothed_idler_9.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 86071,
-   "sha256": "0576de45d1d985efce0e80edf3acd60becdeb5dfa5502df165563993de0cc7a6",
+   "bytes": 104127,
+   "sha256": "555afaeacf7ed550d0dd7f93fc7d4df130064df5f3648a88c89b3d5d95d762f3",
+   "script": "scripts/GT2x20_toothed_idler_9.ck.js",
    "thumb": "thumbs/GT2x20_toothed_idler_9.png"
   },
   {
@@ -829,8 +2605,9 @@
    ],
    "file": "parts/pulley/GT2x20ob_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 88540,
-   "sha256": "2f13aff61477864bea29f0d7aa58cb3c989717481c27d4e5774b2526cb33dcfc",
+   "bytes": 108774,
+   "sha256": "3332b8cf68d7ad147ac11c0a7af1f5755df2dd5e5fd29fc41923ddc47f5ac024",
+   "script": "scripts/GT2x20ob_pulley.ck.js",
    "thumb": "thumbs/GT2x20ob_pulley.png"
   },
   {
@@ -843,8 +2620,9 @@
    ],
    "file": "parts/pulley/GT2x20um_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 88540,
-   "sha256": "c04388dafb2ecbffde59cab9799f4958df1bc77c60ec4cc0c9a206bce9bb1261",
+   "bytes": 108774,
+   "sha256": "6ac83d2f7fd1f2a8554b7cf7c6c466b4b3db3b421e49984ff8b95e8811c9b693",
+   "script": "scripts/GT2x20um_pulley.ck.js",
    "thumb": "thumbs/GT2x20um_pulley.png"
   },
   {
@@ -871,8 +2649,9 @@
    ],
    "file": "parts/pulley/T2p5x16_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 20382,
-   "sha256": "e3644ad614547ef141e3da0d682d0b9edb83268f41ba3797384d95255cbe95b5",
+   "bytes": 29982,
+   "sha256": "ffb58b7a4c6a9702d8672bd32a9578df69cd9ba7288d26ffe6fdb1f63b411a99",
+   "script": "scripts/T2p5x16_pulley.ck.js",
    "thumb": "thumbs/T2p5x16_pulley.png"
   },
   {
@@ -885,9 +2664,391 @@
    ],
    "file": "parts/pulley/T5x10_pulley.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/pulley.scad",
-   "bytes": 14537,
-   "sha256": "0eecabe59fd8e00352fe9fc9ac8f597e59c351720a0d48c072e404c754c81c59",
+   "bytes": 21959,
+   "sha256": "adbddbd92b2a53ed7c96038736b8ede36c63771dc8da08b80f100924b85240b0",
+   "script": "scripts/T5x10_pulley.ck.js",
    "thumb": "thumbs/T5x10_pulley.png"
+  },
+  {
+   "id": "SC_5x8_rigid",
+   "title": "SC 5x8 rigid",
+   "category": "shaft coupling",
+   "tags": [
+    "5x8",
+    "SC",
+    "rigid",
+    "shaft coupling"
+   ],
+   "file": "parts/shaft_coupling/SC_5x8_rigid.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/shaft_coupling.scad",
+   "bytes": 34364,
+   "sha256": "38f9c5d5cc45c5f2c171fb20fee58eb53b5f5927e995636f8636673e3e714dce",
+   "script": "scripts/SC_5x8_rigid.ck.js",
+   "thumb": "thumbs/SC_5x8_rigid.png"
+  },
+  {
+   "id": "spool_200x55",
+   "title": "spool 200x55",
+   "category": "spool",
+   "tags": [
+    "200x55",
+    "spool"
+   ],
+   "file": "parts/spool/spool_200x55.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/spool.scad",
+   "bytes": 3602,
+   "sha256": "dd48d278dc078fe97adb3583f6a2615d2220c90a1a9fe1757df2471badd0694b",
+   "script": "scripts/spool_200x55.ck.js",
+   "thumb": "thumbs/spool_200x55.png"
+  },
+  {
+   "id": "spool_200x60",
+   "title": "spool 200x60",
+   "category": "spool",
+   "tags": [
+    "200x60",
+    "spool"
+   ],
+   "file": "parts/spool/spool_200x60.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/spool.scad",
+   "bytes": 4378,
+   "sha256": "5276481db10dd44bdcbc1fd22169f20c23bc5593611d62c7a7e981273cee443d",
+   "script": "scripts/spool_200x60.ck.js",
+   "thumb": "thumbs/spool_200x60.png"
+  },
+  {
+   "id": "spool_300x85",
+   "title": "spool 300x85",
+   "category": "spool",
+   "tags": [
+    "300x85",
+    "spool"
+   ],
+   "file": "parts/spool/spool_300x85.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/spool.scad",
+   "bytes": 4382,
+   "sha256": "b5ea9d5189ad3ffd5181d2878c855fafe2eeb235910e456546c6b686c22c536d",
+   "script": "scripts/spool_300x85.ck.js",
+   "thumb": "thumbs/spool_300x85.png"
+  },
+  {
+   "id": "spool_300x88",
+   "title": "spool 300x88",
+   "category": "spool",
+   "tags": [
+    "300x88",
+    "spool"
+   ],
+   "file": "parts/spool/spool_300x88.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/spool.scad",
+   "bytes": 3998,
+   "sha256": "66a35f16afd476c1aca45c04b25a1d70f9c8c04f135baaced39c09f86399f386",
+   "script": "scripts/spool_300x88.ck.js",
+   "thumb": "thumbs/spool_300x88.png"
+  },
+  {
+   "id": "SSR10DA",
+   "title": "SSR10DA",
+   "category": "ssr",
+   "tags": [
+    "SSR10DA",
+    "ssr"
+   ],
+   "file": "parts/ssr/SSR10DA.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ssr.scad",
+   "bytes": 8585,
+   "sha256": "517d7103828709eac3c1c5cefdd432f33e4abe0448f39b54e48a110e2a93da47",
+   "script": "scripts/SSR10DA.ck.js",
+   "thumb": "thumbs/SSR10DA.png"
+  },
+  {
+   "id": "SSR25DA",
+   "title": "SSR25DA",
+   "category": "ssr",
+   "tags": [
+    "SSR25DA",
+    "ssr"
+   ],
+   "file": "parts/ssr/SSR25DA.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/ssr.scad",
+   "bytes": 8601,
+   "sha256": "a3509f064794ae2d0911337c8bda6fddd1cac7d52c2f70570dd95365159a26f0",
+   "script": "scripts/SSR25DA.ck.js",
+   "thumb": "thumbs/SSR25DA.png"
+  },
+  {
+   "id": "UKPFS1008_10",
+   "title": "UKPFS1008 10",
+   "category": "swiss clip",
+   "tags": [
+    "10",
+    "UKPFS1008",
+    "swiss clip"
+   ],
+   "file": "parts/swiss_clip/UKPFS1008_10.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/swiss_clip.scad",
+   "bytes": 32688,
+   "sha256": "efdbd7b1263f6c747045e9089fe014904c6d455719586c77d733e997495e893f",
+   "script": "scripts/UKPFS1008_10.ck.js",
+   "thumb": "thumbs/UKPFS1008_10.png"
+  },
+  {
+   "id": "CARBONFIBER10",
+   "title": "CARBONFIBER10",
+   "category": "tubing",
+   "tags": [
+    "CARBONFIBER10",
+    "tubing"
+   ],
+   "file": "parts/tubing/CARBONFIBER10.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 142716,
+   "sha256": "f6268ecb00214e7e39b6295fc2cfb45de05340943f091f3f12c3c8318349b8db",
+   "thumb": "thumbs/CARBONFIBER10.png"
+  },
+  {
+   "id": "HSHRNK100",
+   "title": "HSHRNK100",
+   "category": "tubing",
+   "tags": [
+    "HSHRNK100",
+    "tubing"
+   ],
+   "file": "parts/tubing/HSHRNK100.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1192,
+   "sha256": "f88520d78061e45f8fc7e2c84e055789d3df64391cf258786f2c2432c8a7ac08",
+   "script": "scripts/HSHRNK100.ck.js",
+   "thumb": "thumbs/HSHRNK100.png"
+  },
+  {
+   "id": "HSHRNK16",
+   "title": "HSHRNK16",
+   "category": "tubing",
+   "tags": [
+    "HSHRNK16",
+    "tubing"
+   ],
+   "file": "parts/tubing/HSHRNK16.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1186,
+   "sha256": "dfd4aa071eb4e1e0b299bf0346af4a5f9f780d54faba398fac59705c09e30d12",
+   "script": "scripts/HSHRNK16.ck.js",
+   "thumb": "thumbs/HSHRNK16.png"
+  },
+  {
+   "id": "HSHRNK24",
+   "title": "HSHRNK24",
+   "category": "tubing",
+   "tags": [
+    "HSHRNK24",
+    "tubing"
+   ],
+   "file": "parts/tubing/HSHRNK24.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1190,
+   "sha256": "7341e691c2da2f4b9ccb1b87e6f083b2ea292d5ae5eb60b73d23d3adee2fa54f",
+   "script": "scripts/HSHRNK24.ck.js",
+   "thumb": "thumbs/HSHRNK24.png"
+  },
+  {
+   "id": "HSHRNK32",
+   "title": "HSHRNK32",
+   "category": "tubing",
+   "tags": [
+    "HSHRNK32",
+    "tubing"
+   ],
+   "file": "parts/tubing/HSHRNK32.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1190,
+   "sha256": "786f77fd10e06c52f6eb594ebd80ed37fe1f207b0597e21d008bf5e3568af2e3",
+   "script": "scripts/HSHRNK32.ck.js",
+   "thumb": "thumbs/HSHRNK32.png"
+  },
+  {
+   "id": "HSHRNK64",
+   "title": "HSHRNK64",
+   "category": "tubing",
+   "tags": [
+    "HSHRNK64",
+    "tubing"
+   ],
+   "file": "parts/tubing/HSHRNK64.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1190,
+   "sha256": "9469119ea64820c7cb724770e8cd3d525a130abf3a4d783717a716388088a693",
+   "script": "scripts/HSHRNK64.ck.js",
+   "thumb": "thumbs/HSHRNK64.png"
+  },
+  {
+   "id": "NEOP85",
+   "title": "NEOP85",
+   "category": "tubing",
+   "tags": [
+    "NEOP85",
+    "tubing"
+   ],
+   "file": "parts/tubing/NEOP85.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1174,
+   "sha256": "9347d9a014f8f8cb7e6eb940316d49a3fabae2757b4beae179858448d9249d65",
+   "script": "scripts/NEOP85.ck.js",
+   "thumb": "thumbs/NEOP85.png"
+  },
+  {
+   "id": "PF7",
+   "title": "PF7",
+   "category": "tubing",
+   "tags": [
+    "PF7",
+    "tubing"
+   ],
+   "file": "parts/tubing/PF7.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1162,
+   "sha256": "f2658c4b68f4de97e8609a036098e2606d9861338dc2412cc98fd4ecd0f0a488",
+   "script": "scripts/PF7.ck.js",
+   "thumb": "thumbs/PF7.png"
+  },
+  {
+   "id": "PTFE07",
+   "title": "PTFE07",
+   "category": "tubing",
+   "tags": [
+    "PTFE07",
+    "tubing"
+   ],
+   "file": "parts/tubing/PTFE07.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1182,
+   "sha256": "4932a6dac7d9db2177301eda8a84f2cbc5a32df23e98130a6467470722c383cc",
+   "script": "scripts/PTFE07.ck.js",
+   "thumb": "thumbs/PTFE07.png"
+  },
+  {
+   "id": "PTFE20",
+   "title": "PTFE20",
+   "category": "tubing",
+   "tags": [
+    "PTFE20",
+    "tubing"
+   ],
+   "file": "parts/tubing/PTFE20.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1174,
+   "sha256": "22524185664e7640d32ef3c3cb5bdd4bac8cd297485d8ef804473ac1c0cb32de",
+   "script": "scripts/PTFE20.ck.js",
+   "thumb": "thumbs/PTFE20.png"
+  },
+  {
+   "id": "PTFE2_3",
+   "title": "PTFE2 3",
+   "category": "tubing",
+   "tags": [
+    "PTFE2",
+    "tubing"
+   ],
+   "file": "parts/tubing/PTFE2_3.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1180,
+   "sha256": "9c56871de629dec3248850931907b5aa518d1faa03de9a4afb24658454d92a3e",
+   "script": "scripts/PTFE2_3.ck.js",
+   "thumb": "thumbs/PTFE2_3.png"
+  },
+  {
+   "id": "PTFE2_4",
+   "title": "PTFE2 4",
+   "category": "tubing",
+   "tags": [
+    "PTFE2",
+    "tubing"
+   ],
+   "file": "parts/tubing/PTFE2_4.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1176,
+   "sha256": "9a1cb6b53ee203ea625896dcf68e5b05c1dabae02c8c50b47e712bbb31bba6dd",
+   "script": "scripts/PTFE2_4.ck.js",
+   "thumb": "thumbs/PTFE2_4.png"
+  },
+  {
+   "id": "PTFE4_6",
+   "title": "PTFE4 6",
+   "category": "tubing",
+   "tags": [
+    "PTFE4",
+    "tubing"
+   ],
+   "file": "parts/tubing/PTFE4_6.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1176,
+   "sha256": "72751f5bddb80191cc702bf3806eb562bd5211d157b615aca3b424bdcbdf60a3",
+   "script": "scripts/PTFE4_6.ck.js",
+   "thumb": "thumbs/PTFE4_6.png"
+  },
+  {
+   "id": "PVC64",
+   "title": "PVC64",
+   "category": "tubing",
+   "tags": [
+    "PVC64",
+    "tubing"
+   ],
+   "file": "parts/tubing/PVC64.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1164,
+   "sha256": "3ece964ded07cbbcdce0ac5aeb86a3f078bb149031a08f78ab340b0155278ce7",
+   "script": "scripts/PVC64.ck.js",
+   "thumb": "thumbs/PVC64.png"
+  },
+  {
+   "id": "PVC85",
+   "title": "PVC85",
+   "category": "tubing",
+   "tags": [
+    "PVC85",
+    "tubing"
+   ],
+   "file": "parts/tubing/PVC85.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1168,
+   "sha256": "697075368232b8d355bce7d29d636cabeb9afa20b2b98b6d0b1c9f3c8e96aa56",
+   "script": "scripts/PVC85.ck.js",
+   "thumb": "thumbs/PVC85.png"
+  },
+  {
+   "id": "STFE4_3p2_CLR",
+   "title": "STFE4 3p2 CLR",
+   "category": "tubing",
+   "tags": [
+    "3p2",
+    "CLR",
+    "STFE4",
+    "tubing"
+   ],
+   "file": "parts/tubing/STFE4_3p2_CLR.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1222,
+   "sha256": "da10a9ed2e5db2d776402df8e94192927e264038f396350b19b9841c6a60b7d9",
+   "script": "scripts/STFE4_3p2_CLR.ck.js",
+   "thumb": "thumbs/STFE4_3p2_CLR.png"
+  },
+  {
+   "id": "STFE4_6p4_CLR",
+   "title": "STFE4 6p4 CLR",
+   "category": "tubing",
+   "tags": [
+    "6p4",
+    "CLR",
+    "STFE4",
+    "tubing"
+   ],
+   "file": "parts/tubing/STFE4_6p4_CLR.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/tubing.scad",
+   "bytes": 1220,
+   "sha256": "f059ecf2d92b58f5a2161df6e710eccce1f06144d7740fb2ded36fdab51d80ad",
+   "script": "scripts/STFE4_6p4_CLR.ck.js",
+   "thumb": "thumbs/STFE4_6p4_CLR.png"
   },
   {
    "id": "M2_washer",
@@ -899,8 +3060,9 @@
    ],
    "file": "parts/washer/M2_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 817,
-   "sha256": "25f653cc0e5aef8b01ff78a942883507c8127530673754a163096bfc1e088303",
+   "bytes": 1344,
+   "sha256": "06619a1d385ced3af53e537880fe2246efe7f256fce8847e2835ed7be150fa4b",
+   "script": "scripts/M2_washer.ck.js",
    "thumb": "thumbs/M2_washer.png"
   },
   {
@@ -913,8 +3075,9 @@
    ],
    "file": "parts/washer/M2p5_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 823,
-   "sha256": "cf2a43d881b63f415502ae9d117f49cecca5e5a227c90b2ca1d42bf97f3ecb3f",
+   "bytes": 1356,
+   "sha256": "f994977af1e623a80cecb4ee89db03f20fe7e952a9407952631c7f9308616b4d",
+   "script": "scripts/M2p5_washer.ck.js",
    "thumb": "thumbs/M2p5_washer.png"
   },
   {
@@ -928,8 +3091,9 @@
    ],
    "file": "parts/washer/M3_penny_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 835,
-   "sha256": "7b3d6eef4003787794c63efb7787eeada2e781ac23e34bd8b6a079623fd11c41",
+   "bytes": 1376,
+   "sha256": "6ca12b29ef377edcaa7cb365477b9a43e51f72b86b66b93e194e0aead63fd5b3",
+   "script": "scripts/M3_penny_washer.ck.js",
    "thumb": "thumbs/M3_penny_washer.png"
   },
   {
@@ -943,8 +3107,9 @@
    ],
    "file": "parts/washer/M3_rubber_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 838,
-   "sha256": "d4fe03346d087dda4d8877f2dcdac38fb39269d6b5aafa4a7c331490775dd651",
+   "bytes": 1382,
+   "sha256": "1177e2c44de5c55fc89a5bab8cbc0064371df35af34b1d8c8324c417fb4bd1bb",
+   "script": "scripts/M3_rubber_washer.ck.js",
    "thumb": "thumbs/M3_rubber_washer.png"
   },
   {
@@ -957,8 +3122,9 @@
    ],
    "file": "parts/washer/M3_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 817,
-   "sha256": "e3793a6bcc76c4a9d723f686cd0b72dfadd0079ab41608ec314d6e6f8e86e604",
+   "bytes": 1344,
+   "sha256": "ef6e6d83499a9c6f2047d69c357af679aea79e522b9e9220a51cd0f4070bd438",
+   "script": "scripts/M3_washer.ck.js",
    "thumb": "thumbs/M3_washer.png"
   },
   {
@@ -971,8 +3137,9 @@
    ],
    "file": "parts/washer/M3p5_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 822,
-   "sha256": "46d2a7087e2376b70a22309078169d7ed6b594822807cf30dd249af1d398e2b2",
+   "bytes": 1350,
+   "sha256": "e1292ee7a3b9b4bdd711f7266ca5c72ac6dc832862584e38017761d134c78544",
+   "script": "scripts/M3p5_washer.ck.js",
    "thumb": "thumbs/M3p5_washer.png"
   },
   {
@@ -986,8 +3153,9 @@
    ],
    "file": "parts/washer/M4_penny_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 835,
-   "sha256": "06a48c876335f9533c8d62bce934db2545d6f26454332e3108c06d95b8b3bba5",
+   "bytes": 1376,
+   "sha256": "27f1bc040eb1d5ca8ffcc670d3db9db840e59fd19789da46b41a0ab09ae1b4e7",
+   "script": "scripts/M4_penny_washer.ck.js",
    "thumb": "thumbs/M4_penny_washer.png"
   },
   {
@@ -1000,8 +3168,9 @@
    ],
    "file": "parts/washer/M4_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 817,
-   "sha256": "528f0e70325aa13bbff0a42a8cb97074e102abadb749037d1173effa15b8db4d",
+   "bytes": 1344,
+   "sha256": "01b4d4640e512885bf555f5f9463e19f84146af924258b8a6ff4d37b7881ea51",
+   "script": "scripts/M4_washer.ck.js",
    "thumb": "thumbs/M4_washer.png"
   },
   {
@@ -1015,8 +3184,9 @@
    ],
    "file": "parts/washer/M5_penny_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 836,
-   "sha256": "5f74bb1badc1a5d2482d9cccf648aba01edbccf3e678cc9c32c8241ea700e46f",
+   "bytes": 1378,
+   "sha256": "6bca283af580e576ab501b29021435683301d357316602149b4885cd0e404102",
+   "script": "scripts/M5_penny_washer.ck.js",
    "thumb": "thumbs/M5_penny_washer.png"
   },
   {
@@ -1029,8 +3199,9 @@
    ],
    "file": "parts/washer/M5_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 815,
-   "sha256": "87f4ca964166868a2fcbabf075130d3dafeed27deb150bfa33c8ece603f3fa37",
+   "bytes": 1336,
+   "sha256": "b55a1e3cd06b12893d6b56a6d9c0ad71c57e1d5d69f1e2c8666fff95dc243387",
+   "script": "scripts/M5_washer.ck.js",
    "thumb": "thumbs/M5_washer.png"
   },
   {
@@ -1044,8 +3215,9 @@
    ],
    "file": "parts/washer/M6_penny_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 836,
-   "sha256": "1ccc83b55f37371446db16f0df5ed7cf1ddf1de3e1dbd51fb306bc95ef706306",
+   "bytes": 1378,
+   "sha256": "78e958156230310aaf003f350cc1cfc87fa304a96adaaaf3c310fb5eb5887603",
+   "script": "scripts/M6_penny_washer.ck.js",
    "thumb": "thumbs/M6_penny_washer.png"
   },
   {
@@ -1058,8 +3230,9 @@
    ],
    "file": "parts/washer/M6_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 818,
-   "sha256": "54b3945753977cd0b9da5f58606d9c8b5544eed70cad2c10ac4d8ae1ab349784",
+   "bytes": 1346,
+   "sha256": "fa4aeb4eccec1bca499b90ae5b07e989a1976f16dfae6cf8a01d764bf9b5f99c",
+   "script": "scripts/M6_washer.ck.js",
    "thumb": "thumbs/M6_washer.png"
   },
   {
@@ -1073,8 +3246,9 @@
    ],
    "file": "parts/washer/M8_penny_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 836,
-   "sha256": "98f908949f0c6fc5706e2aa20decdabb4cb582d413927f1391f754ac56751b96",
+   "bytes": 1378,
+   "sha256": "24522f0825ff9f2c60baef4d247cfe9c8d69beadc7d6c09c6de95e98db1115b8",
+   "script": "scripts/M8_penny_washer.ck.js",
    "thumb": "thumbs/M8_penny_washer.png"
   },
   {
@@ -1087,8 +3261,9 @@
    ],
    "file": "parts/washer/M8_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 817,
-   "sha256": "b5c7e1ae27f4290e3854a52a6f2369300b9006ffccc1674ab8b4eff1512f7255",
+   "bytes": 1344,
+   "sha256": "942ab57ed5957ce9bc9d2017db7df65cc030e279720ddf37ee4ab19ec11fee88",
+   "script": "scripts/M8_washer.ck.js",
    "thumb": "thumbs/M8_washer.png"
   },
   {
@@ -1101,8 +3276,9 @@
    ],
    "file": "parts/washer/toggle_washer.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/washer.scad",
-   "bytes": 828,
-   "sha256": "71c2c31ce60f4ddeaee87cded91914cc439c44bb6e96c88b8eba4bef5666564d",
+   "bytes": 1362,
+   "sha256": "1c940f4220f2d6a36a53c7b3b6447d89c3251bc3e8ffee7c8a4ac06a29daaab0",
+   "script": "scripts/toggle_washer.ck.js",
    "thumb": "thumbs/toggle_washer.png"
   }
  ]

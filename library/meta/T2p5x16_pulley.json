@@ -31,7 +31,7 @@
  "colors": 1,
  "oracle_calls": 8,
  "bodies": 1,
- "seconds": 2.29,
+ "seconds": 1.6,
  "check": {
   "file": "T2p5x16_pulley.ckpart",
   "errors": [],
@@ -54,7 +54,7 @@
   "ok": true,
   "refVolume": 1142.4891312202856,
   "relErr": 0.7933857602593164,
-  "ms": 1264,
+  "ms": 1041,
   "scadVolume": 2046.1612950701058,
   "relErrScad": 0.0013500617561516663
  }

@@ -22,7 +22,7 @@
  "colors": 2,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.05,
+ "seconds": 0.04,
  "check": {
   "file": "M3_sliding_t_nut.ckpart",
   "errors": [],
@@ -45,7 +45,7 @@
   "ok": true,
   "refVolume": 49.03887025608135,
   "relErr": -0.001969110836122386,
-  "ms": 376,
+  "ms": 221,
   "scadVolume": 49.038870256079925,
   "relErrScad": -0.00196911083609332
  }

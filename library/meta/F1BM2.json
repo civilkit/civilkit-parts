@@ -1,0 +1,50 @@
+{
+ "name": "insert__F1BM2",
+ "category": "insert",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/insert.scad",
+  "call": "insert(F1BM2)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "insert/F1BM2.ckpart",
+ "features": 5,
+ "by_type": {
+  "sketch": 1,
+  "revolve": 1,
+  "moveBody": 3
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.03,
+ "check": {
+  "file": "F1BM2.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 21.317015151386045,
+  "box": {
+   "min": [
+    -1.7974488735198975,
+    -1.799362100022215,
+    -3.9921875000000004
+   ],
+   "max": [
+    1.8,
+    1.7993621000222146,
+    0.007812500000000331
+   ]
+  },
+  "faces": 13,
+  "validate": true,
+  "ok": true,
+  "ms": 215,
+  "scadVolume": 21.28257664939632,
+  "relErrScad": 0.0016181547261432195
+ }
+}

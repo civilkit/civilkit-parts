@@ -1,0 +1,49 @@
+{
+ "name": "tubing__PVC64",
+ "category": "tubing",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/tubing.scad",
+  "call": "tubing(PVC64)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "tubing/PVC64.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.02,
+ "check": {
+  "file": "PVC64.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 235.6194490192344,
+  "box": {
+   "min": [
+    -2.993300676345825,
+    -2.998324691190764,
+    -7.5
+   ],
+   "max": [
+    3,
+    2.998324691190764,
+    7.5
+   ]
+  },
+  "faces": 4,
+  "validate": true,
+  "ok": true,
+  "ms": 139,
+  "scadVolume": 235.32071311920004,
+  "relErrScad": 0.0012694840843994733
+ }
+}

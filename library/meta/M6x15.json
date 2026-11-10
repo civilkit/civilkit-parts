@@ -1,0 +1,50 @@
+{
+ "name": "insert__M6x15",
+ "category": "insert",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/insert.scad",
+  "call": "insert(M6x15)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "insert/M6x15.ckpart",
+ "features": 5,
+ "by_type": {
+  "sketch": 1,
+  "revolve": 1,
+  "moveBody": 3
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.03,
+ "check": {
+  "file": "M6x15.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 660.2253311059806,
+  "box": {
+   "min": [
+    -6,
+    -5.991200483106743,
+    -14.9921875
+   ],
+   "max": [
+    6,
+    5.991200483106743,
+    0.0078125000000011
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "ms": 155,
+  "scadVolume": 659.1666973523177,
+  "relErrScad": 0.0016060182620194787
+ }
+}

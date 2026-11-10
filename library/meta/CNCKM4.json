@@ -1,0 +1,50 @@
+{
+ "name": "insert__CNCKM4",
+ "category": "insert",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/insert.scad",
+  "call": "insert(CNCKM4)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "insert/CNCKM4.ckpart",
+ "features": 5,
+ "by_type": {
+  "sketch": 1,
+  "revolve": 1,
+  "moveBody": 3
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.03,
+ "check": {
+  "file": "CNCKM4.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 54.256974097472444,
+  "box": {
+   "min": [
+    -3.1500000953674316,
+    -3.1500000953674316,
+    -3.9921875000000004
+   ],
+   "max": [
+    3.1500000953674316,
+    3.1500000953674316,
+    0.00781250000000058
+   ]
+  },
+  "faces": 13,
+  "validate": true,
+  "ok": true,
+  "ms": 221,
+  "scadVolume": 54.16965842471975,
+  "relErrScad": 0.0016118926220300683
+ }
+}

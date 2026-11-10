@@ -1,7 +1,6 @@
 # civilkit-parts
 
-A library of parametric parts for CivilKit, plus the converters that make it. Bearings, nuts, washers, pulleys and LEDs (76 parts so
-far) are converted from OpenSCAD ([NopSCADlib](https://github.com/nophead/NopSCADlib)) into native `.ckpart` feature trees with colour.
+A library of parametric parts for CivilKit, plus the converters that make it. 204 NopSCADlib vitamins (bearings, nuts, washers, pulleys, LEDs, connectors, modules and more) are converted from OpenSCAD ([NopSCADlib](https://github.com/nophead/NopSCADlib)) into native `.ckpart` feature trees with colour.
 The converters are Apache-2.0; the parts keep their source licence (GPL-3.0-or-later for NopSCADlib), see `library/NOTICE.md`.
 The parts are never bundled in the CivilKit app.
 
@@ -15,8 +14,8 @@ Each part is a real feature history (sketches, revolves, extrudes, booleans) gro
 with true arcs for domes and rounds and a colour per body (`appearance`). It is parametric where the OpenSCAD source is (for example
 `led_rim_t`, `led_pitch` are variables).
 
-Measured on the 76 parts: all pass the kernel check (valid solids), volumes within 0.95% of the OpenSCAD mesh (median 0.14%). One
-NopSCADlib part is not converted yet (`nut/M8_sliding_ball_t_nut`). Known gaps: LED leads render in the body colour in the thumbnail
+Measured on the 204 parts: all pass the kernel check (valid solids), volumes within 1% of the OpenSCAD mesh (median 0.18%); 202 carry
+their script. 133 of the 337 NopSCADlib parts are not converted yet: 113 use 2D `offset()`, 7 `hull()` of 3D shapes, 2 `polyhedron`. Known gaps: LED leads render in the body colour in the thumbnail
 (they are unioned into the body); curved surfaces made by `hull()` of circles are approximated; parts needing extra arguments (screws)
 are not enumerated yet.
 
@@ -28,8 +27,8 @@ Writes `part.ck.js`, a CivilKit script (docs/scripting.md in the kit: `variables
 part's name), runs it through the kernel (`run_script.mjs`) and writes `part.ckpart`, whose feature history comes from that script and
 which keeps it in its `script` field. Open the `.ckpart` in the app and the Script tab shows it; editing and running it rebuilds the part.
 `build_library.py ... --scripts` does the same for the whole library (`library/scripts/<id>.ck.js`).
-Measured on the 76 library parts: 75 scripts rebuild the same part (volume within 1e-5); the 80-tooth pulley's script is longer than the
-app's 40000-character limit, so that part ships with its history only.
+Measured on the library: 202 of 204 scripts rebuild the same part (volume within 1e-5); two (the 80-tooth pulley and a carbon-fibre
+sheet) have scripts longer than the app's 40000-character limit, so they ship with their history only.
 Limits: sketches are numbers (the script API cannot link sketch sizes to variables), and OpenSCAD variables are kept as document
 variables only where they feed a feature parameter (extrude depth, offsets), not where they only size a sketch.
 

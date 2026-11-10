@@ -1,0 +1,55 @@
+{
+ "name": "leadnut__LSN8x2",
+ "category": "leadnut",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/leadnut.scad",
+  "call": "leadnut(LSN8x2)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "leadnut/LSN8x2.ckpart",
+ "features": 18,
+ "by_type": {
+  "sketch": 6,
+  "extrude": 6,
+  "combine": 3,
+  "moveBody": 3
+ },
+ "variables": {
+  "leadnut_flange_offset": "1.5",
+  "leadnut_flange_t": "3.5",
+  "leadnut_height": "15"
+ },
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 4,
+ "bodies": 1,
+ "seconds": 0.97,
+ "check": {
+  "file": "LSN8x2.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 1381.483953489576,
+  "box": {
+   "min": [
+    -10.986326217651367,
+    -10.996581077575684,
+    -10
+   ],
+   "max": [
+    11,
+    10.996581077575684,
+    5.000000000000001
+   ]
+  },
+  "faces": 12,
+  "validate": true,
+  "ok": true,
+  "ms": 296,
+  "scadVolume": 1379.1702904892602,
+  "relErrScad": 0.0016775760152830414
+ }
+}

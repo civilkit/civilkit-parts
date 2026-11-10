@@ -22,7 +22,7 @@
  "colors": 2,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.06,
+ "seconds": 0.1,
  "check": {
   "file": "M4_weld_nut.ckpart",
   "errors": [],
@@ -45,7 +45,7 @@
   "ok": true,
   "refVolume": 35.97505384284529,
   "relErr": -0.00555247233209877,
-  "ms": 406,
+  "ms": 210,
   "scadVolume": 35.97505384283996,
   "relErrScad": -0.00555247233195146
  }

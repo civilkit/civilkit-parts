@@ -27,7 +27,7 @@
  "colors": 2,
  "oracle_calls": 1,
  "bodies": 3,
- "seconds": 0.16,
+ "seconds": 0.18,
  "check": {
   "file": "BBMR85.ckpart",
   "errors": [],
@@ -50,7 +50,7 @@
   "ok": true,
   "refVolume": 29.26025212100663,
   "relErr": 1.4111029723348805,
-  "ms": 987,
+  "ms": 550,
   "scadVolume": 70.46981672688356,
   "relErrScad": 0.0011304716975817277
  }

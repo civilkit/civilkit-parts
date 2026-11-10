@@ -1,0 +1,49 @@
+{
+ "name": "tubing__PTFE07",
+ "category": "tubing",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/tubing.scad",
+  "call": "tubing(PTFE07)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "tubing/PTFE07.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.02,
+ "check": {
+  "file": "PTFE07.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 11.025812116855088,
+  "box": {
+   "min": [
+    -0.5944115676217985,
+    -0.5986012816429138,
+    -7.5
+   ],
+   "max": [
+    0.6000000238418579,
+    0.5986012816429138,
+    7.5
+   ]
+  },
+  "faces": 4,
+  "validate": true,
+  "ok": true,
+  "ms": 111,
+  "scadVolume": 11.06361194029801,
+  "relErrScad": -0.0034165897761869847
+ }
+}

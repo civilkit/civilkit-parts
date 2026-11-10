@@ -22,7 +22,7 @@
  "colors": 2,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.4,
+ "seconds": 0.04,
  "check": {
   "file": "M3_nut.ckpart",
   "errors": [],
@@ -45,7 +45,7 @@
   "ok": true,
   "refVolume": 46.96271198391025,
   "relErr": -0.0016394143856412358,
-  "ms": 334,
+  "ms": 173,
   "scadVolume": 46.962711983904086,
   "relErrScad": -0.0016394143855101232
  }

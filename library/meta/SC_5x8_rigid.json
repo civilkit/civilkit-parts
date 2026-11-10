@@ -1,0 +1,57 @@
+{
+ "name": "shaft_coupling__SC_5x8_rigid",
+ "category": "shaft_coupling",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/shaft_coupling.scad",
+  "call": "shaft_coupling(SC_5x8_rigid)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "shaft_coupling/SC_5x8_rigid.ckpart",
+ "features": 89,
+ "by_type": {
+  "sketch": 18,
+  "extrude": 14,
+  "moveBody": 41,
+  "combine": 12,
+  "revolve": 4
+ },
+ "variables": {
+  "sc_diameter": "12.5",
+  "sc_length": "25",
+  "screw_head_height": "0",
+  "screw_socket_depth": "2.5"
+ },
+ "warnings": [],
+ "colors": 13,
+ "oracle_calls": 13,
+ "bodies": 5,
+ "seconds": 3.89,
+ "check": {
+  "file": "SC_5x8_rigid.ckpart",
+  "errors": [],
+  "solids": 5,
+  "volume": 2172.7727618762824,
+  "box": {
+   "min": [
+    -7.25,
+    -6.249996185302734,
+    -12.5
+   ],
+   "max": [
+    6.25,
+    7.25,
+    12.5
+   ]
+  },
+  "faces": 54,
+  "validate": true,
+  "ok": true,
+  "ms": 4292,
+  "scadVolume": 2168.855841631191,
+  "relErrScad": 0.0018059845979183657
+ }
+}

@@ -30,7 +30,7 @@
  "colors": 1,
  "oracle_calls": 5,
  "bodies": 1,
- "seconds": 0.85,
+ "seconds": 0.84,
  "check": {
   "file": "GT2x20_toothed_idler_9.ckpart",
   "errors": [],
@@ -51,9 +51,9 @@
   "faces": 803,
   "validate": true,
   "ok": true,
-  "ms": 3060,
-  "scadVolume": 1309.8826646990306,
-  "relErrScad": -0.0013831432093481231
+  "ms": 4135,
+  "scadVolume": 1309.8826646990292,
+  "relErrScad": -0.0013831432093470832
  },
  "arcs": false
 }

@@ -1,0 +1,61 @@
+{
+ "name": "swiss_clip__UKPFS1008_10",
+ "category": "swiss_clip",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/swiss_clip.scad",
+  "call": "swiss_clip(UKPFS1008_10)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "swiss_clip/UKPFS1008_10.ckpart",
+ "features": 71,
+ "by_type": {
+  "sketch": 15,
+  "extrude": 9,
+  "moveBody": 38,
+  "revolve": 6,
+  "combine": 3
+ },
+ "variables": {
+  "sclip_arm_length": "28",
+  "sclip_arm_width": "4",
+  "sclip_height": "13",
+  "sclip_hinge_offset": "9",
+  "sclip_length": "39",
+  "sclip_radius": "1.5",
+  "sclip_thickness": "0.75",
+  "sclip_width": "13"
+ },
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 3,
+ "bodies": 1,
+ "seconds": 0.19,
+ "check": {
+  "file": "UKPFS1008_10.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 393.657482050853,
+  "box": {
+   "min": [
+    -1.5,
+    -6.5,
+    -12.25
+   ],
+   "max": [
+    37.44394374839621,
+    6.5,
+    0.75
+   ]
+  },
+  "faces": 39,
+  "validate": true,
+  "ok": true,
+  "ms": 213,
+  "scadVolume": 393.65406306188527,
+  "relErrScad": 8.685262743461498e-06
+ }
+}

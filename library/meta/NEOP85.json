@@ -1,0 +1,49 @@
+{
+ "name": "tubing__NEOP85",
+ "category": "tubing",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/tubing.scad",
+  "call": "tubing(NEOP85)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "tubing/NEOP85.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.02,
+ "check": {
+  "file": "NEOP85.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 459.45792558750776,
+  "box": {
+   "min": [
+    -4,
+    -4,
+    -7.5
+   ],
+   "max": [
+    4,
+    4,
+    7.5
+   ]
+  },
+  "faces": 4,
+  "validate": true,
+  "ok": true,
+  "ms": 124,
+  "scadVolume": 458.61532442040175,
+  "relErrScad": 0.001837272158689618
+ }
+}

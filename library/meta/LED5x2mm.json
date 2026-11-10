@@ -28,7 +28,7 @@
  "colors": 2,
  "oracle_calls": 2,
  "bodies": 1,
- "seconds": 0.3,
+ "seconds": 0.19,
  "check": {
   "file": "LED5x2mm.ckpart",
   "errors": [],
@@ -51,7 +51,7 @@
   "ok": true,
   "refVolume": 73.70000000000002,
   "relErr": 0.01696065128900911,
-  "ms": 220,
+  "ms": 151,
   "scadVolume": 74.95000000000003,
   "relErrScad": -5.688133975397731e-16
  }

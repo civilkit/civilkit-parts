@@ -1,0 +1,50 @@
+{
+ "name": "insert__M5x12",
+ "category": "insert",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/insert.scad",
+  "call": "insert(M5x12)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "insert/M5x12.ckpart",
+ "features": 5,
+ "by_type": {
+  "sketch": 1,
+  "revolve": 1,
+  "moveBody": 3
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.12,
+ "check": {
+  "file": "M5x12.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 311.7048960983626,
+  "box": {
+   "min": [
+    -5,
+    -4.992667198181152,
+    -11.9921875
+   ],
+   "max": [
+    5,
+    4.992667198181152,
+    0.007812500000000918
+   ]
+  },
+  "faces": 9,
+  "validate": true,
+  "ok": true,
+  "ms": 151,
+  "scadVolume": 311.2045981765103,
+  "relErrScad": 0.0016076173834956497
+ }
+}

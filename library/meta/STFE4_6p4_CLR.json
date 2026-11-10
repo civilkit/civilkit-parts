@@ -1,0 +1,49 @@
+{
+ "name": "tubing__STFE4_6p4_CLR",
+ "category": "tubing",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/tubing.scad",
+  "call": "tubing(STFE4_6p4_CLR)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "tubing/STFE4_6p4_CLR.ckpart",
+ "features": 2,
+ "by_type": {
+  "sketch": 1,
+  "extrude": 1
+ },
+ "variables": {},
+ "warnings": [],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.02,
+ "check": {
+  "file": "STFE4_6p4_CLR.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 94.71901850573295,
+  "box": {
+   "min": [
+    -3.5,
+    -3.4930935494989503,
+    -7.5
+   ],
+   "max": [
+    3.5,
+    3.4930935494989503,
+    7.5
+   ]
+  },
+  "faces": 4,
+  "validate": true,
+  "ok": true,
+  "ms": 116,
+  "scadVolume": 94.54630000139991,
+  "relErrScad": 0.0018268139983317838
+ }
+}
