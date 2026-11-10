@@ -1,6 +1,6 @@
 # Licences in this library
 
-The converters in the parent folder are Apache-2.0 (see `../LICENSE`).
+The converters in the parent folder are Apache-2.0 (see `LICENSE`).
 
 Every part under `parts/` is generated from a source library and keeps that library's licence. All parts in this
 release come from [NopSCADlib](https://github.com/nophead/NopSCADlib) (Chris Palmer, GPL-3.0-or-later; text in

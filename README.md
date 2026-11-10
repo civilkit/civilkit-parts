@@ -1,14 +1,13 @@
 # civilkit-parts
 
 A library of parametric parts for CivilKit, plus the converters that make it. 204 NopSCADlib vitamins (bearings, nuts, washers, pulleys, LEDs, connectors, modules and more) are converted from OpenSCAD ([NopSCADlib](https://github.com/nophead/NopSCADlib)) into native `.ckpart` feature trees with colour.
-The converters are Apache-2.0; the parts keep their source licence (GPL-3.0-or-later for NopSCADlib), see `library/NOTICE.md`.
+The converters are Apache-2.0; the parts keep their source licence (GPL-3.0-or-later for NopSCADlib), see `NOTICE.md`.
 The parts are never bundled in the CivilKit app.
 
 ## Use the library
-`library/` is a CivilKit library folder: `library.json` (format `fwlib`), `parts/<category>/<id>.ckpart`, `thumbs/<id>.png` (a picture
+The repository root is a CivilKit library: `library.json` (format `fwlib`), `parts/<category>/<id>.ckpart`, `thumbs/<id>.png` (a picture
 for every part), `meta/<id>.json` (source file, commit, licence, kernel check result). In the app: Catalog > Libraries > **+ Add
-library** > `github:civilkit/civilkit-parts` (the app reads `library/library.json` from the repository root path you give it, or point it
-at the raw `library.json` address). Drag a card onto the model, or Insert.
+library** > `github:civilkit/civilkit-parts` (or the raw `library.json` address). Drag a card onto the model, or Insert.
 
 Each part is a real feature history (sketches, revolves, extrudes, booleans) grouped in a feature-tree folder named after the part,
 with true arcs for domes and rounds and a colour per body (`appearance`). It is parametric where the OpenSCAD source is (for example
@@ -26,7 +25,7 @@ are not enumerated yet.
 Writes `part.ck.js`, a CivilKit script (docs/scripting.md in the kit: `variables`, `sketch`, `combine`, `appearance`, grouped under the
 part's name), runs it through the kernel (`run_script.mjs`) and writes `part.ckpart`, whose feature history comes from that script and
 which keeps it in its `script` field. Open the `.ckpart` in the app and the Script tab shows it; editing and running it rebuilds the part.
-`build_library.py ... --scripts` does the same for the whole library (`library/scripts/<id>.ck.js`).
+`build_library.py ... --scripts` does the same for the whole library (`scripts/<id>.ck.js`).
 Measured on the library: 202 of 204 scripts rebuild the same part (volume within 1e-5); two (the 80-tooth pulley and a carbon-fibre
 sheet) have scripts longer than the app's 40000-character limit, so they ship with their history only.
 Limits: sketches are numbers (the script API cannot link sketch sizes to variables), and OpenSCAD variables are kept as document
@@ -36,8 +35,8 @@ variables only where they feed a feature parameter (extrude depth, offsets), not
     export CK_KERNEL=<a kernel checkout with packages/dist built>
     git clone --depth 1 https://github.com/nophead/NopSCADlib.git /scratch/NopSCADlib      # never commit it here
     .venv/bin/python openscad_to_ckpart.py --nop /scratch/NopSCADlib out --category ball_bearing led nut pulley washer --check
-    .venv/bin/python build_library.py out library
-    node <kit checkout>/tools/library_thumbs.mjs library --png        # pictures; drop --png when cwebp is installed
+    .venv/bin/python build_library.py out .
+    node <kit checkout>/tools/library_thumbs.mjs . --png        # pictures; drop --png when cwebp is installed
 
 `openscad_to_ckpart.py` (with `scadlang.py`, an evaluator for a practical OpenSCAD subset) turns the script into a feature tree, not a
 mesh. A part the kernel refuses, or whose volume is off by 1% or more, is converted again with straight edges instead of arcs.
