@@ -10,3 +10,4 @@ out_*/
 out_*.log
 out_color/
 .DS_Store
+*.bak
