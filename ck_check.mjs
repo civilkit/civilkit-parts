@@ -23,7 +23,7 @@ for (const f of files) {
     const doc = JSON.parse(readFileSync(f, 'utf8'));
     const s = await Session.open(doc, { wasmPath });
     const rep = await s.regenReport();
-    r.errors = rep.errors.map((e) => JSON.stringify(e).slice(0, 160));
+    r.errors = rep.errors.map((e) => JSON.stringify(e).slice(0, Number(process.env.CK_ERR_LEN || 160)));
     const facts = await s.facts();
     r.solids = facts.solids; r.volume = facts.volume; r.box = facts.box; r.faces = facts.faces.length;
     const v = await s.validate(); r.validate = v.ok;
