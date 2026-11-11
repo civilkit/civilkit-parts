@@ -1,0 +1,65 @@
+{
+ "name": "iec__IEC_fused_inlet",
+ "category": "iec",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/iec.scad",
+  "call": "iec(IEC_fused_inlet)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "iec/IEC_fused_inlet.ckpart",
+ "features": 100,
+ "by_type": {
+  "sketch": 23,
+  "extrude": 21,
+  "combine": 13,
+  "revolve": 2,
+  "moveBody": 38,
+  "deleteBody": 3
+ },
+ "variables": {
+  "iec_bezel_h": "31",
+  "iec_bezel_t": "2",
+  "iec_bezel_w": "28",
+  "iec_depth": "15",
+  "iec_flange_t": "3",
+  "iec_pitch": "36",
+  "spade_t": "0.5"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon",
+  "offset() computed with shapely",
+  "rotate_extrude profile combined in 2D with shapely"
+ ],
+ "colors": 7,
+ "oracle_calls": 17,
+ "bodies": 1,
+ "seconds": 1.16,
+ "check": {
+  "file": "IEC_fused_inlet.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 11288.503062540876,
+  "box": {
+   "min": [
+    -22,
+    -16.5,
+    -23.5
+   ],
+   "max": [
+    21.97808837890625,
+    16.5,
+    5
+   ]
+  },
+  "faces": 116,
+  "validate": true,
+  "ok": true,
+  "ms": 515,
+  "scadVolume": 11289.881930081632,
+  "relErrScad": -0.00012213303463182642
+ }
+}

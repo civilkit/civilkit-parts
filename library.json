@@ -82,6 +82,20 @@
    ]
   },
   {
+   "id": "power",
+   "title": "Power",
+   "count": 9,
+   "tags": [
+    "electronics",
+    "mains",
+    "iec",
+    "connector",
+    "transformer",
+    "power supply",
+    "psu"
+   ]
+  },
+  {
    "id": "hardware",
    "title": "Hardware",
    "count": 8,
@@ -119,18 +133,6 @@
     "200x60",
     "300x85",
     "300x88"
-   ]
-  },
-  {
-   "id": "power",
-   "title": "Power",
-   "count": 3,
-   "tags": [
-    "electronics",
-    "transformer",
-    "power supply",
-    "psu",
-    "mains"
    ]
   }
  ],
@@ -1627,6 +1629,108 @@
    "sha256": "7b5694d4238411b1b2e540bb572dc489f0f760eeec1dd33f22274d2220578c22",
    "script": "scripts/HT_90_pipe_500.ck.js",
    "thumb": "thumbs/HT_90_pipe_500.webp"
+  },
+  {
+   "id": "IEC_320_C14_switched_fused_inlet",
+   "title": "IEC 320 C14 switched fused inlet",
+   "category": "power",
+   "tags": [
+    "iec",
+    "mains",
+    "connector",
+    "electronics"
+   ],
+   "file": "parts/iec/IEC_320_C14_switched_fused_inlet.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/iec.scad",
+   "bytes": 58728,
+   "sha256": "ac912e052ea793b11a9ac8cf950a361c296470aa444f8394795e232fd719fcb8",
+   "script": "scripts/IEC_320_C14_switched_fused_inlet.ck.js",
+   "thumb": "thumbs/IEC_320_C14_switched_fused_inlet.webp"
+  },
+  {
+   "id": "IEC_fused_inlet",
+   "title": "IEC fused inlet",
+   "category": "power",
+   "tags": [
+    "iec",
+    "mains",
+    "connector",
+    "electronics"
+   ],
+   "file": "parts/iec/IEC_fused_inlet.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/iec.scad",
+   "bytes": 56870,
+   "sha256": "049c11f1c2ce307dfe65d9ed6e750ff94720d01a150ab225ffbf87c2cbe7c9ae",
+   "script": "scripts/IEC_fused_inlet.ck.js",
+   "thumb": "thumbs/IEC_fused_inlet.webp"
+  },
+  {
+   "id": "IEC_fused_inlet2",
+   "title": "IEC fused inlet2",
+   "category": "power",
+   "tags": [
+    "iec",
+    "mains",
+    "connector",
+    "electronics"
+   ],
+   "file": "parts/iec/IEC_fused_inlet2.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/iec.scad",
+   "bytes": 64433,
+   "sha256": "420f2fc879a6793596d627aa498af01caf7e670088004ab016976b9f925a9c25",
+   "script": "scripts/IEC_fused_inlet2.ck.js",
+   "thumb": "thumbs/IEC_fused_inlet2.webp"
+  },
+  {
+   "id": "IEC_inlet",
+   "title": "IEC inlet",
+   "category": "power",
+   "tags": [
+    "iec",
+    "mains",
+    "connector",
+    "electronics"
+   ],
+   "file": "parts/iec/IEC_inlet.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/iec.scad",
+   "bytes": 55415,
+   "sha256": "dcc3bd48a6610dd34a5b4ca87eceb5fb7d9278d71aa03ef2cb0440d218f13a42",
+   "script": "scripts/IEC_inlet.ck.js",
+   "thumb": "thumbs/IEC_inlet.webp"
+  },
+  {
+   "id": "IEC_inlet_atx",
+   "title": "IEC inlet atx",
+   "category": "power",
+   "tags": [
+    "iec",
+    "mains",
+    "connector",
+    "electronics"
+   ],
+   "file": "parts/iec/IEC_inlet_atx.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/iec.scad",
+   "bytes": 89797,
+   "sha256": "3b72daaefaaf2c5812710e6a714d6dfe785011db985282232678f35653b8a575",
+   "script": "scripts/IEC_inlet_atx.ck.js",
+   "thumb": "thumbs/IEC_inlet_atx.webp"
+  },
+  {
+   "id": "IEC_inlet_atx2",
+   "title": "IEC inlet atx2",
+   "category": "power",
+   "tags": [
+    "iec",
+    "mains",
+    "connector",
+    "electronics"
+   ],
+   "file": "parts/iec/IEC_inlet_atx2.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/iec.scad",
+   "bytes": 43165,
+   "sha256": "5539636438e27d39d6135df13767b27aeb8adb8f102367f7bc9180e8f570fcab",
+   "script": "scripts/IEC_inlet_atx2.ck.js",
+   "thumb": "thumbs/IEC_inlet_atx2.webp"
   },
   {
    "id": "CNCKM2p5",

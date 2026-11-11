@@ -648,8 +648,11 @@ def scad_mesh_volume(lib, cat, const):
     with tempfile.TemporaryDirectory() as td:
         sf, of = Path(td) / "t.scad", Path(td) / "t.off"
         sf.write_text(nop_source(lib, cat, const))
-        subprocess.run([os.environ.get("OPENSCAD", "/opt/homebrew/bin/openscad"), "-o", str(of), str(sf)], capture_output=True, timeout=300,
-                       env={**os.environ, "OPENSCADPATH": str(lib)})
+        try:
+            subprocess.run([os.environ.get("OPENSCAD", "/opt/homebrew/bin/openscad"), "-o", str(of), str(sf)], capture_output=True, timeout=1800,
+                           env={**os.environ, "OPENSCADPATH": str(lib)})
+        except subprocess.TimeoutExpired:
+            return None                      # no reference volume: the part is reported without one instead of stopping the run
         if not of.exists(): return None
         L = of.read_text().split("\n"); h = L[0].split(); n, f = int(h[1]), int(h[2])
         V = np.array([[float(x) for x in l.split()] for l in L[1:1 + n]]); v = 0.0

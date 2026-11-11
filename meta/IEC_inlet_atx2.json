@@ -1,0 +1,62 @@
+{
+ "name": "iec__IEC_inlet_atx2",
+ "category": "iec",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/iec.scad",
+  "call": "iec(IEC_inlet_atx2)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "iec/IEC_inlet_atx2.ckpart",
+ "features": 83,
+ "by_type": {
+  "sketch": 18,
+  "extrude": 18,
+  "moveBody": 33,
+  "combine": 11,
+  "deleteBody": 3
+ },
+ "variables": {
+  "iec_bezel_h": "22",
+  "iec_bezel_t": "0",
+  "iec_bezel_w": "30.5",
+  "iec_depth": "15",
+  "iec_flange_t": "4",
+  "spade_t": "0.8"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon",
+  "offset() computed with shapely"
+ ],
+ "colors": 7,
+ "oracle_calls": 14,
+ "bodies": 1,
+ "seconds": 0.61,
+ "check": {
+  "file": "IEC_inlet_atx2.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 4083.5094409729018,
+  "box": {
+   "min": [
+    -15.25,
+    -11,
+    -23
+   ],
+   "max": [
+    15.25,
+    11,
+    4
+   ]
+  },
+  "faces": 99,
+  "validate": true,
+  "ok": true,
+  "ms": 300,
+  "scadVolume": 4085.2732924764478,
+  "relErrScad": -0.0004317585084930183
+ }
+}

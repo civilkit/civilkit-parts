@@ -1,0 +1,65 @@
+{
+ "name": "iec__IEC_320_C14_switched_fused_inlet",
+ "category": "iec",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/iec.scad",
+  "call": "iec(IEC_320_C14_switched_fused_inlet)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "iec/IEC_320_C14_switched_fused_inlet.ckpart",
+ "features": 97,
+ "by_type": {
+  "sketch": 23,
+  "extrude": 21,
+  "combine": 13,
+  "revolve": 2,
+  "moveBody": 35,
+  "deleteBody": 3
+ },
+ "variables": {
+  "iec_bezel_h": "48",
+  "iec_bezel_t": "1",
+  "iec_bezel_w": "28",
+  "iec_depth": "16.5",
+  "iec_flange_t": "3",
+  "iec_pitch": "40",
+  "spade_t": "0.5"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon",
+  "offset() computed with shapely",
+  "rotate_extrude profile combined in 2D with shapely"
+ ],
+ "colors": 7,
+ "oracle_calls": 17,
+ "bodies": 1,
+ "seconds": 2.53,
+ "check": {
+  "file": "IEC_320_C14_switched_fused_inlet.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 22347.609985771138,
+  "box": {
+   "min": [
+    -24,
+    -28.5,
+    -25
+   ],
+   "max": [
+    23.984779357910156,
+    28.5,
+    4
+   ]
+  },
+  "faces": 121,
+  "validate": true,
+  "ok": true,
+  "ms": 405,
+  "scadVolume": 22349.11206142291,
+  "relErrScad": -6.720963444297597e-05
+ }
+}
