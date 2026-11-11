@@ -637,6 +637,19 @@ def scad_mesh_volume(lib, cat, const):
             for i in range(1, len(p) - 1): v += float(np.dot(V[p[0]], np.cross(V[p[i]], V[p[i + 1]]))) / 6
         return v
 
+def done_parts(dirs):
+    """Names (<category>__<part>) of parts that already passed: a .ckpart exists, the kernel accepted it and its volume is within 1 % of OpenSCAD's."""
+    done = set()
+    for d in map(Path, dirs):
+        for mf in list(d.glob("*/*.manifest.json")) + list(d.glob("meta/*.json")):
+            try: m = json.loads(mf.read_text())
+            except Exception: continue
+            c = m.get("check") or {}
+            if not c.get("ok") or c.get("errors") or c.get("validate") is False or abs(c.get("relErrScad") or 0) >= 0.01: continue
+            if mf.parent.name == "meta" or (mf.parent / (mf.name.replace(".manifest.json", ".ckpart"))).is_file(): done.add(m["name"])
+    return done
+
+
 def main():
     ap_ = argparse.ArgumentParser()
     ap_.add_argument("scad", nargs="?"); ap_.add_argument("-o")
@@ -646,6 +659,7 @@ def main():
     ap_.add_argument("--step-dir", default="out", help="existing STEP conversions (convert_openscad.py output) used as fallback / volume reference")
     ap_.add_argument("--script", action="store_true", help="single file: also write <out>.ck.js (a CivilKit script) and rebuild the part by running it (needs KIT, a kit checkout)")
     ap_.add_argument("--check", action="store_true", help="run ck_check.mjs on the results (needs CK_KERNEL)")
+    ap_.add_argument("--skip-done", nargs="*", default=[], metavar="DIR", help="skip parts that already passed in these folders: a library (meta/*.json) or earlier converter output (<cat>/<part>.manifest.json)")
     a = ap_.parse_args()
     if a.scad:
         src = Path(a.scad).read_text()
@@ -664,7 +678,12 @@ def main():
         print(json.dumps({"out": str(out), **info})); return
     lib, outdir = Path(a.nop[0]), Path(a.nop[1]); outdir.mkdir(parents=True, exist_ok=True)
     commit = subprocess.run(["git", "-C", str(lib), "rev-parse", "--short", "HEAD"], capture_output=True, text=True).stdout.strip()
-    parts = nop_parts(lib, a.category)[: a.limit]
+    parts = nop_parts(lib, a.category)
+    if a.skip_done:
+        done = done_parts(a.skip_done)
+        print(f"skipping {sum(1 for c, k in parts if f'{c}__{k}' in done)} parts that already passed")
+        parts = [(c, k) for c, k in parts if f"{c}__{k}" not in done]
+    parts = parts[: a.limit]
     files = []; results = []
     for cat, const in parts:
         t0 = time.time(); d = outdir / cat; d.mkdir(exist_ok=True)
