@@ -588,8 +588,8 @@ class Interp:
                 s = f"({ex(a)}{op}{ex(b)})"
                 return T(r, s if len(s) < 300 else None)
             return r
-        if isinstance(a, list) and isinstance(b, list) and op in "+-" and len(a) == len(b):
-            return [self.binop(op, x, y) for x, y in zip(a, b)]
+        if isinstance(a, list) and isinstance(b, list) and op in "+-":
+            return [self.binop(op, x, y) for x, y in zip(a, b)]   # OpenSCAD: elementwise, to the shorter length ([x,y,r] + [u,v] = [x+u, y+v])
         if op == "*":
             if isnum(a) and isinstance(b, list): return [self.binop("*", a, x) for x in b]
             if isnum(b) and isinstance(a, list): return [self.binop("*", x, b) for x in a]
