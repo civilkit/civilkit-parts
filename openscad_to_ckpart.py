@@ -201,6 +201,11 @@ def loops_of(s):
     if s[0] == "circle": return [("c", s[1], s[2], s[3])]
     return [("p", l) for l in s[1]]
 
+def leaf_loops(s):
+    """every loop of every leaf of a Shape2D tree"""
+    if s[0] in ("circle", "poly"): return loops_of(s)
+    return [l for c in s[1] for l in leaf_loops(c)]
+
 def bbox_of(l):
     if l[0] == "c": return (l[1] - l[3], l[2] - l[3], l[1] + l[3], l[2] + l[3])
     xs = [p[0] for p in l[1]]; ys = [p[1] for p in l[1]]
@@ -513,12 +518,21 @@ class Emit:
             if n.center: self.move([b], [0, 0, self.I.binop("/", self.I.neg(h), 2.0) if isinstance(h, T) else -hv / 2])
             return [b]
         if k == "lext":
+            if n.h is UNDEF_: raise Unsupported("linear_extrude height is undefined (OpenSCAD falls back to 100 mm; the part is not meant to be drawn like that)")
+            if float(n.h) <= 0: return []   # OpenSCAD makes nothing of a zero (or negative) height; a zero-depth extrude would be a sliver body in the kernel
             if nz(n.twist): raise Unsupported("linear_extrude twist")
             if isinstance(n.scale, list) or abs(float(n.scale) - 1) > 1e-12: raise Unsupported("linear_extrude scale")
             s = shape2(n.kid, (1, 0, 0, 1, 0, 0), self.notes)
             return self.shape_body(s, lambda ls: self.extrude(ls, n.h, n.center))
         if k == "rext":
             s = shape2(n.kid, (1, 0, 0, 1, 0, 0), self.notes)
+            if s[0] in ("u", "d", "i") and any(bbox_of(l)[0] < -1e-9 for l in leaf_loops(s)):
+                # an operand (a cutter, say) reaches past the axis; OpenSCAD combines the 2D shapes first and only objects if the result crosses it
+                g = to_shapely(s)
+                if g.is_empty: return []
+                if g.bounds[0] < -1e-9: raise Unsupported("rotate_extrude profile crosses the axis")
+                self.notes.append("rotate_extrude profile combined in 2D with shapely")
+                s = from_shapely(g)
             return self.shape_body(s, lambda ls: self.revolve(ls, n.angle))
         if k == "xf":
             g = self.emit(n.kid)
@@ -610,10 +624,13 @@ def transpile(src, libpaths, name, track_main=True):
 
 
 # ------------------------------------------------------------------ CLI
+# constants that sit in a category file but are a piece of a part, not a part (servo faceplate and shaft definitions)
+NOT_PARTS = {("servo_motor", "80ST_faceplate"), ("servo_motor", "Shaft_19mm_keyed")}
+
 def nop_parts(lib, cats):
     sys.path.insert(0, str(Path(__file__).parent))
     import convert_openscad as CO
-    return [(c, k) for c, k in CO.enumerate_parts(lib) if not cats or c in cats]
+    return [(c, k) for c, k in CO.enumerate_parts(lib) if (not cats or c in cats) and (c, k) not in NOT_PARTS]
 
 def nop_source(lib, cat, const):
     # core.scad is how NopSCADlib is included: the shared utilities and the screw catalogue (parts that take a screw need it)
@@ -621,7 +638,7 @@ def nop_source(lib, cat, const):
     for suf in ("s", "es"):
         if (Path(lib) / "vitamins" / f"{cat}{suf}.scad").exists(): inc.append(f"include <vitamins/{cat}{suf}.scad>"); break
     call = cat
-    if cat == "camera" and (const.endswith("_pcb") or const == "ESP32_module"):   # these constants are circuit boards, not camera types
+    if (cat == "camera" and (const.endswith("_pcb") or const == "ESP32_module")) or (cat == "display" and const.endswith("_PCB")):   # these constants are circuit boards, not camera or display types
         inc.append("include <vitamins/pcb.scad>"); call = "pcb"
     return "\n".join(inc) + f"\n{call}({const});\n"
 
