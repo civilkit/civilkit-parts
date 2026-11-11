@@ -1,0 +1,59 @@
+{
+ "name": "display__TFT128x160",
+ "category": "display",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/display.scad",
+  "call": "display(TFT128x160)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "display/TFT128x160.ckpart",
+ "features": 199,
+ "by_type": {
+  "sketch": 50,
+  "extrude": 50,
+  "moveBody": 62,
+  "combine": 27,
+  "deleteBody": 10
+ },
+ "variables": {
+  "display_thickness": "2.1",
+  "pcb_length": "56",
+  "pcb_thickness": "1.2",
+  "pcb_width": "35"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 7,
+ "oracle_calls": 27,
+ "bodies": 1,
+ "seconds": 77.29,
+ "check": {
+  "file": "TFT128x160.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 5814.8042535835075,
+  "box": {
+   "min": [
+    -29.175,
+    -17.5,
+    -4.440892098500626e-16
+   ],
+   "max": [
+    28,
+    17.5,
+    12.300000190734863
+   ]
+  },
+  "faces": 2258,
+  "validate": true,
+  "ok": true,
+  "ms": 27284,
+  "scadVolume": 5815.145796454263,
+  "relErrScad": -5.8733328915683435e-05
+ }
+}

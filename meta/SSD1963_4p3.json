@@ -1,0 +1,62 @@
+{
+ "name": "display__SSD1963_4p3",
+ "category": "display",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/display.scad",
+  "call": "display(SSD1963_4p3)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "display/SSD1963_4p3.ckpart",
+ "features": 823,
+ "by_type": {
+  "sketch": 217,
+  "extrude": 217,
+  "moveBody": 287,
+  "combine": 60,
+  "deleteBody": 42
+ },
+ "variables": {
+  "display_thickness": "3.4",
+  "hdr_pin_below": "3.2",
+  "hdr_pin_length": "11.6",
+  "hdr_pitch": "2.54",
+  "pcb_length": "120",
+  "pcb_thickness": "1.65",
+  "pcb_width": "74"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 87,
+ "oracle_calls": 60,
+ "bodies": 2,
+ "seconds": 340.08,
+ "check": {
+  "file": "SSD1963_4p3.ckpart",
+  "errors": [],
+  "solids": 2,
+  "volume": 43392.25745713959,
+  "box": {
+   "min": [
+    -60,
+    -37,
+    0
+   ],
+   "max": [
+    60,
+    37,
+    14.45
+   ]
+  },
+  "faces": 3182,
+  "validate": true,
+  "ok": true,
+  "ms": 65877,
+  "scadVolume": 43394.27343618813,
+  "relErrScad": -4.645726011534366e-05
+ }
+}

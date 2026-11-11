@@ -1,0 +1,60 @@
+{
+ "name": "photo_interrupter__PH1",
+ "category": "photo_interrupter",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/photo_interrupter.scad",
+  "call": "photo_interrupter(PH1)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "photo_interrupter/PH1.ckpart",
+ "features": 29,
+ "by_type": {
+  "sketch": 10,
+  "extrude": 10,
+  "combine": 6,
+  "moveBody": 3
+ },
+ "variables": {
+  "pi_base_height": "3.5",
+  "pi_base_width": "6.4",
+  "pi_gap_height": "8.6",
+  "pi_gap_width": "5.9",
+  "pi_stem_width": "4.1"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon"
+ ],
+ "colors": 2,
+ "oracle_calls": 8,
+ "bodies": 1,
+ "seconds": 0.19,
+ "check": {
+  "file": "PH1.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 1789.780322173842,
+  "box": {
+   "min": [
+    -3.200000047683716,
+    -12.95,
+    -1.600000023841858
+   ],
+   "max": [
+    22.9921875,
+    12.95,
+    12.100000381469727
+   ]
+  },
+  "faces": 260,
+  "validate": true,
+  "ok": true,
+  "ms": 1007,
+  "scadVolume": 1790.1491845076969,
+  "relErrScad": -0.00020605116995111734
+ },
+ "arcs": false
+}

@@ -27,7 +27,7 @@
  "colors": 1,
  "oracle_calls": 5,
  "bodies": 1,
- "seconds": 1.16,
+ "seconds": 0.22,
  "check": {
   "file": "SFU1610.ckpart",
   "errors": [],
@@ -48,7 +48,7 @@
   "faces": 15,
   "validate": true,
   "ok": true,
-  "ms": 428,
+  "ms": 290,
   "scadVolume": 26386.87936674367,
   "relErrScad": 0.0014609410231635367
  }

@@ -24,7 +24,7 @@
  "colors": 1,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.16,
+ "seconds": 0.43,
  "check": {
   "file": "KY240W.ckpart",
   "errors": [],
@@ -45,7 +45,7 @@
   "faces": 6,
   "validate": true,
   "ok": true,
-  "ms": 82,
+  "ms": 145,
   "scadVolume": 1094500.0000000002,
   "relErrScad": -4.2545572161511115e-16
  }

@@ -1,0 +1,53 @@
+{
+ "name": "magnet__MAGRE6x2p5",
+ "category": "magnet",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/magnet.scad",
+  "call": "magnet(MAGRE6x2p5)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "magnet/MAGRE6x2p5.ckpart",
+ "features": 7,
+ "by_type": {
+  "sketch": 2,
+  "revolve": 2,
+  "moveBody": 2,
+  "combine": 1
+ },
+ "variables": {},
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 1,
+ "oracle_calls": 1,
+ "bodies": 1,
+ "seconds": 0.1,
+ "check": {
+  "file": "MAGRE6x2p5.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 68.73855643467758,
+  "box": {
+   "min": [
+    -2.9991540908813477,
+    -2.999124050140381,
+    -1.5308084995570108e-16
+   ],
+   "max": [
+    3,
+    2.999124050140381,
+    2.5
+   ]
+  },
+  "faces": 5,
+  "validate": true,
+  "ok": true,
+  "ms": 578,
+  "scadVolume": 68.43608459165245,
+  "relErrScad": 0.004419771306759204
+ }
+}

@@ -32,12 +32,12 @@
  "colors": 1,
  "oracle_calls": 9,
  "bodies": 1,
- "seconds": 2.1,
+ "seconds": 0.98,
  "check": {
   "file": "GT2x20_pulley_9.ckpart",
   "errors": [],
   "solids": 1,
-  "volume": 2520.3059449485336,
+  "volume": 2413.0090268661324,
   "box": {
    "min": [
     -8,
@@ -46,16 +46,16 @@
    ],
    "max": [
     8,
-    7.999961853027344,
+    7.99993371963501,
     20
    ]
   },
   "faces": 805,
   "validate": true,
   "ok": true,
-  "ms": 4813,
-  "scadVolume": 2520.6287963036634,
-  "relErrScad": -0.0001280836573807624
+  "ms": 3075,
+  "scadVolume": 2413.4507616774736,
+  "relErrScad": -0.0001830303805469361
  },
  "arcs": false
 }

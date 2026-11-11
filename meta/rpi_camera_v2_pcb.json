@@ -1,0 +1,58 @@
+{
+ "name": "camera__rpi_camera_v2_pcb",
+ "category": "camera",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/camera.scad",
+  "call": "camera(rpi_camera_v2_pcb)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "camera/rpi_camera_v2_pcb.ckpart",
+ "features": 60,
+ "by_type": {
+  "sketch": 18,
+  "extrude": 18,
+  "combine": 15,
+  "deleteBody": 2,
+  "moveBody": 7
+ },
+ "variables": {
+  "pcb_length": "25",
+  "pcb_thickness": "1",
+  "pcb_width_2": "23.862"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 6,
+ "oracle_calls": 15,
+ "bodies": 1,
+ "seconds": 24.52,
+ "check": {
+  "file": "rpi_camera_v2_pcb.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 839.8448905846174,
+  "box": {
+   "min": [
+    -12.5,
+    -11.931000000000001,
+    -2.5000000000000004
+   ],
+   "max": [
+    12.5,
+    11.931,
+    1
+   ]
+  },
+  "faces": 2081,
+  "validate": true,
+  "ok": true,
+  "ms": 7439,
+  "scadVolume": 839.9408223436014,
+  "relErrScad": -0.00011421252120644729
+ }
+}

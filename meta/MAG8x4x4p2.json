@@ -1,0 +1,52 @@
+{
+ "name": "magnet__MAG8x4x4p2",
+ "category": "magnet",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/magnet.scad",
+  "call": "magnet(MAG8x4x4p2)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "magnet/MAG8x4x4p2.ckpart",
+ "features": 3,
+ "by_type": {
+  "sketch": 1,
+  "revolve": 1,
+  "moveBody": 1
+ },
+ "variables": {},
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.03,
+ "check": {
+  "file": "MAG8x4x4p2.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 141.53166694518643,
+  "box": {
+   "min": [
+    -3.9991540908813477,
+    -3.9988320563207718,
+    -2.1431319258495947e-16
+   ],
+   "max": [
+    4,
+    3.9988320563207718,
+    4
+   ]
+  },
+  "faces": 8,
+  "validate": true,
+  "ok": true,
+  "ms": 596,
+  "scadVolume": 140.88929413260868,
+  "relErrScad": 0.0045594153660329165
+ }
+}

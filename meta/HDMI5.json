@@ -1,0 +1,66 @@
+{
+ "name": "display__HDMI5",
+ "category": "display",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/display.scad",
+  "call": "display(HDMI5)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "display/HDMI5.ckpart",
+ "features": 941,
+ "by_type": {
+  "sketch": 200,
+  "extrude": 196,
+  "moveBody": 406,
+  "combine": 81,
+  "deleteBody": 54,
+  "revolve": 4
+ },
+ "variables": {
+  "display_thickness": "2.85",
+  "hdmi_depth": "12",
+  "hdr_pin_below": "3.2",
+  "hdr_pin_length": "11.6",
+  "hdr_pitch": "2.54",
+  "pcb_length": "121.11",
+  "pcb_thickness": "1.65",
+  "pcb_width": "77.93",
+  "screw_head_height": "2",
+  "screw_socket_depth": "1"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 128,
+ "oracle_calls": 83,
+ "bodies": 4,
+ "seconds": 454.22,
+ "check": {
+  "file": "HDMI5.ckpart",
+  "errors": [],
+  "solids": 4,
+  "volume": 66830.64306702366,
+  "box": {
+   "min": [
+    -60.55500030517578,
+    -38.96500015258789,
+    0
+   ],
+   "max": [
+    60.55500030517578,
+    40.565,
+    21.110000610351562
+   ]
+  },
+  "faces": 2875,
+  "validate": true,
+  "ok": true,
+  "ms": 131943,
+  "scadVolume": 66828.33307643083,
+  "relErrScad": 3.4566036387333644e-05
+ }
+}

@@ -22,7 +22,7 @@
  "colors": 2,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.04,
+ "seconds": 0.1,
  "check": {
   "file": "M5_nut.ckpart",
   "errors": [],
@@ -45,7 +45,7 @@
   "ok": true,
   "refVolume": 141.50377030352834,
   "relErr": -0.0010064476484811908,
-  "ms": 185,
+  "ms": 648,
   "scadVolume": 141.50377030352084,
   "relErrScad": -0.0010064476484282184
  }

@@ -22,7 +22,7 @@
  "colors": 2,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.04,
+ "seconds": 0.11,
  "check": {
   "file": "M4_wingnut.ckpart",
   "errors": [],
@@ -45,7 +45,7 @@
   "ok": true,
   "refVolume": 196.5649477717688,
   "relErr": -0.0006063784933014072,
-  "ms": 218,
+  "ms": 518,
   "scadVolume": 196.56494777175,
   "relErrScad": -0.0006063784932058898
  }

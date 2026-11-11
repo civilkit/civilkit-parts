@@ -1,0 +1,60 @@
+{
+ "name": "sk_bracket__SK8",
+ "category": "sk_bracket",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/sk_bracket.scad",
+  "call": "sk_bracket(SK8)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "sk_bracket/SK8.ckpart",
+ "features": 43,
+ "by_type": {
+  "sketch": 13,
+  "extrude": 12,
+  "moveBody": 10,
+  "combine": 7,
+  "revolve": 1
+ },
+ "variables": {
+  "screw_head_height": "3",
+  "screw_socket_depth": "1.3",
+  "sk_base_height": "6",
+  "sk_diameter": "8",
+  "sk_hole_offset": "20"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 5,
+ "oracle_calls": 10,
+ "bodies": 1,
+ "seconds": 0.93,
+ "check": {
+  "file": "SK8.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 9222.298619404366,
+  "box": {
+   "min": [
+    -21,
+    -20,
+    -7
+   ],
+   "max": [
+    21,
+    12.800000190734863,
+    7
+   ]
+  },
+  "faces": 36,
+  "validate": true,
+  "ok": true,
+  "ms": 678,
+  "scadVolume": 9223.627441220127,
+  "relErrScad": -0.00014406716058617712
+ }
+}

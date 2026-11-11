@@ -1,0 +1,57 @@
+{
+ "name": "potentiometer__BTT_encoder",
+ "category": "potentiometer",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/potentiometer.scad",
+  "call": "potentiometer(BTT_encoder)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "potentiometer/BTT_encoder.ckpart",
+ "features": 18,
+ "by_type": {
+  "sketch": 5,
+  "extrude": 5,
+  "moveBody": 5,
+  "combine": 3
+ },
+ "variables": {
+  "pot_boss_h": "0",
+  "pot_gangs": "1",
+  "pot_thread_h": "4.5"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 3,
+ "oracle_calls": 4,
+ "bodies": 1,
+ "seconds": 0.26,
+ "check": {
+  "file": "BTT_encoder.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 1063.3622016303202,
+  "box": {
+   "min": [
+    -6,
+    -5.5,
+    -14
+   ],
+   "max": [
+    6,
+    5.5,
+    6
+   ]
+  },
+  "faces": 21,
+  "validate": true,
+  "ok": true,
+  "ms": 422,
+  "scadVolume": 1063.9105500209675,
+  "relErrScad": -0.0005154083589419496
+ }
+}

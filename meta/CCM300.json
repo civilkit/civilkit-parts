@@ -1,0 +1,58 @@
+{
+ "name": "transformer__CCM300",
+ "category": "transformer",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/transformer.scad",
+  "call": "transformer(CCM300)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "transformer/CCM300.ckpart",
+ "features": 19,
+ "by_type": {
+  "sketch": 7,
+  "extrude": 7,
+  "combine": 3,
+  "moveBody": 2
+ },
+ "variables": {
+  "tx_bobbin_height": "62",
+  "tx_bobbin_offset": "6",
+  "tx_foot_thickness": "2",
+  "tx_lamination_height": "106"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 2,
+ "oracle_calls": 4,
+ "bodies": 1,
+ "seconds": 1.34,
+ "check": {
+  "file": "CCM300.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 765877.8396494439,
+  "box": {
+   "min": [
+    -60,
+    -44,
+    0
+   ],
+   "max": [
+    60,
+    44,
+    106
+   ]
+  },
+  "faces": 36,
+  "validate": true,
+  "ok": true,
+  "ms": 497,
+  "scadVolume": 765855.2889870415,
+  "relErrScad": 2.9445069749716674e-05
+ }
+}

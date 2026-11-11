@@ -1,0 +1,62 @@
+{
+ "name": "display__LCDS7282B",
+ "category": "display",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/display.scad",
+  "call": "display(LCDS7282B)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "display/LCDS7282B.ckpart",
+ "features": 323,
+ "by_type": {
+  "sketch": 86,
+  "extrude": 86,
+  "moveBody": 102,
+  "combine": 33,
+  "deleteBody": 16
+ },
+ "variables": {
+  "display_thickness": "9.6",
+  "hdr_pin_below": "3.2",
+  "hdr_pin_length": "11.6",
+  "hdr_pitch": "2.54",
+  "pcb_length": "85",
+  "pcb_thickness": "1.65",
+  "pcb_width": "36"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 34,
+ "oracle_calls": 33,
+ "bodies": 1,
+ "seconds": 175.84,
+ "check": {
+  "file": "LCDS7282B.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 24998.480723356355,
+  "box": {
+   "min": [
+    -45,
+    -18,
+    0
+   ],
+   "max": [
+    40,
+    18,
+    19.65
+   ]
+  },
+  "faces": 2457,
+  "validate": true,
+  "ok": true,
+  "ms": 24715,
+  "scadVolume": 24999.155317509885,
+  "relErrScad": -2.6984677880598352e-05
+ }
+}

@@ -39,7 +39,7 @@ group("T5x10_pulley", () => {
     .combine('union', "b5", ["b6", "b7", "b8", "b9", "b10", "b11", "b12", "b13", "b14"])
     .combine('cut', "b4", ["b5", "b6", "b7", "b8", "b9", "b10", "b11", "b12", "b13", "b14"])
     .feature({"type": "moveBody", "bodies": [{"body": "b4"}], "translate": [0.0, 0.0, "=(pulley_hub_length+pulley_flange_thickness)"]})
-    .sketch('front', (s) => { s.circle(1, [0, 0]); })
+    .sketch('front', (s) => { s.circle(1.5, [0, 0]); })
     .feature({"type": "extrude", "op": "newBody", "body": "b15", "sketch": "$sketch", "end": "blind", "depth": 100.0})
     .feature({"type": "moveBody", "bodies": [{"body": "b15"}], "rotate": {"axis": "x", "origin": [0, 0, 0], "angle": -90.0}})
     .feature({"type": "moveBody", "bodies": [{"body": "b15"}], "translate": [0.0, 0.0, "=pulley_screw_z"]})

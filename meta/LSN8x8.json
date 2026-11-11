@@ -27,7 +27,7 @@
  "colors": 1,
  "oracle_calls": 4,
  "bodies": 1,
- "seconds": 0.76,
+ "seconds": 0.16,
  "check": {
   "file": "LSN8x8.ckpart",
   "errors": [],
@@ -48,7 +48,7 @@
   "faces": 9,
   "validate": true,
   "ok": true,
-  "ms": 246,
+  "ms": 180,
   "scadVolume": 2901.364631919091,
   "relErrScad": 0.0017676863255165344
  }

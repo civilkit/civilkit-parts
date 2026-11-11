@@ -1,0 +1,58 @@
+{
+ "name": "microswitch__small_microswitch",
+ "category": "microswitch",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/microswitch.scad",
+  "call": "microswitch(small_microswitch)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "microswitch/small_microswitch.ckpart",
+ "features": 24,
+ "by_type": {
+  "sketch": 7,
+  "extrude": 7,
+  "combine": 3,
+  "moveBody": 7
+ },
+ "variables": {
+  "microswitch_button_t": "1.2",
+  "microswitch_button_w": "2.9",
+  "microswitch_thickness": "5.8"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon",
+  "offset() computed with shapely"
+ ],
+ "colors": 3,
+ "oracle_calls": 4,
+ "bodies": 1,
+ "seconds": 0.17,
+ "check": {
+  "file": "small_microswitch.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 450.97505447511674,
+  "box": {
+   "min": [
+    -6.400000095367432,
+    -6.550000190734863,
+    -2.9000000953674316
+   ],
+   "max": [
+    6.400000095367432,
+    3.75,
+    2.9000000953674316
+   ]
+  },
+  "faces": 26,
+  "validate": true,
+  "ok": true,
+  "ms": 389,
+  "scadVolume": 451.31873308626564,
+  "relErrScad": -0.0007614986614863416
+ }
+}

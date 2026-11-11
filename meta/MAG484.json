@@ -1,0 +1,52 @@
+{
+ "name": "magnet__MAG484",
+ "category": "magnet",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/magnet.scad",
+  "call": "magnet(MAG484)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "magnet/MAG484.ckpart",
+ "features": 3,
+ "by_type": {
+  "sketch": 1,
+  "revolve": 1,
+  "moveBody": 1
+ },
+ "variables": {},
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 1,
+ "oracle_calls": 0,
+ "bodies": 1,
+ "seconds": 0.02,
+ "check": {
+  "file": "MAG484.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 147.61381080244007,
+  "box": {
+   "min": [
+    -3.1749999999999994,
+    -3.1749999999999994,
+    -1.6372971199471332e-16
+   ],
+   "max": [
+    3.175,
+    3.175,
+    6.35
+   ]
+  },
+  "faces": 8,
+  "validate": true,
+  "ok": true,
+  "ms": 615,
+  "scadVolume": 147.04415087555537,
+  "relErrScad": 0.0038740740348577646
+ }
+}

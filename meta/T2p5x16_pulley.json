@@ -31,12 +31,12 @@
  "colors": 1,
  "oracle_calls": 8,
  "bodies": 1,
- "seconds": 1.6,
+ "seconds": 0.74,
  "check": {
   "file": "T2p5x16_pulley.ckpart",
   "errors": [],
   "solids": 1,
-  "volume": 2048.9237391814977,
+  "volume": 1995.2182522023986,
   "box": {
    "min": [
     -8,
@@ -53,9 +53,9 @@
   "validate": true,
   "ok": true,
   "refVolume": 1142.4891312202856,
-  "relErr": 0.7933857602593164,
-  "ms": 1041,
-  "scadVolume": 2046.1612950701058,
-  "relErrScad": 0.0013500617561516663
+  "relErr": 0.7463783222789335,
+  "ms": 735,
+  "scadVolume": 1992.5157987421294,
+  "relErrScad": 0.0013563021492603864
  }
 }

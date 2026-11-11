@@ -29,12 +29,12 @@
  "colors": 1,
  "oracle_calls": 7,
  "bodies": 1,
- "seconds": 1.16,
+ "seconds": 0.39,
  "check": {
   "file": "T5x10_pulley.ckpart",
   "errors": [],
   "solids": 1,
-  "volume": 2635.7665765864604,
+  "volume": 2619.1069366148677,
   "box": {
    "min": [
     -9.636323013280753,
@@ -47,11 +47,11 @@
     22
    ]
   },
-  "faces": 51,
+  "faces": 53,
   "validate": true,
   "ok": true,
-  "ms": 589,
-  "scadVolume": 2632.7598802488374,
-  "relErrScad": 0.0011420321162516414
+  "ms": 403,
+  "scadVolume": 2616.1171887684404,
+  "relErrScad": 0.0011428187771032859
  }
 }

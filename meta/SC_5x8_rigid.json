@@ -29,7 +29,7 @@
  "colors": 13,
  "oracle_calls": 13,
  "bodies": 5,
- "seconds": 3.89,
+ "seconds": 13.61,
  "check": {
   "file": "SC_5x8_rigid.ckpart",
   "errors": [],
@@ -50,7 +50,7 @@
   "faces": 54,
   "validate": true,
   "ok": true,
-  "ms": 4292,
+  "ms": 11446,
   "scadVolume": 2168.855841631191,
   "relErrScad": 0.0018059845979183657
  }

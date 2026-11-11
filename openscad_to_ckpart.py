@@ -616,10 +616,14 @@ def nop_parts(lib, cats):
     return [(c, k) for c, k in CO.enumerate_parts(lib) if not cats or c in cats]
 
 def nop_source(lib, cat, const):
-    inc = [f"include <vitamins/{cat}.scad>"]
+    # core.scad is how NopSCADlib is included: the shared utilities and the screw catalogue (parts that take a screw need it)
+    inc = ["include <core.scad>", f"include <vitamins/{cat}.scad>"]
     for suf in ("s", "es"):
         if (Path(lib) / "vitamins" / f"{cat}{suf}.scad").exists(): inc.append(f"include <vitamins/{cat}{suf}.scad>"); break
-    return "\n".join(inc) + f"\n{cat}({const});\n"
+    call = cat
+    if cat == "camera" and (const.endswith("_pcb") or const == "ESP32_module"):   # these constants are circuit boards, not camera types
+        inc.append("include <vitamins/pcb.scad>"); call = "pcb"
+    return "\n".join(inc) + f"\n{call}({const});\n"
 
 def scad_mesh_volume(lib, cat, const):
     """Ground-truth volume: OpenSCAD's own CSG result (OFF mesh, signed tetra sum)."""

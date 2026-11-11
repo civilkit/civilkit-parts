@@ -32,12 +32,12 @@
  "colors": 1,
  "oracle_calls": 9,
  "bodies": 1,
- "seconds": 8.45,
+ "seconds": 4.11,
  "check": {
   "file": "GT2x80_pulley.ckpart",
   "errors": [],
   "solids": 1,
-  "volume": 26548.50557756623,
+  "volume": 26043.42434039229,
   "box": {
    "min": [
     -27.5,
@@ -53,9 +53,9 @@
   "faces": 3203,
   "validate": true,
   "ok": true,
-  "ms": 46049,
-  "scadVolume": 26523.191836258986,
-  "relErrScad": 0.0009544002646256938
+  "ms": 36823,
+  "scadVolume": 26018.73298358912,
+  "relErrScad": 0.0009489838271041297
  },
  "arcs": false
 }

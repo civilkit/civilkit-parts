@@ -22,7 +22,7 @@
  "colors": 2,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.04,
+ "seconds": 0.17,
  "check": {
   "file": "M3nS_thin_nut.ckpart",
   "errors": [],
@@ -45,7 +45,7 @@
   "ok": true,
   "refVolume": 22.700754153652255,
   "relErr": -0.0025502227502696333,
-  "ms": 234,
+  "ms": 377,
   "scadVolume": 22.700754153647992,
   "relErrScad": -0.00255022275008231
  }

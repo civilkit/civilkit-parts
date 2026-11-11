@@ -1,0 +1,56 @@
+{
+ "name": "ring_terminal__M3_ringterm",
+ "category": "ring_terminal",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/ring_terminal.scad",
+  "call": "ring_terminal(M3_ringterm)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "ring_terminal/M3_ringterm.ckpart",
+ "features": 13,
+ "by_type": {
+  "sketch": 4,
+  "extrude": 4,
+  "combine": 3,
+  "moveBody": 2
+ },
+ "variables": {
+  "ringterm_thickness": "0.2",
+  "washer_diameter": "7"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon"
+ ],
+ "colors": 1,
+ "oracle_calls": 4,
+ "bodies": 1,
+ "seconds": 0.19,
+ "check": {
+  "file": "M3_ringterm.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 7.32297279544213,
+  "box": {
+   "min": [
+    -2.999222755432129,
+    -7.413351161932194,
+    0
+   ],
+   "max": [
+    3,
+    3,
+    3.971929805689503
+   ]
+  },
+  "faces": 10,
+  "validate": true,
+  "ok": true,
+  "ms": 197,
+  "scadVolume": 7.323957618609623,
+  "relErrScad": -0.00013446598393617034
+ }
+}

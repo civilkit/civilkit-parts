@@ -1,0 +1,62 @@
+{
+ "name": "display__LCD1602A",
+ "category": "display",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/display.scad",
+  "call": "display(LCD1602A)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "display/LCD1602A.ckpart",
+ "features": 362,
+ "by_type": {
+  "sketch": 96,
+  "extrude": 96,
+  "moveBody": 117,
+  "combine": 35,
+  "deleteBody": 18
+ },
+ "variables": {
+  "display_thickness": "7",
+  "hdr_pin_below": "3.2",
+  "hdr_pin_length": "11.6",
+  "hdr_pitch": "2.54",
+  "pcb_length": "80",
+  "pcb_thickness": "1.65",
+  "pcb_width": "36"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 38,
+ "oracle_calls": 35,
+ "bodies": 1,
+ "seconds": 115.04,
+ "check": {
+  "file": "LCD1602A.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 16590.721079264906,
+  "box": {
+   "min": [
+    -40,
+    -18,
+    0
+   ],
+   "max": [
+    40,
+    18,
+    17.049999999999997
+   ]
+  },
+  "faces": 499,
+  "validate": true,
+  "ok": true,
+  "ms": 26098,
+  "scadVolume": 16591.547706940226,
+  "relErrScad": -4.9822216101902234e-05
+ }
+}

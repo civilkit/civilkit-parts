@@ -22,7 +22,7 @@
  "colors": 2,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.04,
+ "seconds": 0.14,
  "check": {
   "file": "M3_hammer_nut.ckpart",
   "errors": [],
@@ -45,7 +45,7 @@
   "ok": true,
   "refVolume": 44.95229773473925,
   "relErr": -0.0019691108360779122,
-  "ms": 250,
+  "ms": 358,
   "scadVolume": 44.95229773473999,
   "relErrScad": -0.0019691108360944767
  }

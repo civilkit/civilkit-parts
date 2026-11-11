@@ -22,7 +22,7 @@
  "colors": 2,
  "oracle_calls": 0,
  "bodies": 1,
- "seconds": 0.04,
+ "seconds": 0.09,
  "check": {
   "file": "M6_half_nut.ckpart",
   "errors": [],
@@ -45,7 +45,7 @@
   "ok": true,
   "refVolume": 173.02878559353718,
   "relErr": -0.0008964000638939024,
-  "ms": 214,
+  "ms": 476,
   "scadVolume": 173.0287855935603,
   "relErrScad": -0.0008964000640273261
  }

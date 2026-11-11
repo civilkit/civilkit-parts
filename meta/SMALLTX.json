@@ -1,0 +1,58 @@
+{
+ "name": "transformer__SMALLTX",
+ "category": "transformer",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/transformer.scad",
+  "call": "transformer(SMALLTX)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "transformer/SMALLTX.ckpart",
+ "features": 15,
+ "by_type": {
+  "sketch": 5,
+  "extrude": 5,
+  "combine": 3,
+  "moveBody": 2
+ },
+ "variables": {
+  "tx_bobbin_height": "20",
+  "tx_bobbin_offset": "0",
+  "tx_foot_thickness": "0.8",
+  "tx_lamination_height": "33"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 2,
+ "oracle_calls": 4,
+ "bodies": 1,
+ "seconds": 1.08,
+ "check": {
+  "file": "SMALLTX.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 28179.55396053294,
+  "box": {
+   "min": [
+    -29,
+    -16,
+    0
+   ],
+   "max": [
+    29,
+    16,
+    33
+   ]
+  },
+  "faces": 34,
+  "validate": true,
+  "ok": true,
+  "ms": 376,
+  "scadVolume": 28178.962680451954,
+  "relErrScad": 2.0983032189320984e-05
+ }
+}

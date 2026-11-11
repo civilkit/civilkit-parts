@@ -1,0 +1,56 @@
+{
+ "name": "ziptie__ziptie_3p6mm",
+ "category": "ziptie",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/ziptie.scad",
+  "call": "ziptie(ziptie_3p6mm)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "ziptie/ziptie_3p6mm.ckpart",
+ "features": 11,
+ "by_type": {
+  "sketch": 3,
+  "extrude": 3,
+  "moveBody": 3,
+  "combine": 2
+ },
+ "variables": {
+  "ziptie_width": "3.6"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 1,
+ "oracle_calls": 2,
+ "bodies": 1,
+ "seconds": 0.06,
+ "check": {
+  "file": "ziptie_3p6mm.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 340.5396252653695,
+  "box": {
+   "min": [
+    -6.2,
+    -10.7,
+    -3.31
+   ],
+   "max": [
+    6.400000095367432,
+    6.2,
+    3.3100000000000005
+   ]
+  },
+  "faces": 150,
+  "validate": true,
+  "ok": true,
+  "ms": 517,
+  "scadVolume": 340.4690051618203,
+  "relErrScad": 0.00020742006608110051
+ },
+ "arcs": false
+}
