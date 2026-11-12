@@ -1,0 +1,58 @@
+{
+ "name": "potentiometer__KY_040_encoder",
+ "category": "potentiometer",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/potentiometer.scad",
+  "call": "potentiometer(KY_040_encoder)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "potentiometer/KY_040_encoder.ckpart",
+ "features": 25,
+ "by_type": {
+  "sketch": 7,
+  "extrude": 7,
+  "moveBody": 8,
+  "combine": 3
+ },
+ "variables": {
+  "pot_boss_h": "0",
+  "pot_gangs": "1",
+  "pot_spigot_x": "5.8",
+  "pot_thread_h": "7"
+ },
+ "warnings": [
+  "offset() computed with shapely"
+ ],
+ "colors": 3,
+ "oracle_calls": 4,
+ "bodies": 1,
+ "seconds": 0.18,
+ "check": {
+  "file": "KY_040_encoder.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 1504.8876446922964,
+  "box": {
+   "min": [
+    -6,
+    -6,
+    -20
+   ],
+   "max": [
+    6,
+    6,
+    6.5
+   ]
+  },
+  "faces": 23,
+  "validate": true,
+  "ok": true,
+  "ms": 236,
+  "scadVolume": 1503.7345415353357,
+  "relErrScad": 0.0007668262749244032
+ }
+}

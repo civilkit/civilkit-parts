@@ -1,0 +1,62 @@
+{
+ "name": "servo_motor__Lichuan_M04030_80ST",
+ "category": "servo_motor",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/servo_motor.scad",
+  "call": "servo_motor(Lichuan_M04030_80ST)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "servo_motor/Lichuan_M04030_80ST.ckpart",
+ "features": 47,
+ "by_type": {
+  "sketch": 16,
+  "extrude": 15,
+  "revolve": 1,
+  "moveBody": 7,
+  "combine": 7,
+  "deleteBody": 1
+ },
+ "variables": {
+  "faceplate_thickness": "8",
+  "servo_motor_length": "190",
+  "shaft_diameter": "19",
+  "shaft_length": "35"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon",
+  "offset() computed with shapely",
+  "rotate() with an undefined angle taken as 0"
+ ],
+ "colors": 6,
+ "oracle_calls": 11,
+ "bodies": 1,
+ "seconds": 1.58,
+ "check": {
+  "file": "Lichuan_M04030_80ST.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 986094.7576955636,
+  "box": {
+   "min": [
+    -40,
+    -40,
+    -190
+   ],
+   "max": [
+    40,
+    40.000000278,
+    35
+   ]
+  },
+  "faces": 156,
+  "validate": true,
+  "ok": true,
+  "ms": 781,
+  "scadVolume": 988984.9559935306,
+  "relErrScad": -0.0029223885362982976
+ }
+}

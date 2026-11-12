@@ -1,0 +1,64 @@
+{
+ "name": "geared_stepper__28BYJ_48",
+ "category": "geared_stepper",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/geared_stepper.scad",
+  "call": "geared_stepper(28BYJ_48)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "geared_stepper/28BYJ_48.ckpart",
+ "features": 54,
+ "by_type": {
+  "sketch": 16,
+  "revolve": 1,
+  "moveBody": 16,
+  "extrude": 15,
+  "combine": 5,
+  "deleteBody": 1
+ },
+ "variables": {
+  "gs_boss_h": "1.5",
+  "gs_diameter": "28",
+  "gs_flat_length": "6",
+  "gs_lug_t": "0.85",
+  "gs_offset": "8",
+  "gs_shaft_length": "10",
+  "gs_wire_d": "1"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon",
+  "offset() computed with shapely"
+ ],
+ "colors": 8,
+ "oracle_calls": 6,
+ "bodies": 1,
+ "seconds": 4.33,
+ "check": {
+  "file": "28BYJ_48.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 12975.883543281105,
+  "box": {
+   "min": [
+    -21,
+    -32,
+    -10
+   ],
+   "max": [
+    21,
+    6,
+    19
+   ]
+  },
+  "faces": 151,
+  "validate": true,
+  "ok": true,
+  "ms": 896,
+  "scadVolume": 12955.635291618364,
+  "relErrScad": 0.001562891452790445
+ }
+}

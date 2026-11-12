@@ -1,0 +1,66 @@
+{
+ "name": "geared_stepper__35BYGHJ75",
+ "category": "geared_stepper",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/geared_stepper.scad",
+  "call": "geared_stepper(35BYGHJ75)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "geared_stepper/35BYGHJ75.ckpart",
+ "features": 57,
+ "by_type": {
+  "sketch": 15,
+  "revolve": 4,
+  "moveBody": 20,
+  "extrude": 11,
+  "combine": 6,
+  "deleteBody": 1
+ },
+ "variables": {
+  "gs_boss_h": "3",
+  "gs_diameter": "37",
+  "gs_flat_length": "10",
+  "gs_height": "37",
+  "gs_offset": "7",
+  "gs_pitch": "27",
+  "gs_shaft_length": "17",
+  "gs_wire_d": "1.3"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon",
+  "offset() computed with shapely"
+ ],
+ "colors": 8,
+ "oracle_calls": 7,
+ "bodies": 3,
+ "seconds": 2.7,
+ "check": {
+  "file": "35BYGHJ75.ckpart",
+  "errors": [],
+  "solids": 3,
+  "volume": 22729.519053864205,
+  "box": {
+   "min": [
+    -18.5,
+    -35.5,
+    -17
+   ],
+   "max": [
+    18.5,
+    11.468701362609863,
+    37
+   ]
+  },
+  "faces": 148,
+  "validate": true,
+  "ok": true,
+  "ms": 2066,
+  "scadVolume": 22683.082433232874,
+  "relErrScad": 0.0020471918121364994
+ },
+ "arcs": false
+}

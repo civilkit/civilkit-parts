@@ -1,0 +1,62 @@
+{
+ "name": "potentiometer__imperial_pot_x2",
+ "category": "potentiometer",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/potentiometer.scad",
+  "call": "potentiometer(imperial_pot_x2)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "potentiometer/imperial_pot_x2.ckpart",
+ "features": 94,
+ "by_type": {
+  "sketch": 28,
+  "extrude": 26,
+  "combine": 18,
+  "deleteBody": 4,
+  "moveBody": 16,
+  "revolve": 2
+ },
+ "variables": {
+  "pot_boss_h": "2.4",
+  "pot_gangs": "2",
+  "pot_spigot_x": "11",
+  "pot_thread_h": "6.35"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon",
+  "offset() computed with shapely"
+ ],
+ "colors": 8,
+ "oracle_calls": 15,
+ "bodies": 2,
+ "seconds": 64.44,
+ "check": {
+  "file": "imperial_pot_x2.ckpart",
+  "errors": [],
+  "solids": 3,
+  "volume": 11382.726598113337,
+  "box": {
+   "min": [
+    -12.00390625,
+    -15.999849404,
+    -50.650001525878906
+   ],
+   "max": [
+    12,
+    11.995943154,
+    22.5
+   ]
+  },
+  "faces": 1278,
+  "validate": true,
+  "ok": true,
+  "ms": 21980,
+  "scadVolume": 11272.185695204196,
+  "relErrScad": 0.009806518974946516
+ },
+ "arcs": false
+}

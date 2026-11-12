@@ -1,0 +1,62 @@
+{
+ "name": "potentiometer__metric_pot",
+ "category": "potentiometer",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/potentiometer.scad",
+  "call": "potentiometer(metric_pot)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "potentiometer/metric_pot.ckpart",
+ "features": 53,
+ "by_type": {
+  "sketch": 15,
+  "extrude": 14,
+  "combine": 10,
+  "deleteBody": 2,
+  "moveBody": 11,
+  "revolve": 1
+ },
+ "variables": {
+  "pot_boss_h": "2.5",
+  "pot_gangs": "1",
+  "pot_spigot_x": "11",
+  "pot_thread_h": "7.32"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon",
+  "offset() computed with shapely"
+ ],
+ "colors": 4,
+ "oracle_calls": 8,
+ "bodies": 1,
+ "seconds": 0.68,
+ "check": {
+  "file": "metric_pot.ckpart",
+  "errors": [],
+  "solids": 1,
+  "volume": 6007.414974113237,
+  "box": {
+   "min": [
+    -11.5,
+    -15.5,
+    -51.12
+   ],
+   "max": [
+    11.5600004196167,
+    11.5,
+    11
+   ]
+  },
+  "faces": 452,
+  "validate": true,
+  "ok": true,
+  "ms": 2176,
+  "scadVolume": 5997.035376116103,
+  "relErrScad": 0.0017307881888560606
+ },
+ "arcs": false
+}

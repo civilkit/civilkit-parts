@@ -1,0 +1,62 @@
+{
+ "name": "variac__DURATRAKV5HM",
+ "category": "variac",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/variac.scad",
+  "call": "variac(DURATRAKV5HM)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "variac/DURATRAKV5HM.ckpart",
+ "features": 117,
+ "by_type": {
+  "sketch": 36,
+  "extrude": 27,
+  "combine": 20,
+  "moveBody": 25,
+  "revolve": 9
+ },
+ "variables": {
+  "screw_head_height": "3.95",
+  "variac_dial_thickness": "1.66",
+  "variac_height": "120",
+  "variac_screw_pitch": "38.1",
+  "variac_screws": "3",
+  "variac_shaft_length": "25",
+  "washer_thickness": "1"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon"
+ ],
+ "colors": 15,
+ "oracle_calls": 28,
+ "bodies": 4,
+ "seconds": 2.61,
+ "check": {
+  "file": "DURATRAKV5HM.ckpart",
+  "errors": [],
+  "solids": 13,
+  "volume": 1633977.6822777458,
+  "box": {
+   "min": [
+    -62.45705032348633,
+    -85.5,
+    -120
+   ],
+   "max": [
+    62.5,
+    62.5,
+    25
+   ]
+  },
+  "faces": 132,
+  "validate": true,
+  "ok": true,
+  "ms": 909,
+  "scadVolume": 1631543.2022147907,
+  "relErrScad": 0.0014921333738820376
+ }
+}

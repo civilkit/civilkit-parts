@@ -54,22 +54,22 @@
   {
    "id": "motion",
    "title": "Motion",
-   "count": 20,
+   "count": 26,
    "tags": [
     "mechanical",
     "pulley",
     "belt",
     "gt2",
     "idler",
+    "motor",
     "toothed",
-    "leadscrew",
-    "nut"
+    "servo"
    ]
   },
   {
    "id": "electronics",
    "title": "Electronics",
-   "count": 19,
+   "count": 22,
    "tags": [
     "electronics",
     "display",
@@ -77,8 +77,8 @@
     "led",
     "indicator",
     "light",
-    "switch",
-    "microswitch"
+    "potentiometer",
+    "knob control"
    ]
   },
   {
@@ -96,6 +96,17 @@
    ]
   },
   {
+   "id": "other",
+   "title": "Other",
+   "count": 8,
+   "tags": [
+    "sk bracket",
+    "variac",
+    "camera",
+    "photo interrupter"
+   ]
+  },
+  {
    "id": "hardware",
    "title": "Hardware",
    "count": 8,
@@ -108,16 +119,6 @@
     "8x4x4",
     "6x2.5",
     "clip"
-   ]
-  },
-  {
-   "id": "other",
-   "title": "Other",
-   "count": 6,
-   "tags": [
-    "sk bracket",
-    "camera",
-    "photo interrupter"
    ]
   },
   {
@@ -519,6 +520,38 @@
    "bytes": 261504,
    "sha256": "6f99bd8d709f015f29685036510a914949d5846dae4953acd185ae191e2de848",
    "thumb": "thumbs/TFT128x160.webp"
+  },
+  {
+   "id": "28BYJ_48",
+   "title": "28BYJ 48",
+   "category": "motion",
+   "tags": [
+    "motor",
+    "stepper",
+    "mechanical"
+   ],
+   "file": "parts/geared_stepper/28BYJ_48.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/geared_stepper.scad",
+   "bytes": 46802,
+   "sha256": "df1327e95ec7a64fa0853e8b0bec0228a5c7ed00024937d77b4f5cbabb4de268",
+   "script": "scripts/28BYJ_48.ck.js",
+   "thumb": "thumbs/28BYJ_48.webp"
+  },
+  {
+   "id": "35BYGHJ75",
+   "title": "35BYGHJ75",
+   "category": "motion",
+   "tags": [
+    "motor",
+    "stepper",
+    "mechanical"
+   ],
+   "file": "parts/geared_stepper/35BYGHJ75.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/geared_stepper.scad",
+   "bytes": 45353,
+   "sha256": "4dffe4f0e43307e114cb25ddccd84daa0ab476156081673f4c3dd55b4024970d",
+   "script": "scripts/35BYGHJ75.ck.js",
+   "thumb": "thumbs/35BYGHJ75.webp"
   },
   {
    "id": "HT_110_cap",
@@ -2266,9 +2299,8 @@
    ],
    "file": "parts/linear_bearing/LM16UUOP.ckpart",
    "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/linear_bearing.scad",
-   "bytes": 23565,
-   "sha256": "48117fcaf5eb7d8b4e3e43e2c14f1b6ec47b7cb2bb601e78337f4c3a967c508d",
-   "script": "scripts/LM16UUOP.ck.js",
+   "bytes": 16577,
+   "sha256": "e29c09edde31b7d875f27900f10fc3171bf993e20dcd89dc2e042f7531e850c1",
    "thumb": "thumbs/LM16UUOP.webp"
   },
   {
@@ -3134,6 +3166,53 @@
    "thumb": "thumbs/BTT_encoder.webp"
   },
   {
+   "id": "KY_040_encoder",
+   "title": "KY 040 encoder",
+   "category": "electronics",
+   "tags": [
+    "potentiometer",
+    "knob control",
+    "electronics"
+   ],
+   "file": "parts/potentiometer/KY_040_encoder.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/potentiometer.scad",
+   "bytes": 10360,
+   "sha256": "12eeed9f2bed78519e7bcdb56ff98f9fdf15363c0fe99ce303e6d41f69eb31b7",
+   "script": "scripts/KY_040_encoder.ck.js",
+   "thumb": "thumbs/KY_040_encoder.webp"
+  },
+  {
+   "id": "imperial_pot_x2",
+   "title": "imperial pot x2",
+   "category": "electronics",
+   "tags": [
+    "potentiometer",
+    "knob control",
+    "electronics"
+   ],
+   "file": "parts/potentiometer/imperial_pot_x2.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/potentiometer.scad",
+   "bytes": 179833,
+   "sha256": "50f306609f1eebddfbdb909d43380dd2ac90a5cf22b4dc67681f3ddeecfe1a61",
+   "thumb": "thumbs/imperial_pot_x2.webp"
+  },
+  {
+   "id": "metric_pot",
+   "title": "metric pot",
+   "category": "electronics",
+   "tags": [
+    "potentiometer",
+    "knob control",
+    "electronics"
+   ],
+   "file": "parts/potentiometer/metric_pot.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/potentiometer.scad",
+   "bytes": 77374,
+   "sha256": "5df4769b24d9eda40d613bca9a9a286744614b11fe9aaabf00134a0e50f414c7",
+   "script": "scripts/metric_pot.ck.js",
+   "thumb": "thumbs/metric_pot.webp"
+  },
+  {
    "id": "KY240W",
    "title": "KY240W",
    "category": "power",
@@ -3471,6 +3550,74 @@
    "sha256": "42d60e60d105c38589c1f6ae5280681ce1d438ad45982f6612d63842f6cc3a2c",
    "script": "scripts/M3_ringterm_cs.ck.js",
    "thumb": "thumbs/M3_ringterm_cs.webp"
+  },
+  {
+   "id": "Lichuan_M01330_80ST",
+   "title": "Lichuan M01330 80ST",
+   "category": "motion",
+   "tags": [
+    "motor",
+    "servo",
+    "mechanical",
+    "m01330"
+   ],
+   "file": "parts/servo_motor/Lichuan_M01330_80ST.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/servo_motor.scad",
+   "bytes": 46220,
+   "sha256": "31a7c5be815031f991ab136408474a8a5f286f0a755edc3e3bd1ddde136b787d",
+   "script": "scripts/Lichuan_M01330_80ST.ck.js",
+   "thumb": "thumbs/Lichuan_M01330_80ST.webp"
+  },
+  {
+   "id": "Lichuan_M02430_80ST",
+   "title": "Lichuan M02430 80ST",
+   "category": "motion",
+   "tags": [
+    "motor",
+    "servo",
+    "mechanical",
+    "m02430"
+   ],
+   "file": "parts/servo_motor/Lichuan_M02430_80ST.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/servo_motor.scad",
+   "bytes": 46220,
+   "sha256": "6a9328352be4c216f64fcb4ac17bd1047da5d465076a00bedd62cb0fb0c31864",
+   "script": "scripts/Lichuan_M02430_80ST.ck.js",
+   "thumb": "thumbs/Lichuan_M02430_80ST.webp"
+  },
+  {
+   "id": "Lichuan_M03530_80ST",
+   "title": "Lichuan M03530 80ST",
+   "category": "motion",
+   "tags": [
+    "motor",
+    "servo",
+    "mechanical",
+    "m03530"
+   ],
+   "file": "parts/servo_motor/Lichuan_M03530_80ST.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/servo_motor.scad",
+   "bytes": 46220,
+   "sha256": "8734c9b7b3906c7e79a60012e5752f4446734f9747ea0c000fd25b6d80d074d7",
+   "script": "scripts/Lichuan_M03530_80ST.ck.js",
+   "thumb": "thumbs/Lichuan_M03530_80ST.webp"
+  },
+  {
+   "id": "Lichuan_M04030_80ST",
+   "title": "Lichuan M04030 80ST",
+   "category": "motion",
+   "tags": [
+    "motor",
+    "servo",
+    "mechanical",
+    "m04030"
+   ],
+   "file": "parts/servo_motor/Lichuan_M04030_80ST.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/servo_motor.scad",
+   "bytes": 46220,
+   "sha256": "ab966e97bd138b96df0ad1c316d39b8f8651889bc77076781d04b53ed98626d1",
+   "script": "scripts/Lichuan_M04030_80ST.ck.js",
+   "thumb": "thumbs/Lichuan_M04030_80ST.webp"
   },
   {
    "id": "SC_5x8_rigid",
@@ -3980,6 +4127,34 @@
    "sha256": "f059ecf2d92b58f5a2161df6e710eccce1f06144d7740fb2ded36fdab51d80ad",
    "script": "scripts/STFE4_6p4_CLR.ck.js",
    "thumb": "thumbs/STFE4_6p4_CLR.webp"
+  },
+  {
+   "id": "DURATRAKV5HM",
+   "title": "DURATRAKV5HM",
+   "category": "other",
+   "tags": [
+    "variac"
+   ],
+   "file": "parts/variac/DURATRAKV5HM.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/variac.scad",
+   "bytes": 49072,
+   "sha256": "0dfd2aa7039c44dbb13d7ce13dfa615cf6c001dbc21702f0f10bab2b57e865fd",
+   "script": "scripts/DURATRAKV5HM.ck.js",
+   "thumb": "thumbs/DURATRAKV5HM.webp"
+  },
+  {
+   "id": "RAVISTAT1F1",
+   "title": "RAVISTAT1F1",
+   "category": "other",
+   "tags": [
+    "variac"
+   ],
+   "file": "parts/variac/RAVISTAT1F1.ckpart",
+   "source": "https://github.com/nophead/NopSCADlib/blob/00ec289/vitamins/variac.scad",
+   "bytes": 34755,
+   "sha256": "626d74cc6d4c0d9a7bf505c149bfe0a2fbf3b3dc3becfc605275fc3f821e1318",
+   "script": "scripts/RAVISTAT1F1.ck.js",
+   "thumb": "thumbs/RAVISTAT1F1.webp"
   },
   {
    "id": "small_ziptie",

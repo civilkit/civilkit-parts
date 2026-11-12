@@ -1,0 +1,62 @@
+{
+ "name": "variac__RAVISTAT1F1",
+ "category": "variac",
+ "source": {
+  "url": "https://github.com/nophead/NopSCADlib",
+  "commit": "00ec289",
+  "file": "vitamins/variac.scad",
+  "call": "variac(RAVISTAT1F1)"
+ },
+ "license": "GPL-3.0-or-later",
+ "generator": "openscad_to_ckpart.py",
+ "transpiled": true,
+ "ckpart": "variac/RAVISTAT1F1.ckpart",
+ "features": 85,
+ "by_type": {
+  "sketch": 26,
+  "extrude": 20,
+  "combine": 16,
+  "moveBody": 17,
+  "revolve": 6
+ },
+ "variables": {
+  "screw_head_height": "3.3",
+  "variac_dial_thickness": "0.5",
+  "variac_height": "75",
+  "variac_screw_pitch": "14",
+  "variac_screws": "2",
+  "variac_shaft_length": "22",
+  "washer_thickness": "0.8"
+ },
+ "warnings": [
+  "hull of circle approximated as a 72-gon"
+ ],
+ "colors": 11,
+ "oracle_calls": 22,
+ "bodies": 3,
+ "seconds": 2.97,
+ "check": {
+  "file": "RAVISTAT1F1.ckpart",
+  "errors": [],
+  "solids": 9,
+  "volume": 478754.552343889,
+  "box": {
+   "min": [
+    -42.48374938964844,
+    -62.5,
+    -75
+   ],
+   "max": [
+    42.5,
+    42.5,
+    22
+   ]
+  },
+  "faces": 100,
+  "validate": true,
+  "ok": true,
+  "ms": 933,
+  "scadVolume": 478050.0529690825,
+  "relErrScad": 0.0014736937490771383
+ }
+}
